@@ -17,5 +17,5 @@ The orange LED reflects the CPU usage : when it's dim CPU gets overloaded.
 Ready to use files are in Ressources folder.
 
 Dekrispator features :
-- monophonic
--
+  monophonic
+  
