@@ -40,13 +40,13 @@ c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/
                               c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o) (scalbnf)
 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
                               c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_scalbn.o) (copysignf)
-C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_addsubdf3.o)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_addsubdf3.o)
                               c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o) (__aeabi_dsub)
-C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_muldivdf3.o)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_muldivdf3.o)
                               c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o) (__aeabi_ddiv)
-C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_cmpdf2.o)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_cmpdf2.o)
                               c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o) (__aeabi_dcmpeq)
-C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_truncdfsf2.o)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_truncdfsf2.o)
                               c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o) (__aeabi_d2f)
 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
                               ./System/startup_stm32f4xx.o (memcpy)
@@ -966,14 +966,14 @@ Discarded input sections
  .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
  .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
  .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_addsubdf3.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_addsubdf3.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_muldivdf3.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_muldivdf3.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_cmpdf2.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_cmpdf2.o)
- .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_truncdfsf2.o)
- .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_truncdfsf2.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_truncdfsf2.o)
  .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
  .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
  .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
@@ -1042,7 +1042,7 @@ LOAD ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o
 LOAD ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
 LOAD c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a
 START GROUP
-LOAD C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a
+LOAD c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a
 LOAD c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a
 END GROUP
                 0x20020000                _eram = 0x20020000
@@ -2064,7 +2064,7 @@ END GROUP
  .text.copysignf
                 0x0800a3a8       0x18 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
                 0x0800a3a8                copysignf
- .text          0x0800a3c0      0x370 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_addsubdf3.o)
+ .text          0x0800a3c0      0x370 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_addsubdf3.o)
                 0x0800a3c0                __aeabi_drsub
                 0x0800a3c8                __aeabi_dsub
                 0x0800a3c8                __subdf3
@@ -2080,12 +2080,12 @@ END GROUP
                 0x0800a6c4                __aeabi_ul2d
                 0x0800a6d4                __floatdidf
                 0x0800a6d4                __aeabi_l2d
- .text          0x0800a730      0x424 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_muldivdf3.o)
+ .text          0x0800a730      0x424 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_muldivdf3.o)
                 0x0800a730                __aeabi_dmul
                 0x0800a730                __muldf3
                 0x0800a984                __divdf3
                 0x0800a984                __aeabi_ddiv
- .text          0x0800ab54      0x110 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_cmpdf2.o)
+ .text          0x0800ab54      0x110 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_cmpdf2.o)
                 0x0800ab54                __gtdf2
                 0x0800ab54                __gedf2
                 0x0800ab5c                __ltdf2
@@ -2101,7 +2101,7 @@ END GROUP
                 0x0800ac28                __aeabi_dcmple
                 0x0800ac3c                __aeabi_dcmpge
                 0x0800ac50                __aeabi_dcmpgt
- .text          0x0800ac64       0xa0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_truncdfsf2.o)
+ .text          0x0800ac64       0xa0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_truncdfsf2.o)
                 0x0800ac64                __truncdfsf2
                 0x0800ac64                __aeabi_d2f
  .text          0x0800ad04      0x134 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
@@ -2562,13 +2562,13 @@ OUTPUT(Dekrispator.elf elf32-littlearm)
  .ARM.attributes
                 0x00000d36       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
  .ARM.attributes
-                0x00000d6a       0x22 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_addsubdf3.o)
+                0x00000d6a       0x22 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x00000d8c       0x22 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_muldivdf3.o)
+                0x00000d8c       0x22 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x00000dae       0x22 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_cmpdf2.o)
+                0x00000dae       0x22 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x00000dd0       0x22 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_truncdfsf2.o)
+                0x00000dd0       0x22 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_truncdfsf2.o)
  .ARM.attributes
                 0x00000df2       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
  .ARM.attributes

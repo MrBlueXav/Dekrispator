@@ -50,7 +50,7 @@ all: Dekrispator.elf secondary-outputs
 Dekrispator.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross ARM C Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fsingle-precision-constant -Wall -T stm32f407xav.ld -nostartfiles -Xlinker --gc-sections -L"C:\xav_dev\eclipse_kepler\Dekrispator\System" -L"C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu" -Wl,-Map,"Dekrispator.map" -flto -o "Dekrispator.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fsingle-precision-constant -Wall -T "C:\xav_dev\eclipse_kepler\Dekrispator\System\stm32f407xav.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"Dekrispator.map" -flto -o "Dekrispator.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
