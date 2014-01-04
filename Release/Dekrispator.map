@@ -65,7 +65,7 @@ HSEStartUpStatus    0x1               ./USB/usb_bsp.o
 __errno             0x4               ./Synth/resonantFilter.o
 USBH_CfgDesc        0x200             ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
 noteG               0x10              ./Synth/sequencer.o
-MIDI_Machine        0x50              ./USB/MIDIstream/src/usbh_midi_core.o
+MIDI_Machine        0x50              ./USB/MIDIstream_class/usbh_midi_core.o
 USB_OTG_Core_dev    0x5ac             ./Synth/main.o
 BlueLED_counter     0x4               ./System/my_stm32f4_discovery.o
 filterFreq          0x4               ./Synth/resonantFilter.o
@@ -75,22 +75,22 @@ AUDIO_MAL_DMA_InitStructure
                     0x3c              ./System/my_stm32f4_discovery_audio_codec.o
 seq                 0x34              ./Synth/sequencer.o
 filterFreq2         0x4               ./Synth/resonantFilter.o
-MIDI_Setup          0x8               ./USB/MIDIstream/src/usbh_midi_core.o
+MIDI_Setup          0x8               ./USB/MIDIstream_class/usbh_midi_core.o
 NVIC_InitStructure  0x4               ./System/my_stm32f4_discovery.o
 USB_Host            0x6c              ./Synth/main.o
 DMA_InitStructure   0x3c              ./System/my_stm32f4_discovery_audio_codec.o
 
 Discarded input sections
 
- .text          0x00000000        0x0 ./USB/MIDIstream/src/usbh_midi_core.o
- .data          0x00000000        0x0 ./USB/MIDIstream/src/usbh_midi_core.o
- .bss           0x00000000        0x0 ./USB/MIDIstream/src/usbh_midi_core.o
+ .text          0x00000000        0x0 ./USB/MIDIstream_class/usbh_midi_core.o
+ .data          0x00000000        0x0 ./USB/MIDIstream_class/usbh_midi_core.o
+ .bss           0x00000000        0x0 ./USB/MIDIstream_class/usbh_midi_core.o
  .text.MIDI_lookupMsgSize
-                0x00000000       0xa4 ./USB/MIDIstream/src/usbh_midi_core.o
+                0x00000000       0xa4 ./USB/MIDIstream_class/usbh_midi_core.o
  .text.MIDI_RcvData
-                0x00000000      0x26c ./USB/MIDIstream/src/usbh_midi_core.o
+                0x00000000      0x26c ./USB/MIDIstream_class/usbh_midi_core.o
  .text.MIDI_RcvDataDraft
-                0x00000000       0xe0 ./USB/MIDIstream/src/usbh_midi_core.o
+                0x00000000       0xe0 ./USB/MIDIstream_class/usbh_midi_core.o
  .text          0x00000000        0x0 ./USB/usb_bsp.o
  .data          0x00000000        0x0 ./USB/usb_bsp.o
  .bss           0x00000000        0x0 ./USB/usb_bsp.o
@@ -998,7 +998,7 @@ ccm              0x10000000         0x00010000         xrw
 
 Linker script and memory map
 
-LOAD ./USB/MIDIstream/src/usbh_midi_core.o
+LOAD ./USB/MIDIstream_class/usbh_midi_core.o
 LOAD ./USB/usb_bsp.o
 LOAD ./USB/usbh_usr.o
 LOAD ./System/my_stm32f4_discovery.o
@@ -1079,13 +1079,13 @@ END GROUP
                 0x08000000                g_pfnVectors
  *(.text .text.* .gnu.linkonce.t.*)
  .text.USBH_MIDI_ClassRequest
-                0x08000188        0x4 ./USB/MIDIstream/src/usbh_midi_core.o
+                0x08000188        0x4 ./USB/MIDIstream_class/usbh_midi_core.o
  .text.USBH_MIDI_InterfaceDeInit
-                0x0800018c       0x50 ./USB/MIDIstream/src/usbh_midi_core.o
+                0x0800018c       0x50 ./USB/MIDIstream_class/usbh_midi_core.o
  .text.USBH_MIDI_Handle
-                0x080001dc       0x94 ./USB/MIDIstream/src/usbh_midi_core.o
+                0x080001dc       0x94 ./USB/MIDIstream_class/usbh_midi_core.o
  .text.USBH_MIDI_InterfaceInit
-                0x08000270       0xcc ./USB/MIDIstream/src/usbh_midi_core.o
+                0x08000270       0xcc ./USB/MIDIstream_class/usbh_midi_core.o
  .text.USB_OTG_BSP_Init
                 0x0800033c       0xc4 ./USB/usb_bsp.o
                 0x0800033c                USB_OTG_BSP_Init
@@ -2209,10 +2209,10 @@ END GROUP
  .v4_bx         0x00000000        0x0 linker stubs
 
 .iplt           0x0800c5b4        0x0
- .iplt          0x00000000        0x0 ./USB/MIDIstream/src/usbh_midi_core.o
+ .iplt          0x00000000        0x0 ./USB/MIDIstream_class/usbh_midi_core.o
 
 .rel.dyn        0x0800c5b4        0x0
- .rel.iplt      0x00000000        0x0 ./USB/MIDIstream/src/usbh_midi_core.o
+ .rel.iplt      0x00000000        0x0 ./USB/MIDIstream_class/usbh_midi_core.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
@@ -2228,7 +2228,7 @@ END GROUP
 .data           0x20000000      0x4fc load address 0x0800c5b4
                 0x20000000                _sdata = .
  *(.data .data.*)
- .data.MIDI_cb  0x20000000       0x10 ./USB/MIDIstream/src/usbh_midi_core.o
+ .data.MIDI_cb  0x20000000       0x10 ./USB/MIDIstream_class/usbh_midi_core.o
                 0x20000000                MIDI_cb
  .data.USR_Callbacks
                 0x20000010       0x48 ./USB/usbh_usr.o
@@ -2305,13 +2305,13 @@ END GROUP
                 0x200004fc                _edata = .
 
 .igot.plt       0x200004fc        0x0 load address 0x0800cab0
- .igot.plt      0x00000000        0x0 ./USB/MIDIstream/src/usbh_midi_core.o
+ .igot.plt      0x00000000        0x0 ./USB/MIDIstream_class/usbh_midi_core.o
 
 .bss            0x200004fc    0x14eac load address 0x0800cab0
                 0x200004fc                _sbss = .
  *(.bss .bss.*)
  .bss.start_toggle
-                0x200004fc        0x1 ./USB/MIDIstream/src/usbh_midi_core.o
+                0x200004fc        0x1 ./USB/MIDIstream_class/usbh_midi_core.o
                 0x200004fc                start_toggle
  *fill*         0x200004fd        0x3 
  .bss.BSP_delay
@@ -2352,7 +2352,7 @@ END GROUP
                 0x20013db8        0x1 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
  *(COMMON)
  *fill*         0x20013db9        0x3 
- COMMON         0x20013dbc       0x58 ./USB/MIDIstream/src/usbh_midi_core.o
+ COMMON         0x20013dbc       0x58 ./USB/MIDIstream_class/usbh_midi_core.o
                 0x20013dbc                MIDI_Machine
                 0x20013e0c                MIDI_Setup
  COMMON         0x20013e14        0x8 ./System/my_stm32f4_discovery.o
@@ -2391,7 +2391,7 @@ END GROUP
 OUTPUT(Dekrispator.elf elf32-littlearm)
 
 .comment        0x00000000       0x70
- .comment       0x00000000       0x70 ./USB/MIDIstream/src/usbh_midi_core.o
+ .comment       0x00000000       0x70 ./USB/MIDIstream_class/usbh_midi_core.o
                                  0x71 (size before relaxing)
  .comment       0x00000000       0x71 ./USB/usb_bsp.o
  .comment       0x00000000       0x71 ./USB/usbh_usr.o
@@ -2438,7 +2438,7 @@ OUTPUT(Dekrispator.elf elf32-littlearm)
 .ARM.attributes
                 0x00000000       0x37
  .ARM.attributes
-                0x00000000       0x39 ./USB/MIDIstream/src/usbh_midi_core.o
+                0x00000000       0x39 ./USB/MIDIstream_class/usbh_midi_core.o
  .ARM.attributes
                 0x00000039       0x39 ./USB/usb_bsp.o
  .ARM.attributes

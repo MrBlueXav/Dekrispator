@@ -19,7 +19,7 @@ S_UPPER_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 USB \
-USB/MIDIstream/src \
+USB/MIDIstream_class \
 System \
 Synth \
 Lib/STM32_USB_OTG_Driver/src \

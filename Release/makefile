@@ -8,7 +8,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include USB/MIDIstream/src/subdir.mk
+-include USB/MIDIstream_class/subdir.mk
 -include USB/subdir.mk
 -include System/subdir.mk
 -include Synth/subdir.mk

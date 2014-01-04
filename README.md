@@ -14,4 +14,8 @@ The MIDI USB Host driver is rudimentary and has still some defects !
 
 The orange LED reflects the CPU usage : when it's dim CPU gets overloaded.
 
-More to come...
+Ready to use files are in Ressources folder.
+
+Dekrispator features :
+- monophonic
+-
