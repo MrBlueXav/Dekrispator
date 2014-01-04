@@ -53,7 +53,6 @@
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.1933718054" name="Use preprocessor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" value="true" valueType="boolean"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.1587647227" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/USB}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/USB/MIDIstream/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/System}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/Synth}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/Lib/STM32_USB_HOST_Library/Core/inc}&quot;"/>
@@ -73,7 +72,6 @@
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.88891349" name="Cross ARM C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.476698268" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/USB}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/USB/MIDIstream/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/System}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/Synth}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/Lib/STM32_USB_HOST_Library/Core/inc}&quot;"/>
@@ -179,7 +177,6 @@
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.351690457" name="Use preprocessor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" value="true" valueType="boolean"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.137383551" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/USB}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/USB/MIDIstream/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/System}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/Synth}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/Lib/STM32_USB_HOST_Library/Core/inc}&quot;"/>
