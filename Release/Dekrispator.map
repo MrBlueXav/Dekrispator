@@ -1,0 +1,2602 @@
+Archive member included because of file (symbol)
+
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_floor.o)
+                              ./Synth/chorusFD.o (floorf)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
+                              ./Synth/chorusFD.o (lrintf)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
+                              ./Synth/sequencer.o (rintf)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o)
+                              ./Synth/oscillators.o (sinf)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o)
+                              ./Synth/math_tools.o (powf)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o) (__ieee754_powf)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o) (__ieee754_rem_pio2f)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_sqrt.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o) (__ieee754_sqrtf)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_cos.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o) (__kernel_cosf)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o) (__kernel_rem_pio2f)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_sin.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o) (__kernel_sinf)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_lib_ver.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o) (__fdlib_version)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_matherr.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o) (matherr)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o) (rint)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o) (fabsf)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_finite.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o) (finitef)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fpclassify.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o) (__fpclassifyf)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_nan.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o) (nanf)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_scalbn.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o) (scalbnf)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_scalbn.o) (copysignf)
+C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_addsubdf3.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o) (__aeabi_dsub)
+C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_muldivdf3.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o) (__aeabi_ddiv)
+C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_cmpdf2.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o) (__aeabi_dcmpeq)
+C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_truncdfsf2.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o) (__aeabi_d2f)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
+                              ./System/startup_stm32f4xx.o (memcpy)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+                              ./Synth/chorusFD.o (memset)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
+                              ./Synth/random.o (srand)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+                              c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o) (_impure_ptr)
+
+Allocating common symbols
+Common symbol       size              file
+
+CurrentPos          0x4               ./System/my_stm32f4_discovery_audio_codec.o
+HSEStartUpStatus    0x1               ./USB/usb_bsp.o
+__errno             0x4               ./Synth/resonantFilter.o
+USBH_CfgDesc        0x200             ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+noteG               0x10              ./Synth/sequencer.o
+MIDI_Machine        0x50              ./USB/MIDIstream/src/usbh_midi_core.o
+USB_OTG_Core_dev    0x5ac             ./Synth/main.o
+BlueLED_counter     0x4               ./System/my_stm32f4_discovery.o
+filterFreq          0x4               ./Synth/resonantFilter.o
+audiobuff           0xc80             ./Synth/audio.o
+adsr                0x28              ./Synth/adsr.o
+AUDIO_MAL_DMA_InitStructure
+                    0x3c              ./System/my_stm32f4_discovery_audio_codec.o
+seq                 0x34              ./Synth/sequencer.o
+filterFreq2         0x4               ./Synth/resonantFilter.o
+MIDI_Setup          0x8               ./USB/MIDIstream/src/usbh_midi_core.o
+NVIC_InitStructure  0x4               ./System/my_stm32f4_discovery.o
+USB_Host            0x6c              ./Synth/main.o
+DMA_InitStructure   0x3c              ./System/my_stm32f4_discovery_audio_codec.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./USB/MIDIstream/src/usbh_midi_core.o
+ .data          0x00000000        0x0 ./USB/MIDIstream/src/usbh_midi_core.o
+ .bss           0x00000000        0x0 ./USB/MIDIstream/src/usbh_midi_core.o
+ .text.MIDI_lookupMsgSize
+                0x00000000       0xa4 ./USB/MIDIstream/src/usbh_midi_core.o
+ .text.MIDI_RcvData
+                0x00000000      0x26c ./USB/MIDIstream/src/usbh_midi_core.o
+ .text.MIDI_RcvDataDraft
+                0x00000000       0xe0 ./USB/MIDIstream/src/usbh_midi_core.o
+ .text          0x00000000        0x0 ./USB/usb_bsp.o
+ .data          0x00000000        0x0 ./USB/usb_bsp.o
+ .bss           0x00000000        0x0 ./USB/usb_bsp.o
+ .text.BSP_Init
+                0x00000000        0x8 ./USB/usb_bsp.o
+ COMMON         0x00000000        0x1 ./USB/usb_bsp.o
+ .text          0x00000000        0x0 ./USB/usbh_usr.o
+ .data          0x00000000        0x0 ./USB/usbh_usr.o
+ .bss           0x00000000        0x0 ./USB/usbh_usr.o
+ .text          0x00000000        0x0 ./System/my_stm32f4_discovery.o
+ .data          0x00000000        0x0 ./System/my_stm32f4_discovery.o
+ .bss           0x00000000        0x0 ./System/my_stm32f4_discovery.o
+ .text.STM_EVAL_LEDToggle
+                0x00000000       0x1c ./System/my_stm32f4_discovery.o
+ .rodata.BUTTON_IRQn
+                0x00000000        0x4 ./System/my_stm32f4_discovery.o
+ .rodata.BUTTON_PIN
+                0x00000000        0x4 ./System/my_stm32f4_discovery.o
+ .rodata.BUTTON_CLK
+                0x00000000        0x4 ./System/my_stm32f4_discovery.o
+ .rodata.BUTTON_PORT_SOURCE
+                0x00000000        0x4 ./System/my_stm32f4_discovery.o
+ .rodata.BUTTON_PIN_SOURCE
+                0x00000000        0x4 ./System/my_stm32f4_discovery.o
+ .rodata.BUTTON_EXTI_LINE
+                0x00000000        0x4 ./System/my_stm32f4_discovery.o
+ .text          0x00000000        0x0 ./System/my_stm32f4_discovery_audio_codec.o
+ .data          0x00000000        0x0 ./System/my_stm32f4_discovery_audio_codec.o
+ .bss           0x00000000        0x0 ./System/my_stm32f4_discovery_audio_codec.o
+ .text.EVAL_AUDIO_SetAudioInterface
+                0x00000000      0x114 ./System/my_stm32f4_discovery_audio_codec.o
+ .text.EVAL_AUDIO_DeInit
+                0x00000000       0xec ./System/my_stm32f4_discovery_audio_codec.o
+ .text.EVAL_AUDIO_PauseResume
+                0x00000000       0x98 ./System/my_stm32f4_discovery_audio_codec.o
+ .text.EVAL_AUDIO_Stop
+                0x00000000       0x9c ./System/my_stm32f4_discovery_audio_codec.o
+ .text.EVAL_AUDIO_Mute
+                0x00000000       0x1c ./System/my_stm32f4_discovery_audio_codec.o
+ .text.Audio_MAL_Play
+                0x00000000       0x44 ./System/my_stm32f4_discovery_audio_codec.o
+ .text.DAC_Config
+                0x00000000       0x50 ./System/my_stm32f4_discovery_audio_codec.o
+ .data.AUDIO_MAL_DMA_FLAG_FE
+                0x00000000        0x4 ./System/my_stm32f4_discovery_audio_codec.o
+ .data.AUDIO_MAL_DMA_FLAG_TE
+                0x00000000        0x4 ./System/my_stm32f4_discovery_audio_codec.o
+ .data.AUDIO_MAL_DMA_FLAG_DME
+                0x00000000        0x4 ./System/my_stm32f4_discovery_audio_codec.o
+ .text          0x00000000        0x0 ./System/startup_stm32f4xx.o
+ .data          0x00000000        0x0 ./System/startup_stm32f4xx.o
+ .bss           0x00000000        0x0 ./System/startup_stm32f4xx.o
+ .text          0x00000000        0x0 ./System/stm32fxxx_it.o
+ .data          0x00000000        0x0 ./System/stm32fxxx_it.o
+ .bss           0x00000000        0x0 ./System/stm32fxxx_it.o
+ .text          0x00000000        0x0 ./System/system_stm32f4xx.o
+ .data          0x00000000        0x0 ./System/system_stm32f4xx.o
+ .bss           0x00000000        0x0 ./System/system_stm32f4xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0x70 ./System/system_stm32f4xx.o
+ .data.AHBPrescTable
+                0x00000000       0x10 ./System/system_stm32f4xx.o
+ .text          0x00000000        0x0 ./Synth/adsr.o
+ .data          0x00000000        0x0 ./Synth/adsr.o
+ .bss           0x00000000        0x0 ./Synth/adsr.o
+ .text.ADSR_setAttackRate
+                0x00000000        0x8 ./Synth/adsr.o
+ .text.ADSR_setDecayRate
+                0x00000000        0x8 ./Synth/adsr.o
+ .text.ADSR_setSustainLevel
+                0x00000000        0x8 ./Synth/adsr.o
+ .text.ADSR_setReleaseRate
+                0x00000000        0x8 ./Synth/adsr.o
+ .text.ADSR_setAttackTime
+                0x00000000       0x1c ./Synth/adsr.o
+ .text.ADSR_setDecayTime
+                0x00000000       0x1c ./Synth/adsr.o
+ .text.ADSR_setReleaseTime
+                0x00000000       0x1c ./Synth/adsr.o
+ .text.ADSR_setAllTimes
+                0x00000000       0x38 ./Synth/adsr.o
+ .text.ADSR_setTarget
+                0x00000000       0x38 ./Synth/adsr.o
+ .text.ADSR_setValue
+                0x00000000       0x18 ./Synth/adsr.o
+ .text.ADSR_getState
+                0x00000000        0x4 ./Synth/adsr.o
+ .text          0x00000000        0x0 ./Synth/audio.o
+ .data          0x00000000        0x0 ./Synth/audio.o
+ .bss           0x00000000        0x0 ./Synth/audio.o
+ .text.toggleSound
+                0x00000000       0x2c ./Synth/audio.o
+ .text.incVol   0x00000000       0x1c ./Synth/audio.o
+ .text.decVol   0x00000000       0x18 ./Synth/audio.o
+ .data.sound    0x00000000        0x1 ./Synth/audio.o
+ .text          0x00000000        0x0 ./Synth/chorusFD.o
+ .data          0x00000000        0x0 ./Synth/chorusFD.o
+ .bss           0x00000000        0x0 ./Synth/chorusFD.o
+ .text.Lfo_SampleCompute
+                0x00000000       0x94 ./Synth/chorusFD.o
+ .text.ChorusDelay_init
+                0x00000000       0x2c ./Synth/chorusFD.o
+ .text.inc_chorusRate
+                0x00000000       0x30 ./Synth/chorusFD.o
+ .text.dec_chorusRate
+                0x00000000       0x30 ./Synth/chorusFD.o
+ .text.inc_chorusDelay
+                0x00000000       0x54 ./Synth/chorusFD.o
+ .text.dec_chorusDelay
+                0x00000000       0x30 ./Synth/chorusFD.o
+ .text.inc_chorusFeedback
+                0x00000000       0x30 ./Synth/chorusFD.o
+ .text.dec_chorusFeedback
+                0x00000000       0x30 ./Synth/chorusFD.o
+ .text.inc_chorusSweep
+                0x00000000       0x30 ./Synth/chorusFD.o
+ .text.dec_chorusSweep
+                0x00000000       0x30 ./Synth/chorusFD.o
+ .text.ChorusMode_toggle
+                0x00000000       0x28 ./Synth/chorusFD.o
+ .text.ChorusFDBsign_change
+                0x00000000       0x28 ./Synth/chorusFD.o
+ .text.Delay_set_delay
+                0x00000000        0xc ./Synth/chorusFD.o
+ .text.Delay_set_fb
+                0x00000000        0x8 ./Synth/chorusFD.o
+ .text.Delay_set_fw
+                0x00000000        0x8 ./Synth/chorusFD.o
+ .text.Delay_set_mix
+                0x00000000        0x8 ./Synth/chorusFD.o
+ .text.Delay_get_fb
+                0x00000000        0x8 ./Synth/chorusFD.o
+ .text.Delay_get_fw
+                0x00000000        0x8 ./Synth/chorusFD.o
+ .text.Delay_get_mix
+                0x00000000        0x8 ./Synth/chorusFD.o
+ .text.delay_write
+                0x00000000       0x1c ./Synth/chorusFD.o
+ .text          0x00000000        0x0 ./Synth/delay.o
+ .data          0x00000000        0x0 ./Synth/delay.o
+ .bss           0x00000000        0x0 ./Synth/delay.o
+ .text.Delay_clean
+                0x00000000       0x14 ./Synth/delay.o
+ .text.Delay_feedback_inc
+                0x00000000       0x1c ./Synth/delay.o
+ .text.Delay_feedback_dec
+                0x00000000       0x1c ./Synth/delay.o
+ .text          0x00000000        0x0 ./Synth/drifter.o
+ .data          0x00000000        0x0 ./Synth/drifter.o
+ .bss           0x00000000        0x0 ./Synth/drifter.o
+ .text.drifter_newSegment
+                0x00000000       0x64 ./Synth/drifter.o
+ .text.drifter_prepare
+                0x00000000       0x70 ./Synth/drifter.o
+ .text          0x00000000        0x0 ./Synth/main.o
+ .data          0x00000000        0x0 ./Synth/main.o
+ .bss           0x00000000        0x0 ./Synth/main.o
+ .text          0x00000000        0x0 ./Synth/math_tools.o
+ .data          0x00000000        0x0 ./Synth/math_tools.o
+ .bss           0x00000000        0x0 ./Synth/math_tools.o
+ .text.approx_exp
+                0x00000000       0x24 ./Synth/math_tools.o
+ .text          0x00000000        0x0 ./Synth/midi_interface.o
+ .data          0x00000000        0x0 ./Synth/midi_interface.o
+ .bss           0x00000000        0x0 ./Synth/midi_interface.o
+ .text          0x00000000        0x0 ./Synth/notesTables.o
+ .data          0x00000000        0x0 ./Synth/notesTables.o
+ .bss           0x00000000        0x0 ./Synth/notesTables.o
+ .text          0x00000000        0x0 ./Synth/oscillators.o
+ .data          0x00000000        0x0 ./Synth/oscillators.o
+ .bss           0x00000000        0x0 ./Synth/oscillators.o
+ .text.FM1_sampleCompute
+                0x00000000      0x228 ./Synth/oscillators.o
+ .text.OpSampleCompute0
+                0x00000000       0x5c ./Synth/oscillators.o
+ .text.Osc_FM_sine_SampleCompute
+                0x00000000       0xa0 ./Synth/oscillators.o
+ .text.OpSampleCompute1
+                0x00000000       0xa8 ./Synth/oscillators.o
+ .text.OpSampleCompute2
+                0x00000000       0xa0 ./Synth/oscillators.o
+ .text.OpSampleCompute3
+                0x00000000       0x8c ./Synth/oscillators.o
+ .text.OpSampleCompute4
+                0x00000000       0xec ./Synth/oscillators.o
+ .text.OpSampleCompute5
+                0x00000000       0xa4 ./Synth/oscillators.o
+ .text.OpSampleCompute6
+                0x00000000       0xfc ./Synth/oscillators.o
+ .text.OpSampleCompute8
+                0x00000000       0x78 ./Synth/oscillators.o
+ .text.AdditiveGen_SampleCompute
+                0x00000000       0xc8 ./Synth/oscillators.o
+ .text.OpSetFreq
+                0x00000000        0x8 ./Synth/oscillators.o
+ .text          0x00000000        0x0 ./Synth/random.o
+ .data          0x00000000        0x0 ./Synth/random.o
+ .bss           0x00000000        0x0 ./Synth/random.o
+ .text.randomNum
+                0x00000000       0x28 ./Synth/random.o
+ .text          0x00000000        0x0 ./Synth/resonantFilter.o
+ .data          0x00000000        0x0 ./Synth/resonantFilter.o
+ .bss           0x00000000        0x0 ./Synth/resonantFilter.o
+ .text.SVF_setReso
+                0x00000000       0x24 ./Synth/resonantFilter.o
+ .text.SVF_initialize
+                0x00000000       0x38 ./Synth/resonantFilter.o
+ .text.SVF_recalcFreq
+                0x00000000       0x20 ./Synth/resonantFilter.o
+ .text.SVF_setDrive
+                0x00000000       0x28 ./Synth/resonantFilter.o
+ .text          0x00000000        0x0 ./Synth/sequencer.o
+ .data          0x00000000        0x0 ./Synth/sequencer.o
+ .bss           0x00000000        0x0 ./Synth/sequencer.o
+ .text.seq_transpUp
+                0x00000000       0x14 ./Synth/sequencer.o
+ .text.seq_transpDown
+                0x00000000       0x14 ./Synth/sequencer.o
+ .text.seq_chooseScale
+                0x00000000       0x24 ./Synth/sequencer.o
+ .text.seq_nextScale
+                0x00000000       0x24 ./Synth/sequencer.o
+ .text.seq_prevScale
+                0x00000000       0x30 ./Synth/sequencer.o
+ .text.seq_automatic_or_manual
+                0x00000000       0x10 ./Synth/sequencer.o
+ .text.seq_toggleGlide
+                0x00000000       0x10 ./Synth/sequencer.o
+ .text.seq_muteSomeNotes
+                0x00000000       0x10 ./Synth/sequencer.o
+ .text.seq_doubleTempo
+                0x00000000        0x4 ./Synth/sequencer.o
+ .text.seq_halfTempo
+                0x00000000        0x4 ./Synth/sequencer.o
+ .text.seq_incTempo
+                0x00000000        0x4 ./Synth/sequencer.o
+ .text.seq_decTempo
+                0x00000000        0x4 ./Synth/sequencer.o
+ .text.seq_incMaxFreq
+                0x00000000       0x18 ./Synth/sequencer.o
+ .text.seq_decMaxFreq
+                0x00000000       0x14 ./Synth/sequencer.o
+ .text          0x00000000        0x0 ./Synth/sinetable.o
+ .data          0x00000000        0x0 ./Synth/sinetable.o
+ .bss           0x00000000        0x0 ./Synth/sinetable.o
+ .text          0x00000000        0x0 ./Synth/soundGen.o
+ .data          0x00000000        0x0 ./Synth/soundGen.o
+ .bss           0x00000000        0x0 ./Synth/soundGen.o
+ .text.Parameter_fine_tune
+                0x00000000        0x4 ./Synth/soundGen.o
+ .text.toggleVibrato
+                0x00000000       0x20 ./Synth/soundGen.o
+ .text.toggleSynthOut
+                0x00000000       0x50 ./Synth/soundGen.o
+ .text.incSynthOut
+                0x00000000       0x40 ./Synth/soundGen.o
+ .text.decSynthOut
+                0x00000000       0x40 ./Synth/soundGen.o
+ .text.Delay_toggle
+                0x00000000       0x18 ./Synth/soundGen.o
+ .text.toggleFilter
+                0x00000000       0x10 ./Synth/soundGen.o
+ .text.Chorus_toggle
+                0x00000000       0x10 ./Synth/soundGen.o
+ .text.nextSound
+                0x00000000       0x18 ./Synth/soundGen.o
+ .text.prevSound
+                0x00000000       0x14 ./Synth/soundGen.o
+ .text          0x00000000        0x0 ./Synth/timers.o
+ .data          0x00000000        0x0 ./Synth/timers.o
+ .bss           0x00000000        0x0 ./Synth/timers.o
+ .text.wait     0x00000000       0x10 ./Synth/timers.o
+ .text.getTime  0x00000000        0xc ./Synth/timers.o
+ .text.setTime  0x00000000        0xc ./Synth/timers.o
+ .text          0x00000000        0x0 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+ .data          0x00000000        0x0 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+ .bss           0x00000000        0x0 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+ .text.USB_OTG_FlushTxFifo
+                0x00000000       0x48 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+ .text.USB_OTG_FlushRxFifo
+                0x00000000       0x40 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+ .text.USB_OTG_GetMode
+                0x00000000        0xc ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+ .text.USB_OTG_IsDeviceMode
+                0x00000000       0x10 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+ .text.USB_OTG_ReadOtgItr
+                0x00000000        0x8 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+ .text.USB_OTG_IsEvenFrame
+                0x00000000       0x10 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+ .text.USB_OTG_DriveVbus
+                0x00000000       0x4c ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+ .text.USB_OTG_EnableHostInt
+                0x00000000       0x40 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+ .text.USB_OTG_ReadHPRT0
+                0x00000000        0xc ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+ .text.USB_OTG_StopHost
+                0x00000000       0xa8 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+ .text          0x00000000        0x0 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd.o
+ .data          0x00000000        0x0 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd.o
+ .bss           0x00000000        0x0 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd.o
+ .text.HCD_GetXferCnt
+                0x00000000        0x8 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd.o
+ .text.HCD_GetHCState
+                0x00000000        0x8 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd.o
+ .text.HCD_HC_Init
+                0x00000000        0x8 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd.o
+ .text          0x00000000        0x0 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+ .data          0x00000000        0x0 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+ .bss           0x00000000        0x0 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+ .text          0x00000000        0x0 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+ .data          0x00000000        0x0 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+ .bss           0x00000000        0x0 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+ .text.USBH_DeInit
+                0x00000000       0x34 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+ .text.USBH_ErrorHandle
+                0x00000000       0x38 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+ .text          0x00000000        0x0 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_hcs.o
+ .data          0x00000000        0x0 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_hcs.o
+ .bss           0x00000000        0x0 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_hcs.o
+ .text          0x00000000        0x0 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.o
+ .data          0x00000000        0x0 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.o
+ .bss           0x00000000        0x0 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.o
+ .text.USBH_BulkSendData
+                0x00000000       0x38 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.o
+ .text.USBH_InterruptReceiveData
+                0x00000000       0x40 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.o
+ .text.USBH_InterruptSendData
+                0x00000000       0x40 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.o
+ .text.USBH_IsocReceiveData
+                0x00000000       0x30 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.o
+ .text.USBH_IsocSendData
+                0x00000000       0x2c ./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.o
+ .text          0x00000000        0x0 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+ .data          0x00000000        0x0 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+ .bss           0x00000000        0x0 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+ .text.USBH_GetDescriptor
+                0x00000000       0x34 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+ .text.USBH_SetInterface
+                0x00000000       0x1c ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+ .text.USBH_GetNextDesc
+                0x00000000       0x10 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+ .text          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/misc.o
+ .data          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/misc.o
+ .bss           0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/misc.o
+ .text.NVIC_SystemLPConfig
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/misc.o
+ .text.SysTick_CLKSourceConfig
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/misc.o
+ .text          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .data          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .bss           0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .text.DAC_DeInit
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .text.DAC_StructInit
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .text.DAC_SoftwareTriggerCmd
+                0x00000000       0x28 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .text.DAC_DualSoftwareTriggerCmd
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .text.DAC_WaveGenerationCmd
+                0x00000000       0x20 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .text.DAC_SetChannel2Data
+                0x00000000       0x20 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .text.DAC_SetDualChannelData
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .text.DAC_GetDataOutputValue
+                0x00000000       0x24 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .text.DAC_DMACmd
+                0x00000000       0x2c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .text.DAC_ITConfig
+                0x00000000       0x20 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .text.DAC_GetFlagStatus
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .text.DAC_ClearFlag
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .text.DAC_GetITStatus
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .text.DAC_ClearITPendingBit
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .text          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .data          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .bss           0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .text.DMA_StructInit
+                0x00000000       0x24 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .text.DMA_PeriphIncOffsetSizeConfig
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .text.DMA_FlowControllerConfig
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .text.DMA_SetCurrDataCounter
+                0x00000000        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .text.DMA_GetCurrDataCounter
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .text.DMA_DoubleBufferModeConfig
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .text.DMA_DoubleBufferModeCmd
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .text.DMA_MemoryTargetConfig
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .text.DMA_GetCurrentMemoryTarget
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .text.DMA_GetCmdStatus
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .text.DMA_GetFIFOStatus
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .text.DMA_GetITStatus
+                0x00000000       0x54 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .text.DMA_ClearITPendingBit
+                0x00000000       0x34 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .text          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o
+ .data          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o
+ .bss           0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o
+ .text.EXTI_DeInit
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o
+ .text.EXTI_StructInit
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o
+ .text.EXTI_GenerateSWInterrupt
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o
+ .text.EXTI_GetFlagStatus
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o
+ .text.EXTI_ClearFlag
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o
+ .text          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+ .data          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+ .bss           0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+ .text.GPIO_DeInit
+                0x00000000      0x15c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+ .text.GPIO_StructInit
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0x24 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+ .text.GPIO_Write
+                0x00000000        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+ .text.GPIO_ToggleBits
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+ .text          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .data          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .bss           0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_StructInit
+                0x00000000       0x24 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_AnalogFilterCmd
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_DigitalFilterConfig
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_OwnAddress2Config
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_DualAddressCmd
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_GeneralCallCmd
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_SoftwareResetCmd
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_StretchClockCmd
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_FastModeDutyCycleConfig
+                0x00000000       0x20 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_NACKPositionConfig
+                0x00000000       0x20 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_SMBusAlertConfig
+                0x00000000       0x20 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_ARPCmd
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_TransmitPEC
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_PECPositionConfig
+                0x00000000       0x20 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_CalculatePEC
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_GetPEC
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_DMACmd
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_DMALastTransferCmd
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_ReadRegister
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_ITConfig
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_GetLastEvent
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_GetITStatus
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text.I2C_ClearITPendingBit
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .text          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .data          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .bss           0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_DeInit
+                0x00000000       0x50 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_HSEConfig
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x00000000       0x38 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_HSICmd
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x20 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_LSICmd
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_PLLConfig
+                0x00000000       0x24 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_PLLCmd
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_PLLI2SConfig
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_PLLI2SCmd
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_PLLSAIConfig
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_PLLSAICmd
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_MCO1Config
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_MCO2Config
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_SYSCLKConfig
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_HCLKConfig
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_PCLK1Config
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_PCLK2Config
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000       0x30 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_I2SCLKConfig
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_SAIPLLI2SClkDivConfig
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_SAIPLLSAIClkDivConfig
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_SAIBlockACLKConfig
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_SAIBlockBCLKConfig
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_LTDCCLKDivConfig
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_TIMCLKPresConfig
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphClockCmd
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_AHB1PeriphResetCmd
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphResetCmd
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphResetCmd
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_AHB1PeriphClockLPModeCmd
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphClockLPModeCmd
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphClockLPModeCmd
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_APB1PeriphClockLPModeCmd
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_APB2PeriphClockLPModeCmd
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_GetFlagStatus
+                0x00000000       0x34 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_ClearFlag
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .text          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o
+ .data          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o
+ .bss           0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o
+ .text.RNG_DeInit
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o
+ .text.RNG_ITConfig
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o
+ .text.RNG_ClearFlag
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o
+ .text.RNG_GetITStatus
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o
+ .text.RNG_ClearITPendingBit
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o
+ .text          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .data          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .bss           0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.SPI_Init
+                0x00000000       0x54 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.SPI_StructInit
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.I2S_StructInit
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.SPI_Cmd  0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.SPI_DataSizeConfig
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.SPI_BiDirectionalLineConfig
+                0x00000000       0x20 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.SPI_NSSInternalSoftwareConfig
+                0x00000000       0x20 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.SPI_SSOutputCmd
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.SPI_TIModeCmd
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.I2S_FullDuplexConfig
+                0x00000000       0x48 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.SPI_I2S_ReceiveData
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.SPI_CalculateCRC
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.SPI_TransmitCRC
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.SPI_GetCRC
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.SPI_GetCRCPolynomial
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.SPI_I2S_ClearFlag
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.SPI_I2S_GetITStatus
+                0x00000000       0x2c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text.SPI_I2S_ClearITPendingBit
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .text          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o
+ .data          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o
+ .bss           0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o
+ .text.SYSCFG_DeInit
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o
+ .text.SYSCFG_MemoryRemapConfig
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o
+ .text.SYSCFG_MemorySwappingBank
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o
+ .text.SYSCFG_ETH_MediaInterfaceConfig
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o
+ .text.SYSCFG_CompensationCellCmd
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o
+ .text.SYSCFG_GetCompensationCellStatus
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o
+ .text          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .data          0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .bss           0x00000000        0x0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_DeInit
+                0x00000000      0x1b8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_TimeBaseStructInit
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_PrescalerConfig
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_CounterModeConfig
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SetCounter
+                0x00000000        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SetAutoreload
+                0x00000000        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_GetCounter
+                0x00000000        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_GetPrescaler
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_UpdateDisableConfig
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_UpdateRequestConfig
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SelectOnePulseMode
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SetClockDivision
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC1Init
+                0x00000000       0x80 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC2Init
+                0x00000000       0x90 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC3Init
+                0x00000000       0x8c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC4Init
+                0x00000000       0x6c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OCStructInit
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SelectOCxM
+                0x00000000       0x50 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SetCompare1
+                0x00000000        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SetCompare2
+                0x00000000        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SetCompare3
+                0x00000000        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SetCompare4
+                0x00000000        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_ForcedOC1Config
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_ForcedOC2Config
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_ForcedOC3Config
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_ForcedOC4Config
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC1PreloadConfig
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC2PreloadConfig
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC3PreloadConfig
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC4PreloadConfig
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC1FastConfig
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC2FastConfig
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC3FastConfig
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC4FastConfig
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_ClearOC1Ref
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_ClearOC2Ref
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_ClearOC3Ref
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_ClearOC4Ref
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC1PolarityConfig
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC1NPolarityConfig
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC2PolarityConfig
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC2NPolarityConfig
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC3PolarityConfig
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC3NPolarityConfig
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_OC4PolarityConfig
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_CCxCmd
+                0x00000000       0x20 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_CCxNCmd
+                0x00000000       0x20 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_ICInit
+                0x00000000      0x168 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_ICStructInit
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_PWMIConfig
+                0x00000000      0x160 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_GetCapture1
+                0x00000000        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_GetCapture2
+                0x00000000        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_GetCapture3
+                0x00000000        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_GetCapture4
+                0x00000000        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SetIC1Prescaler
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SetIC2Prescaler
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SetIC3Prescaler
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SetIC4Prescaler
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_BDTRConfig
+                0x00000000       0x2c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_BDTRStructInit
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_CtrlPWMOutputs
+                0x00000000       0x20 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SelectCOM
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_CCPreloadControl
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_GenerateEvent
+                0x00000000        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_GetFlagStatus
+                0x00000000        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_ClearFlag
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_DMAConfig
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_DMACmd
+                0x00000000       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SelectCCDMA
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_InternalClockConfig
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_ITRxExternalClockConfig
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_TIxExternalClockConfig
+                0x00000000       0x88 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_ETRClockMode1Config
+                0x00000000       0x28 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_ETRClockMode2Config
+                0x00000000       0x24 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SelectInputTrigger
+                0x00000000       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SelectOutputTrigger
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SelectSlaveMode
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SelectMasterSlaveMode
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_ETRConfig
+                0x00000000       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_EncoderInterfaceConfig
+                0x00000000       0x40 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_SelectHallSensor
+                0x00000000       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text.TIM_RemapConfig
+                0x00000000        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_floor.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_floor.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_floor.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_sqrt.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_sqrt.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_sqrt.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_cos.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_cos.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_cos.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_sin.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_sin.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_sin.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_lib_ver.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_lib_ver.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_lib_ver.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_matherr.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_matherr.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_matherr.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_finite.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_finite.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_finite.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fpclassify.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fpclassify.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fpclassify.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_nan.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_nan.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_nan.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_scalbn.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_scalbn.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_scalbn.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
+ .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x00000000        0x0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_truncdfsf2.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00100000         xr
+ram              0x20000000         0x00020000         xrw
+ccm              0x10000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./USB/MIDIstream/src/usbh_midi_core.o
+LOAD ./USB/usb_bsp.o
+LOAD ./USB/usbh_usr.o
+LOAD ./System/my_stm32f4_discovery.o
+LOAD ./System/my_stm32f4_discovery_audio_codec.o
+LOAD ./System/startup_stm32f4xx.o
+LOAD ./System/stm32fxxx_it.o
+LOAD ./System/system_stm32f4xx.o
+LOAD ./Synth/adsr.o
+LOAD ./Synth/audio.o
+LOAD ./Synth/chorusFD.o
+LOAD ./Synth/delay.o
+LOAD ./Synth/drifter.o
+LOAD ./Synth/main.o
+LOAD ./Synth/math_tools.o
+LOAD ./Synth/midi_interface.o
+LOAD ./Synth/notesTables.o
+LOAD ./Synth/oscillators.o
+LOAD ./Synth/random.o
+LOAD ./Synth/resonantFilter.o
+LOAD ./Synth/sequencer.o
+LOAD ./Synth/sinetable.o
+LOAD ./Synth/soundGen.o
+LOAD ./Synth/timers.o
+LOAD ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+LOAD ./Lib/STM32_USB_OTG_Driver/src/usb_hcd.o
+LOAD ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+LOAD ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+LOAD ./Lib/STM32_USB_HOST_Library/Core/src/usbh_hcs.o
+LOAD ./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.o
+LOAD ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+LOAD ./Lib/STM32F4xx_StdPeriph_Driver/src/misc.o
+LOAD ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+LOAD ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+LOAD ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o
+LOAD ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+LOAD ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+LOAD ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+LOAD ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o
+LOAD ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+LOAD ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o
+LOAD ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+LOAD c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a
+START GROUP
+LOAD C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a
+LOAD c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a
+END GROUP
+                0x20020000                _eram = 0x20020000
+
+.ccm            0x10000000     0x2e3c
+                0x10000000                . = ALIGN (0x4)
+ *(.ccm)
+ .ccm           0x10000000     0x2c10 ./Synth/chorusFD.o
+ .ccm           0x10002c10       0x84 ./Synth/drifter.o
+                0x10002c10                d3
+                0x10002c3c                d2
+                0x10002c68                d1
+ .ccm           0x10002c94      0x158 ./Synth/oscillators.o
+                0x10002c94                op1
+                0x10002cb4                op2
+                0x10002cd4                op3
+                0x10002cf4                op4
+                0x10002d14                a
+                0x10002d40                ph
+                0x10002d6c                amp_lfo
+                0x10002d8c                filt2_lfo
+                0x10002dac                filt_lfo
+                0x10002dcc                vibr_lfo
+ .ccm           0x10002dec       0x40 ./Synth/resonantFilter.o
+                0x10002dec                SVFilter
+                0x10002e0c                SVFilter2
+ .ccm           0x10002e2c       0x10 ./Synth/soundGen.o
+ *(.ccm.*)
+                0x10002e3c                . = ALIGN (0x4)
+
+.text           0x08000000     0xc5b4
+ *(.isr_vector .isr_vector.*)
+ .isr_vector    0x08000000      0x188 ./System/startup_stm32f4xx.o
+                0x08000000                g_pfnVectors
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text.USBH_MIDI_ClassRequest
+                0x08000188        0x4 ./USB/MIDIstream/src/usbh_midi_core.o
+ .text.USBH_MIDI_InterfaceDeInit
+                0x0800018c       0x50 ./USB/MIDIstream/src/usbh_midi_core.o
+ .text.USBH_MIDI_Handle
+                0x080001dc       0x94 ./USB/MIDIstream/src/usbh_midi_core.o
+ .text.USBH_MIDI_InterfaceInit
+                0x08000270       0xcc ./USB/MIDIstream/src/usbh_midi_core.o
+ .text.USB_OTG_BSP_Init
+                0x0800033c       0xc4 ./USB/usb_bsp.o
+                0x0800033c                USB_OTG_BSP_Init
+ .text.USB_OTG_BSP_EnableInterrupt
+                0x08000400       0x44 ./USB/usb_bsp.o
+                0x08000400                USB_OTG_BSP_EnableInterrupt
+ .text.USB_OTG_BSP_DriveVBUS
+                0x08000444       0x14 ./USB/usb_bsp.o
+                0x08000444                USB_OTG_BSP_DriveVBUS
+ .text.USB_OTG_BSP_ConfigVBUS
+                0x08000458       0xb4 ./USB/usb_bsp.o
+                0x08000458                USB_OTG_BSP_ConfigVBUS
+ .text.USB_OTG_BSP_uDelay
+                0x0800050c       0x80 ./USB/usb_bsp.o
+                0x0800050c                USB_OTG_BSP_uDelay
+ .text.USB_OTG_BSP_mDelay
+                0x0800058c       0x80 ./USB/usb_bsp.o
+                0x0800058c                USB_OTG_BSP_mDelay
+ .text.USB_OTG_BSP_TimerIRQ
+                0x0800060c       0x38 ./USB/usb_bsp.o
+                0x0800060c                USB_OTG_BSP_TimerIRQ
+ .text.USBH_USR_Init
+                0x08000644        0x4 ./USB/usbh_usr.o
+                0x08000644                USBH_USR_Init
+ .text.USBH_USR_DeviceAttached
+                0x08000648        0x4 ./USB/usbh_usr.o
+                0x08000648                USBH_USR_DeviceAttached
+ .text.USBH_USR_ResetDevice
+                0x0800064c        0x4 ./USB/usbh_usr.o
+                0x0800064c                USBH_USR_ResetDevice
+ .text.USBH_USR_DeviceSpeedDetected
+                0x08000650        0x4 ./USB/usbh_usr.o
+                0x08000650                USBH_USR_DeviceSpeedDetected
+ .text.USBH_USR_Device_DescAvailable
+                0x08000654        0x4 ./USB/usbh_usr.o
+                0x08000654                USBH_USR_Device_DescAvailable
+ .text.USBH_USR_DeviceAddressAssigned
+                0x08000658        0x4 ./USB/usbh_usr.o
+                0x08000658                USBH_USR_DeviceAddressAssigned
+ .text.USBH_USR_Configuration_DescAvailable
+                0x0800065c        0x4 ./USB/usbh_usr.o
+                0x0800065c                USBH_USR_Configuration_DescAvailable
+ .text.USBH_USR_Manufacturer_String
+                0x08000660        0x4 ./USB/usbh_usr.o
+                0x08000660                USBH_USR_Manufacturer_String
+ .text.USBH_USR_Product_String
+                0x08000664        0x4 ./USB/usbh_usr.o
+                0x08000664                USBH_USR_Product_String
+ .text.USBH_USR_SerialNum_String
+                0x08000668        0x4 ./USB/usbh_usr.o
+                0x08000668                USBH_USR_SerialNum_String
+ .text.USBH_USR_UserInput
+                0x0800066c        0x4 ./USB/usbh_usr.o
+                0x0800066c                USBH_USR_UserInput
+ .text.USBH_USR_DeInit
+                0x08000670        0x4 ./USB/usbh_usr.o
+                0x08000670                USBH_USR_DeInit
+ .text.USBH_USR_MIDI_Application
+                0x08000674        0x4 ./USB/usbh_usr.o
+                0x08000674                USBH_USR_MIDI_Application
+ .text.USBH_USR_UnrecoveredError
+                0x08000678        0x8 ./USB/usbh_usr.o
+                0x08000678                USBH_USR_UnrecoveredError
+ .text.USBH_USR_DeviceDisconnected
+                0x08000680        0x8 ./USB/usbh_usr.o
+                0x08000680                USBH_USR_DeviceDisconnected
+ .text.USBH_USR_DeviceNotSupported
+                0x08000688        0x8 ./USB/usbh_usr.o
+                0x08000688                USBH_USR_DeviceNotSupported
+ .text.USBH_USR_EnumerationDone
+                0x08000690        0x8 ./USB/usbh_usr.o
+                0x08000690                USBH_USR_EnumerationDone
+ .text.USBH_USR_OverCurrentDetected
+                0x08000698        0x8 ./USB/usbh_usr.o
+                0x08000698                USBH_USR_OverCurrentDetected
+ .text.STM_EVAL_LEDInit
+                0x080006a0       0x4c ./System/my_stm32f4_discovery.o
+                0x080006a0                STM_EVAL_LEDInit
+ .text.STM_EVAL_LEDOn
+                0x080006ec       0x18 ./System/my_stm32f4_discovery.o
+                0x080006ec                STM_EVAL_LEDOn
+ .text.STM_EVAL_LEDOff
+                0x08000704       0x18 ./System/my_stm32f4_discovery.o
+                0x08000704                STM_EVAL_LEDOff
+ .text.STM_EVAL_PBInit
+                0x0800071c       0x80 ./System/my_stm32f4_discovery.o
+                0x0800071c                STM_EVAL_PBInit
+ .text.STM_EVAL_PBGetState
+                0x0800079c       0x14 ./System/my_stm32f4_discovery.o
+                0x0800079c                STM_EVAL_PBGetState
+ .text.start_LED_On
+                0x080007b0       0x28 ./System/my_stm32f4_discovery.o
+                0x080007b0                start_LED_On
+ .text.update_temporized_LED
+                0x080007d8       0x20 ./System/my_stm32f4_discovery.o
+                0x080007d8                update_temporized_LED
+ .text.DebounceUserButton
+                0x080007f8       0x64 ./System/my_stm32f4_discovery.o
+                0x080007f8                DebounceUserButton
+ .text.Codec_WriteRegister
+                0x0800085c      0x25c ./System/my_stm32f4_discovery_audio_codec.o
+ .text.EVAL_AUDIO_Init
+                0x08000ab8      0x430 ./System/my_stm32f4_discovery_audio_codec.o
+                0x08000ab8                EVAL_AUDIO_Init
+ .text.EVAL_AUDIO_Play
+                0x08000ee8       0x7c ./System/my_stm32f4_discovery_audio_codec.o
+                0x08000ee8                EVAL_AUDIO_Play
+ .text.EVAL_AUDIO_VolumeCtl
+                0x08000f64       0x44 ./System/my_stm32f4_discovery_audio_codec.o
+                0x08000f64                EVAL_AUDIO_VolumeCtl
+ .text.DMA1_Stream7_IRQHandler
+                0x08000fa8       0x64 ./System/my_stm32f4_discovery_audio_codec.o
+                0x08000fa8                DMA1_Stream7_IRQHandler
+ .text.DMA1_Stream0_IRQHandler
+                0x0800100c       0x64 ./System/my_stm32f4_discovery_audio_codec.o
+                0x0800100c                DMA1_Stream0_IRQHandler
+ .text.SPI3_IRQHandler
+                0x08001070       0x3c ./System/my_stm32f4_discovery_audio_codec.o
+                0x08001070                SPI3_IRQHandler
+ .text.Default_Handler
+                0x080010ac        0x4 ./System/startup_stm32f4xx.o
+                0x080010ac                RTC_Alarm_IRQHandler
+                0x080010ac                HASH_RNG_IRQHandler
+                0x080010ac                EXTI2_IRQHandler
+                0x080010ac                TIM8_CC_IRQHandler
+                0x080010ac                TIM1_CC_IRQHandler
+                0x080010ac                DMA2_Stream5_IRQHandler
+                0x080010ac                DMA1_Stream5_IRQHandler
+                0x080010ac                PVD_IRQHandler
+                0x080010ac                SDIO_IRQHandler
+                0x080010ac                TAMP_STAMP_IRQHandler
+                0x080010ac                CAN2_RX1_IRQHandler
+                0x080010ac                EXTI3_IRQHandler
+                0x080010ac                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080010ac                TIM1_UP_TIM10_IRQHandler
+                0x080010ac                TIM8_UP_TIM13_IRQHandler
+                0x080010ac                I2C3_ER_IRQHandler
+                0x080010ac                EXTI0_IRQHandler
+                0x080010ac                I2C2_EV_IRQHandler
+                0x080010ac                DMA1_Stream2_IRQHandler
+                0x080010ac                CAN1_RX0_IRQHandler
+                0x080010ac                FPU_IRQHandler
+                0x080010ac                OTG_HS_WKUP_IRQHandler
+                0x080010ac                CAN2_SCE_IRQHandler
+                0x080010ac                DMA2_Stream2_IRQHandler
+                0x080010ac                SPI1_IRQHandler
+                0x080010ac                TIM6_DAC_IRQHandler
+                0x080010ac                TIM1_BRK_TIM9_IRQHandler
+                0x080010ac                DCMI_IRQHandler
+                0x080010ac                CAN2_RX0_IRQHandler
+                0x080010ac                DMA2_Stream3_IRQHandler
+                0x080010ac                USART6_IRQHandler
+                0x080010ac                USART3_IRQHandler
+                0x080010ac                CRYP_IRQHandler
+                0x080010ac                CAN1_RX1_IRQHandler
+                0x080010ac                UART5_IRQHandler
+                0x080010ac                DMA2_Stream0_IRQHandler
+                0x080010ac                TIM4_IRQHandler
+                0x080010ac                I2C1_EV_IRQHandler
+                0x080010ac                DMA1_Stream6_IRQHandler
+                0x080010ac                DMA1_Stream1_IRQHandler
+                0x080010ac                UART4_IRQHandler
+                0x080010ac                TIM3_IRQHandler
+                0x080010ac                RCC_IRQHandler
+                0x080010ac                TIM8_BRK_TIM12_IRQHandler
+                0x080010ac                EXTI15_10_IRQHandler
+                0x080010ac                ADC_IRQHandler
+                0x080010ac                TIM7_IRQHandler
+                0x080010ac                CAN2_TX_IRQHandler
+                0x080010ac                TIM5_IRQHandler
+                0x080010ac                DMA2_Stream7_IRQHandler
+                0x080010ac                I2C3_EV_IRQHandler
+                0x080010ac                EXTI9_5_IRQHandler
+                0x080010ac                RTC_WKUP_IRQHandler
+                0x080010ac                ETH_WKUP_IRQHandler
+                0x080010ac                SPI2_IRQHandler
+                0x080010ac                OTG_HS_EP1_IN_IRQHandler
+                0x080010ac                CAN1_TX_IRQHandler
+                0x080010ac                EXTI4_IRQHandler
+                0x080010ac                FSMC_IRQHandler
+                0x080010ac                ETH_IRQHandler
+                0x080010ac                OTG_HS_EP1_OUT_IRQHandler
+                0x080010ac                WWDG_IRQHandler
+                0x080010ac                OTG_FS_WKUP_IRQHandler
+                0x080010ac                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080010ac                OTG_HS_IRQHandler
+                0x080010ac                USART2_IRQHandler
+                0x080010ac                I2C2_ER_IRQHandler
+                0x080010ac                DMA2_Stream1_IRQHandler
+                0x080010ac                CAN1_SCE_IRQHandler
+                0x080010ac                FLASH_IRQHandler
+                0x080010ac                DMA2_Stream4_IRQHandler
+                0x080010ac                USART1_IRQHandler
+                0x080010ac                DMA1_Stream4_IRQHandler
+                0x080010ac                I2C1_ER_IRQHandler
+                0x080010ac                DMA2_Stream6_IRQHandler
+                0x080010ac                DMA1_Stream3_IRQHandler
+ .text.Default_Reset_Handler
+                0x080010b0       0x60 ./System/startup_stm32f4xx.o
+                0x080010b0                Default_Reset_Handler
+                0x080010b0                Reset_Handler
+ .text.NMI_Handler
+                0x08001110        0x4 ./System/stm32fxxx_it.o
+                0x08001110                NMI_Handler
+ .text.EXTI1_IRQHandler
+                0x08001114       0x24 ./System/stm32fxxx_it.o
+                0x08001114                EXTI1_IRQHandler
+ .text.HardFault_Handler
+                0x08001138        0x4 ./System/stm32fxxx_it.o
+                0x08001138                HardFault_Handler
+ .text.MemManage_Handler
+                0x0800113c        0x4 ./System/stm32fxxx_it.o
+                0x0800113c                MemManage_Handler
+ .text.BusFault_Handler
+                0x08001140        0x4 ./System/stm32fxxx_it.o
+                0x08001140                BusFault_Handler
+ .text.UsageFault_Handler
+                0x08001144        0x4 ./System/stm32fxxx_it.o
+                0x08001144                UsageFault_Handler
+ .text.SVC_Handler
+                0x08001148        0x4 ./System/stm32fxxx_it.o
+                0x08001148                SVC_Handler
+ .text.DebugMon_Handler
+                0x0800114c        0x4 ./System/stm32fxxx_it.o
+                0x0800114c                DebugMon_Handler
+ .text.PendSV_Handler
+                0x08001150        0x4 ./System/stm32fxxx_it.o
+                0x08001150                PendSV_Handler
+ .text.TIM2_IRQHandler
+                0x08001154        0x4 ./System/stm32fxxx_it.o
+                0x08001154                TIM2_IRQHandler
+ .text.OTG_FS_IRQHandler
+                0x08001158        0xc ./System/stm32fxxx_it.o
+                0x08001158                OTG_FS_IRQHandler
+ .text.SysTick_Handler
+                0x08001164       0x20 ./System/stm32fxxx_it.o
+                0x08001164                SysTick_Handler
+ .text.SystemInit
+                0x08001184      0x120 ./System/system_stm32f4xx.o
+                0x08001184                SystemInit
+ .text.ADSR_init
+                0x080012a4       0x2c ./Synth/adsr.o
+                0x080012a4                ADSR_init
+ .text.ADSR_keyOn
+                0x080012d0       0x14 ./Synth/adsr.o
+                0x080012d0                ADSR_keyOn
+ .text.ADSR_keyOff
+                0x080012e4       0x14 ./Synth/adsr.o
+                0x080012e4                ADSR_keyOff
+ .text.AttTime_set
+                0x080012f8       0x40 ./Synth/adsr.o
+                0x080012f8                AttTime_set
+ .text.DecTime_set
+                0x08001338       0x4c ./Synth/adsr.o
+                0x08001338                DecTime_set
+ .text.SustLevel_set
+                0x08001384       0x20 ./Synth/adsr.o
+                0x08001384                SustLevel_set
+ .text.RelTime_set
+                0x080013a4       0x40 ./Synth/adsr.o
+                0x080013a4                RelTime_set
+ .text.ADSR_computeSample
+                0x080013e4       0xb4 ./Synth/adsr.o
+                0x080013e4                ADSR_computeSample
+ .text.audio_init
+                0x08001498       0x20 ./Synth/audio.o
+                0x08001498                audio_init
+ .text.Codec_TIMEOUT_UserCallback
+                0x080014b8        0x4 ./Synth/audio.o
+                0x080014b8                Codec_TIMEOUT_UserCallback
+ .text.EVAL_AUDIO_HalfTransfer_CallBack
+                0x080014bc       0x20 ./Synth/audio.o
+                0x080014bc                EVAL_AUDIO_HalfTransfer_CallBack
+ .text.EVAL_AUDIO_TransferComplete_CallBack
+                0x080014dc       0x20 ./Synth/audio.o
+                0x080014dc                EVAL_AUDIO_TransferComplete_CallBack
+ .text.EVAL_AUDIO_GetSampleCallBack
+                0x080014fc        0x4 ./Synth/audio.o
+                0x080014fc                EVAL_AUDIO_GetSampleCallBack
+ .text.Volume_set
+                0x08001500       0x2c ./Synth/audio.o
+                0x08001500                Volume_set
+ .text.Chorus_reset
+                0x0800152c       0xd4 ./Synth/chorusFD.o
+                0x0800152c                Chorus_reset
+ .text.Chorus_init
+                0x08001600       0xe0 ./Synth/chorusFD.o
+                0x08001600                Chorus_init
+ .text.ChorusRate_set
+                0x080016e0       0x40 ./Synth/chorusFD.o
+                0x080016e0                ChorusRate_set
+ .text.ChorusDelay_set
+                0x08001720       0x2c ./Synth/chorusFD.o
+                0x08001720                ChorusDelay_set
+ .text.ChorusFeedback_set
+                0x0800174c       0x38 ./Synth/chorusFD.o
+                0x0800174c                ChorusFeedback_set
+ .text.ChorusSweep_set
+                0x08001784       0x2c ./Synth/chorusFD.o
+                0x08001784                ChorusSweep_set
+ .text.ChorusMode_switch
+                0x080017b0       0x40 ./Synth/chorusFD.o
+                0x080017b0                ChorusMode_switch
+ .text.ChorusFDBsign_switch
+                0x080017f0       0x54 ./Synth/chorusFD.o
+                0x080017f0                ChorusFDBsign_switch
+ .text.delay_read
+                0x08001844      0x138 ./Synth/chorusFD.o
+                0x08001844                delay_read
+ .text.mono_chorus_compute
+                0x0800197c      0x150 ./Synth/chorusFD.o
+                0x0800197c                mono_chorus_compute
+ .text.stereoChorus_compute
+                0x08001acc      0x184 ./Synth/chorusFD.o
+                0x08001acc                stereoChorus_compute
+ .text.Delay_init
+                0x08001c50       0x2c ./Synth/delay.o
+                0x08001c50                Delay_init
+ .text.Delay_time_inc
+                0x08001c7c       0x5c ./Synth/delay.o
+                0x08001c7c                Delay_time_inc
+ .text.Delay_time_dec
+                0x08001cd8       0x58 ./Synth/delay.o
+                0x08001cd8                Delay_time_dec
+ .text.Delay_time_set
+                0x08001d30       0x54 ./Synth/delay.o
+                0x08001d30                Delay_time_set
+ .text.DelayFeedback_set
+                0x08001d84       0x20 ./Synth/delay.o
+                0x08001d84                DelayFeedback_set
+ .text.Delay_compute
+                0x08001da4       0xa0 ./Synth/delay.o
+                0x08001da4                Delay_compute
+ .text.Drifter_amp_set
+                0x08001e44       0x2c ./Synth/drifter.o
+                0x08001e44                Drifter_amp_set
+ .text.Drifter_minFreq_set
+                0x08001e70       0x40 ./Synth/drifter.o
+                0x08001e70                Drifter_minFreq_set
+ .text.Drifter_maxFreq_set
+                0x08001eb0       0x60 ./Synth/drifter.o
+                0x08001eb0                Drifter_maxFreq_set
+ .text.drifter_nextSample
+                0x08001f10       0x98 ./Synth/drifter.o
+                0x08001f10                drifter_nextSample
+ .text.d1_drifter_nextSample
+                0x08001fa8       0xa8 ./Synth/drifter.o
+                0x08001fa8                d1_drifter_nextSample
+ .text.d2_drifter_nextSample
+                0x08002050       0xa8 ./Synth/drifter.o
+                0x08002050                d2_drifter_nextSample
+ .text.drifter_init
+                0x080020f8      0x13c ./Synth/drifter.o
+                0x080020f8                drifter_init
+ .text.ButtonPressed_action
+                0x08002234       0x20 ./Synth/main.o
+                0x08002234                ButtonPressed_action
+ .text.ButtonReleased_action
+                0x08002254        0x4 ./Synth/main.o
+                0x08002254                ButtonReleased_action
+ .text.startup.main
+                0x08002258       0x78 ./Synth/main.o
+                0x08002258                main
+ .text.Lin2Exp  0x080022d0       0x30 ./Synth/math_tools.o
+                0x080022d0                Lin2Exp
+ .text.tanhXdX  0x08002300       0x3c ./Synth/math_tools.o
+                0x08002300                tanhXdX
+ .text.fastTanh
+                0x0800233c       0x50 ./Synth/math_tools.o
+                0x0800233c                fastTanh
+ .text.softClipTwo
+                0x0800238c       0x48 ./Synth/math_tools.o
+                0x0800238c                softClipTwo
+ .text.fastTan  0x080023d4       0x2c ./Synth/math_tools.o
+                0x080023d4                fastTan
+ .text.MagicFX.part.0
+                0x08002400       0x54 ./Synth/midi_interface.o
+ .text.MagicPatch.part.1
+                0x08002454      0x16c ./Synth/midi_interface.o
+ .text.MagicFX  0x080025c0       0x70 ./Synth/midi_interface.o
+                0x080025c0                MagicFX
+ .text.MagicPatch
+                0x08002630       0x20 ./Synth/midi_interface.o
+                0x08002630                MagicPatch
+ .text.MIDI_Decode
+                0x08002650      0x484 ./Synth/midi_interface.o
+                0x08002650                MIDI_Decode
+ .text.Drifter_centralFreq_set
+                0x08002ad4       0x20 ./Synth/oscillators.o
+                0x08002ad4                Drifter_centralFreq_set
+ .text.Drifters_sampleCompute
+                0x08002af4      0x33c ./Synth/oscillators.o
+                0x08002af4                Drifters_sampleCompute
+ .text.FM_op_freq_set
+                0x08002e30       0x1c ./Synth/oscillators.o
+                0x08002e30                FM_op_freq_set
+ .text.FM_op_modInd_set
+                0x08002e4c       0x2c ./Synth/oscillators.o
+                0x08002e4c                FM_op_modInd_set
+ .text.FM2_sampleCompute
+                0x08002e78      0x264 ./Synth/oscillators.o
+                0x08002e78                FM2_sampleCompute
+ .text.Osc_WT_SINE_SampleCompute
+                0x080030dc       0x98 ./Synth/oscillators.o
+                0x080030dc                Osc_WT_SINE_SampleCompute
+ .text.OpSampleCompute7bis
+                0x08003174       0xa8 ./Synth/oscillators.o
+                0x08003174                OpSampleCompute7bis
+ .text.AdditiveGen_newWaveform
+                0x0800321c       0x6c ./Synth/oscillators.o
+                0x0800321c                AdditiveGen_newWaveform
+ .text.osc_init
+                0x08003288       0x1c ./Synth/oscillators.o
+                0x08003288                osc_init
+ .text.waveCompute
+                0x080032a4      0xfa4 ./Synth/oscillators.o
+                0x080032a4                waveCompute
+ .text.randomGen_init
+                0x08004248       0x28 ./Synth/random.o
+                0x08004248                randomGen_init
+ .text.frand_a_b
+                0x08004270       0x2c ./Synth/random.o
+                0x08004270                frand_a_b
+ .text.MIDIrandVal
+                0x0800429c       0x2c ./Synth/random.o
+                0x0800429c                MIDIrandVal
+ .text.SVF_directSetFilterValue
+                0x080042c8       0x58 ./Synth/resonantFilter.o
+                0x080042c8                SVF_directSetFilterValue
+ .text.SVF_init
+                0x08004320       0x74 ./Synth/resonantFilter.o
+                0x08004320                SVF_init
+ .text.Filter1Freq_set
+                0x08004394       0x78 ./Synth/resonantFilter.o
+                0x08004394                Filter1Freq_set
+ .text.Filter1Res_set
+                0x0800440c       0x40 ./Synth/resonantFilter.o
+                0x0800440c                Filter1Res_set
+ .text.Filter1Drive_set
+                0x0800444c       0x2c ./Synth/resonantFilter.o
+                0x0800444c                Filter1Drive_set
+ .text.Filter1Type_set
+                0x08004478       0x28 ./Synth/resonantFilter.o
+                0x08004478                Filter1Type_set
+ .text.Filter2Freq_set
+                0x080044a0       0x78 ./Synth/resonantFilter.o
+                0x080044a0                Filter2Freq_set
+ .text.Filter2Res_set
+                0x08004518       0x40 ./Synth/resonantFilter.o
+                0x08004518                Filter2Res_set
+ .text.Filter2Drive_set
+                0x08004558       0x2c ./Synth/resonantFilter.o
+                0x08004558                Filter2Drive_set
+ .text.Filter2Type_set
+                0x08004584       0x2c ./Synth/resonantFilter.o
+                0x08004584                Filter2Type_set
+ .text.SVF_calcSample
+                0x080045b0      0x1b4 ./Synth/resonantFilter.o
+                0x080045b0                SVF_calcSample
+ .text.seq_gateTime_set
+                0x08004764       0x48 ./Synth/sequencer.o
+                0x08004764                seq_gateTime_set
+ .text.seq_transp
+                0x080047ac       0x24 ./Synth/sequencer.o
+                0x080047ac                seq_transp
+ .text.seq_scale_set
+                0x080047d0       0x4c ./Synth/sequencer.o
+                0x080047d0                seq_scale_set
+ .text.seq_switchMovingSeq
+                0x0800481c       0x14 ./Synth/sequencer.o
+                0x0800481c                seq_switchMovingSeq
+ .text.seq_switchGlide
+                0x08004830       0x18 ./Synth/sequencer.o
+                0x08004830                seq_switchGlide
+ .text.seq_switchMute
+                0x08004848       0x18 ./Synth/sequencer.o
+                0x08004848                seq_switchMute
+ .text.seq_freqMax_set
+                0x08004860       0x2c ./Synth/sequencer.o
+                0x08004860                seq_freqMax_set
+ .text.seq_tempo_set
+                0x0800488c       0x48 ./Synth/sequencer.o
+                0x0800488c                seq_tempo_set
+ .text.seq_sequence_new
+                0x080048d4       0x7c ./Synth/sequencer.o
+                0x080048d4                seq_sequence_new
+ .text.seq_transpose
+                0x08004950       0x4c ./Synth/sequencer.o
+                0x08004950                seq_transpose
+ .text.sequencer_init
+                0x0800499c       0xc8 ./Synth/sequencer.o
+                0x0800499c                sequencer_init
+ .text.sequencer_process
+                0x08004a64       0x44 ./Synth/sequencer.o
+                0x08004a64                sequencer_process
+ .text.soundNumber_get
+                0x08004aa8        0xc ./Synth/soundGen.o
+                0x08004aa8                soundNumber_get
+ .text.DemoMode_toggle
+                0x08004ab4       0x2c ./Synth/soundGen.o
+                0x08004ab4                DemoMode_toggle
+ .text.DemoMode_freeze
+                0x08004ae0       0x2c ./Synth/soundGen.o
+                0x08004ae0                DemoMode_freeze
+ .text.AmpLFO_amp_set
+                0x08004b0c       0x20 ./Synth/soundGen.o
+                0x08004b0c                AmpLFO_amp_set
+ .text.AmpLFO_freq_set
+                0x08004b2c       0x20 ./Synth/soundGen.o
+                0x08004b2c                AmpLFO_freq_set
+ .text.Filt1LFO_amp_set
+                0x08004b4c       0x20 ./Synth/soundGen.o
+                0x08004b4c                Filt1LFO_amp_set
+ .text.Filt1LFO_freq_set
+                0x08004b6c       0x20 ./Synth/soundGen.o
+                0x08004b6c                Filt1LFO_freq_set
+ .text.Filt2LFO_amp_set
+                0x08004b8c       0x20 ./Synth/soundGen.o
+                0x08004b8c                Filt2LFO_amp_set
+ .text.Filt2LFO_freq_set
+                0x08004bac       0x20 ./Synth/soundGen.o
+                0x08004bac                Filt2LFO_freq_set
+ .text.VibratoAmp_set
+                0x08004bcc       0x20 ./Synth/soundGen.o
+                0x08004bcc                VibratoAmp_set
+ .text.VibratoFreq_set
+                0x08004bec       0x20 ./Synth/soundGen.o
+                0x08004bec                VibratoFreq_set
+ .text.SynthOut_switch
+                0x08004c0c       0x48 ./Synth/soundGen.o
+                0x08004c0c                SynthOut_switch
+ .text.SynthOut_amp_set
+                0x08004c54       0x40 ./Synth/soundGen.o
+                0x08004c54                SynthOut_amp_set
+ .text.Delay_switch
+                0x08004c94       0x14 ./Synth/soundGen.o
+                0x08004c94                Delay_switch
+ .text.Filter_Random_switch
+                0x08004ca8       0x14 ./Synth/soundGen.o
+                0x08004ca8                Filter_Random_switch
+ .text.Chorus_switch
+                0x08004cbc       0x14 ./Synth/soundGen.o
+                0x08004cbc                Chorus_switch
+ .text.Sound_set
+                0x08004cd0       0x3c ./Synth/soundGen.o
+                0x08004cd0                Sound_set
+ .text.FM_OP1_freq_set
+                0x08004d0c        0xc ./Synth/soundGen.o
+                0x08004d0c                FM_OP1_freq_set
+ .text.FM_OP1_modInd_set
+                0x08004d18        0xc ./Synth/soundGen.o
+                0x08004d18                FM_OP1_modInd_set
+ .text.FM_OP2_freq_set
+                0x08004d24       0x24 ./Synth/soundGen.o
+                0x08004d24                FM_OP2_freq_set
+ .text.FM_OP2_freqMul_inc
+                0x08004d48       0x38 ./Synth/soundGen.o
+                0x08004d48                FM_OP2_freqMul_inc
+ .text.FM_OP2_freqMul_dec
+                0x08004d80       0x38 ./Synth/soundGen.o
+                0x08004d80                FM_OP2_freqMul_dec
+ .text.FM_OP2_modInd_set
+                0x08004db8        0xc ./Synth/soundGen.o
+                0x08004db8                FM_OP2_modInd_set
+ .text.FM_OP3_freq_set
+                0x08004dc4       0x24 ./Synth/soundGen.o
+                0x08004dc4                FM_OP3_freq_set
+ .text.FM_OP3_modInd_set
+                0x08004de8        0xc ./Synth/soundGen.o
+                0x08004de8                FM_OP3_modInd_set
+ .text.FM_OP3_freqMul_inc
+                0x08004df4       0x38 ./Synth/soundGen.o
+                0x08004df4                FM_OP3_freqMul_inc
+ .text.FM_OP3_freqMul_dec
+                0x08004e2c       0x38 ./Synth/soundGen.o
+                0x08004e2c                FM_OP3_freqMul_dec
+ .text.FM_OP4_freq_set
+                0x08004e64       0x24 ./Synth/soundGen.o
+                0x08004e64                FM_OP4_freq_set
+ .text.FM_OP4_modInd_set
+                0x08004e88        0xc ./Synth/soundGen.o
+                0x08004e88                FM_OP4_modInd_set
+ .text.FM_OP4_freqMul_inc
+                0x08004e94       0x38 ./Synth/soundGen.o
+                0x08004e94                FM_OP4_freqMul_inc
+ .text.FM_OP4_freqMul_dec
+                0x08004ecc       0x38 ./Synth/soundGen.o
+                0x08004ecc                FM_OP4_freqMul_dec
+ .text.Synth_Init
+                0x08004f04      0x104 ./Synth/soundGen.o
+                0x08004f04                Synth_Init
+ .text.sequencer_newStep_action
+                0x08005008       0xd4 ./Synth/soundGen.o
+                0x08005008                sequencer_newStep_action
+ .text.sequencer_newSequence_action
+                0x080050dc       0x28 ./Synth/soundGen.o
+                0x080050dc                sequencer_newSequence_action
+ .text.make_sound
+                0x08005104      0x214 ./Synth/soundGen.o
+                0x08005104                make_sound
+ .text.setSysTick
+                0x08005318       0x44 ./Synth/timers.o
+                0x08005318                setSysTick
+ .text.TimingDelay_Decrement
+                0x0800535c       0x20 ./Synth/timers.o
+                0x0800535c                TimingDelay_Decrement
+ .text.USB_OTG_WritePacket
+                0x0800537c       0x28 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x0800537c                USB_OTG_WritePacket
+ .text.USB_OTG_ReadPacket
+                0x080053a4       0x28 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x080053a4                USB_OTG_ReadPacket
+ .text.USB_OTG_SelectCore
+                0x080053cc      0x348 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x080053cc                USB_OTG_SelectCore
+ .text.USB_OTG_CoreInit
+                0x08005714      0x134 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x08005714                USB_OTG_CoreInit
+ .text.USB_OTG_EnableGlobalInt
+                0x08005848       0x10 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x08005848                USB_OTG_EnableGlobalInt
+ .text.USB_OTG_DisableGlobalInt
+                0x08005858       0x10 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x08005858                USB_OTG_DisableGlobalInt
+ .text.USB_OTG_SetCurrentMode
+                0x08005868       0x2c ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x08005868                USB_OTG_SetCurrentMode
+ .text.USB_OTG_IsHostMode
+                0x08005894        0xc ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x08005894                USB_OTG_IsHostMode
+ .text.USB_OTG_ReadCoreItr
+                0x080058a0        0xc ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x080058a0                USB_OTG_ReadCoreItr
+ .text.USB_OTG_CoreInitHost
+                0x080058ac      0x240 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x080058ac                USB_OTG_CoreInitHost
+ .text.USB_OTG_InitFSLSPClkSel
+                0x08005aec        0xc ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x08005aec                USB_OTG_InitFSLSPClkSel
+ .text.USB_OTG_ReadHostAllChannels_intr
+                0x08005af8        0x8 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x08005af8                USB_OTG_ReadHostAllChannels_intr
+ .text.USB_OTG_ResetPort
+                0x08005b00       0x3c ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x08005b00                USB_OTG_ResetPort
+ .text.USB_OTG_HC_Init
+                0x08005b3c       0xe4 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x08005b3c                USB_OTG_HC_Init
+ .text.USB_OTG_HC_StartXfer
+                0x08005c20      0x13c ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x08005c20                USB_OTG_HC_StartXfer
+ .text.USB_OTG_HC_Halt
+                0x08005d5c       0x40 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x08005d5c                USB_OTG_HC_Halt
+ .text.USB_OTG_HC_DoPing
+                0x08005d9c       0x24 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+                0x08005d9c                USB_OTG_HC_DoPing
+ .text.HCD_Init
+                0x08005dc0       0xec ./Lib/STM32_USB_OTG_Driver/src/usb_hcd.o
+                0x08005dc0                HCD_Init
+ .text.HCD_GetCurrentSpeed
+                0x08005eac        0xc ./Lib/STM32_USB_OTG_Driver/src/usb_hcd.o
+                0x08005eac                HCD_GetCurrentSpeed
+ .text.HCD_ResetPort
+                0x08005eb8        0xc ./Lib/STM32_USB_OTG_Driver/src/usb_hcd.o
+                0x08005eb8                HCD_ResetPort
+ .text.HCD_IsDeviceConnected
+                0x08005ec4        0x8 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd.o
+                0x08005ec4                HCD_IsDeviceConnected
+ .text.HCD_GetCurrentFrame
+                0x08005ecc        0x8 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd.o
+                0x08005ecc                HCD_GetCurrentFrame
+ .text.HCD_GetURB_State
+                0x08005ed4        0x8 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd.o
+                0x08005ed4                HCD_GetURB_State
+ .text.HCD_SubmitRequest
+                0x08005edc       0x18 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd.o
+                0x08005edc                HCD_SubmitRequest
+ .text.USB_OTG_USBH_handle_sof_ISR
+                0x08005ef4       0x34 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+ .text.USB_OTG_USBH_handle_Disconnect_ISR
+                0x08005f28       0x34 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+ .text.USB_OTG_USBH_handle_nptxfempty_ISR
+                0x08005f5c      0x180 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+ .text.USB_OTG_USBH_handle_ptxfempty_ISR
+                0x080060dc      0x180 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+ .text.USB_OTG_USBH_handle_port_ISR
+                0x0800625c      0x164 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+ .text.USB_OTG_USBH_handle_hc_n_Out_ISR
+                0x080063c0      0x548 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+ .text.USB_OTG_USBH_handle_hc_n_In_ISR
+                0x08006908      0x5a4 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+ .text.USB_OTG_USBH_handle_hc_ISR
+                0x08006eac       0x8c ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+ .text.USB_OTG_USBH_handle_rx_qlvl_ISR
+                0x08006f38      0x194 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+ .text.USB_OTG_USBH_handle_IncompletePeriodicXfer_ISR
+                0x080070cc       0x50 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+ .text.USBH_OTG_ISR_Handler
+                0x0800711c      0x10c ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+                0x0800711c                USBH_OTG_ISR_Handler
+ .text.USBH_Connected
+                0x08007228        0xc ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+                0x08007228                USBH_Connected
+ .text.USBH_Disconnected
+                0x08007234        0xc ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+                0x08007234                USBH_Disconnected
+ .text.USBH_SOF
+                0x08007240        0x4 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+                0x08007240                USBH_SOF
+ .text.USBH_Init
+                0x08007244       0x60 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+                0x08007244                USBH_Init
+ .text.USBH_HandleControl
+                0x080072a4      0x1e0 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+                0x080072a4                USBH_HandleControl
+ .text.USBH_Process
+                0x08007484      0x3d4 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+                0x08007484                USBH_Process
+ .text.USBH_Open_Channel
+                0x08007858       0x58 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_hcs.o
+                0x08007858                USBH_Open_Channel
+ .text.USBH_Modify_Channel
+                0x080078b0       0x3c ./Lib/STM32_USB_HOST_Library/Core/src/usbh_hcs.o
+                0x080078b0                USBH_Modify_Channel
+ .text.USBH_Alloc_Channel
+                0x080078ec       0x88 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_hcs.o
+                0x080078ec                USBH_Alloc_Channel
+ .text.USBH_Free_Channel
+                0x08007974       0x18 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_hcs.o
+                0x08007974                USBH_Free_Channel
+ .text.USBH_DeAllocate_AllChannel
+                0x0800798c       0x38 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_hcs.o
+                0x0800798c                USBH_DeAllocate_AllChannel
+ .text.USBH_CtlReq
+                0x080079c4       0x50 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.o
+                0x080079c4                USBH_CtlReq
+ .text.USBH_CtlSendSetup
+                0x08007a14       0x30 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.o
+                0x08007a14                USBH_CtlSendSetup
+ .text.USBH_CtlSendData
+                0x08007a44       0x48 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.o
+                0x08007a44                USBH_CtlSendData
+ .text.USBH_CtlReceiveData
+                0x08007a8c       0x2c ./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.o
+                0x08007a8c                USBH_CtlReceiveData
+ .text.USBH_BulkReceiveData
+                0x08007ab8       0x38 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.o
+                0x08007ab8                USBH_BulkReceiveData
+ .text.USBH_Get_DevDesc
+                0x08007af0       0xbc ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+                0x08007af0                USBH_Get_DevDesc
+ .text.USBH_Get_CfgDesc
+                0x08007bac      0x294 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+                0x08007bac                USBH_Get_CfgDesc
+ .text.USBH_Get_StringDesc
+                0x08007e40       0x74 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+                0x08007e40                USBH_Get_StringDesc
+ .text.USBH_SetAddress
+                0x08007eb4       0x1c ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+                0x08007eb4                USBH_SetAddress
+ .text.USBH_SetCfg
+                0x08007ed0       0x1c ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+                0x08007ed0                USBH_SetCfg
+ .text.USBH_ClrFeature
+                0x08007eec       0x30 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+                0x08007eec                USBH_ClrFeature
+ .text.NVIC_PriorityGroupConfig
+                0x08007f1c       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/misc.o
+                0x08007f1c                NVIC_PriorityGroupConfig
+ .text.NVIC_Init
+                0x08007f30       0x78 ./Lib/STM32F4xx_StdPeriph_Driver/src/misc.o
+                0x08007f30                NVIC_Init
+ .text.NVIC_SetVectorTable
+                0x08007fa8       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/misc.o
+                0x08007fa8                NVIC_SetVectorTable
+ .text.DAC_Init
+                0x08007fbc       0x30 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+                0x08007fbc                DAC_Init
+ .text.DAC_Cmd  0x08007fec       0x28 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+                0x08007fec                DAC_Cmd
+ .text.DAC_SetChannel1Data
+                0x08008014       0x20 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+                0x08008014                DAC_SetChannel1Data
+ .text.DMA_DeInit
+                0x08008034      0x130 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+                0x08008034                DMA_DeInit
+ .text.DMA_Init
+                0x08008164       0x70 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+                0x08008164                DMA_Init
+ .text.DMA_Cmd  0x080081d4       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+                0x080081d4                DMA_Cmd
+ .text.DMA_GetFlagStatus
+                0x080081e8       0x3c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+                0x080081e8                DMA_GetFlagStatus
+ .text.DMA_ClearFlag
+                0x08008224       0x34 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+                0x08008224                DMA_ClearFlag
+ .text.DMA_ITConfig
+                0x08008258       0x40 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+                0x08008258                DMA_ITConfig
+ .text.EXTI_Init
+                0x08008298       0x80 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o
+                0x08008298                EXTI_Init
+ .text.EXTI_GetITStatus
+                0x08008318       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o
+                0x08008318                EXTI_GetITStatus
+ .text.EXTI_ClearITPendingBit
+                0x0800832c        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o
+                0x0800832c                EXTI_ClearITPendingBit
+ .text.GPIO_Init
+                0x08008338       0xc0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+                0x08008338                GPIO_Init
+ .text.GPIO_ReadInputDataBit
+                0x080083f8        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+                0x080083f8                GPIO_ReadInputDataBit
+ .text.GPIO_SetBits
+                0x08008404        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+                0x08008404                GPIO_SetBits
+ .text.GPIO_ResetBits
+                0x08008408        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+                0x08008408                GPIO_ResetBits
+ .text.GPIO_WriteBit
+                0x0800840c        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+                0x0800840c                GPIO_WriteBit
+ .text.GPIO_PinAFConfig
+                0x08008418       0x28 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+                0x08008418                GPIO_PinAFConfig
+ .text.I2C_DeInit
+                0x08008440       0x6c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+                0x08008440                I2C_DeInit
+ .text.I2C_Init
+                0x080084ac       0xe0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+                0x080084ac                I2C_Init
+ .text.I2C_Cmd  0x0800858c       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+                0x0800858c                I2C_Cmd
+ .text.I2C_GenerateSTART
+                0x080085a8       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+                0x080085a8                I2C_GenerateSTART
+ .text.I2C_GenerateSTOP
+                0x080085c4       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+                0x080085c4                I2C_GenerateSTOP
+ .text.I2C_Send7bitAddress
+                0x080085e0       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+                0x080085e0                I2C_Send7bitAddress
+ .text.I2C_AcknowledgeConfig
+                0x080085f4       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+                0x080085f4                I2C_AcknowledgeConfig
+ .text.I2C_SendData
+                0x08008610        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+                0x08008610                I2C_SendData
+ .text.I2C_ReceiveData
+                0x08008614        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+                0x08008614                I2C_ReceiveData
+ .text.I2C_CheckEvent
+                0x0800861c       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+                0x0800861c                I2C_CheckEvent
+ .text.I2C_GetFlagStatus
+                0x08008634       0x38 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+                0x08008634                I2C_GetFlagStatus
+ .text.I2C_ClearFlag
+                0x0800866c        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+                0x0800866c                I2C_ClearFlag
+ .text.RCC_GetClocksFreq
+                0x08008674       0x90 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+                0x08008674                RCC_GetClocksFreq
+ .text.RCC_AHB1PeriphClockCmd
+                0x08008704       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+                0x08008704                RCC_AHB1PeriphClockCmd
+ .text.RCC_AHB2PeriphClockCmd
+                0x0800871c       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+                0x0800871c                RCC_AHB2PeriphClockCmd
+ .text.RCC_APB1PeriphClockCmd
+                0x08008734       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+                0x08008734                RCC_APB1PeriphClockCmd
+ .text.RCC_APB2PeriphClockCmd
+                0x0800874c       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+                0x0800874c                RCC_APB2PeriphClockCmd
+ .text.RCC_APB1PeriphResetCmd
+                0x08008764       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+                0x08008764                RCC_APB1PeriphResetCmd
+ .text.RCC_APB2PeriphResetCmd
+                0x0800877c       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+                0x0800877c                RCC_APB2PeriphResetCmd
+ .text.RNG_Cmd  0x08008794       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o
+                0x08008794                RNG_Cmd
+ .text.RNG_GetRandomNumber
+                0x080087b0        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o
+                0x080087b0                RNG_GetRandomNumber
+ .text.RNG_GetFlagStatus
+                0x080087bc       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o
+                0x080087bc                RNG_GetFlagStatus
+ .text.SPI_I2S_DeInit
+                0x080087d0       0xd0 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+                0x080087d0                SPI_I2S_DeInit
+ .text.I2S_Init
+                0x080088a0       0xec ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+                0x080088a0                I2S_Init
+ .text.I2S_Cmd  0x0800898c       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+                0x0800898c                I2S_Cmd
+ .text.SPI_I2S_SendData
+                0x080089a8        0x4 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+                0x080089a8                SPI_I2S_SendData
+ .text.SPI_I2S_DMACmd
+                0x080089ac       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+                0x080089ac                SPI_I2S_DMACmd
+ .text.SPI_I2S_ITConfig
+                0x080089c0       0x20 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+                0x080089c0                SPI_I2S_ITConfig
+ .text.SPI_I2S_GetFlagStatus
+                0x080089e0        0xc ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+                0x080089e0                SPI_I2S_GetFlagStatus
+ .text.SYSCFG_EXTILineConfig
+                0x080089ec       0x30 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o
+                0x080089ec                SYSCFG_EXTILineConfig
+ .text.TIM_TimeBaseInit
+                0x08008a1c       0x9c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+                0x08008a1c                TIM_TimeBaseInit
+ .text.TIM_ARRPreloadConfig
+                0x08008ab8       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+                0x08008ab8                TIM_ARRPreloadConfig
+ .text.TIM_Cmd  0x08008ad4       0x1c ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+                0x08008ad4                TIM_Cmd
+ .text.TIM_ITConfig
+                0x08008af0       0x14 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+                0x08008af0                TIM_ITConfig
+ .text.TIM_GetITStatus
+                0x08008b04       0x18 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+                0x08008b04                TIM_GetITStatus
+ .text.TIM_ClearITPendingBit
+                0x08008b1c        0x8 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+                0x08008b1c                TIM_ClearITPendingBit
+ .text.floorf   0x08008b24       0xa0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_floor.o)
+                0x08008b24                floorf
+ .text.lrintf   0x08008bc4       0x94 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
+                0x08008bc4                lrintf
+ .text.rintf    0x08008c58       0xd0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
+                0x08008c58                rintf
+ .text.sinf     0x08008d28       0x7c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o)
+                0x08008d28                sinf
+ .text.powf     0x08008da4      0x348 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o)
+                0x08008da4                powf
+ .text.__ieee754_powf
+                0x080090ec      0x5c8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+                0x080090ec                __ieee754_powf
+ .text.__ieee754_rem_pio2f
+                0x080096b4      0x28c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
+                0x080096b4                __ieee754_rem_pio2f
+ .text.__ieee754_sqrtf
+                0x08009940       0xa4 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_sqrt.o)
+                0x08009940                __ieee754_sqrtf
+ .text.__kernel_cosf
+                0x080099e4      0x104 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_cos.o)
+                0x080099e4                __kernel_cosf
+ .text.__kernel_rem_pio2f
+                0x08009ae8      0x5cc c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
+                0x08009ae8                __kernel_rem_pio2f
+ .text.__kernel_sinf
+                0x0800a0b4       0x90 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_sin.o)
+                0x0800a0b4                __kernel_sinf
+ .text.matherr  0x0800a144        0x4 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_matherr.o)
+                0x0800a144                matherr
+ .text.rint     0x0800a148      0x120 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o)
+                0x0800a148                rint
+ .text.fabsf    0x0800a268       0x10 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
+                0x0800a268                fabsf
+ .text.finitef  0x0800a278       0x14 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_finite.o)
+                0x0800a278                finitef
+ .text.__fpclassifyf
+                0x0800a28c       0x38 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fpclassify.o)
+                0x0800a28c                __fpclassifyf
+ .text.nanf     0x0800a2c4        0xc c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_nan.o)
+                0x0800a2c4                nanf
+ .text.scalbnf  0x0800a2d0       0xd8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_scalbn.o)
+                0x0800a2d0                scalbnf
+ .text.copysignf
+                0x0800a3a8       0x18 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
+                0x0800a3a8                copysignf
+ .text          0x0800a3c0      0x370 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_addsubdf3.o)
+                0x0800a3c0                __aeabi_drsub
+                0x0800a3c8                __aeabi_dsub
+                0x0800a3c8                __subdf3
+                0x0800a3cc                __aeabi_dadd
+                0x0800a3cc                __adddf3
+                0x0800a644                __floatunsidf
+                0x0800a644                __aeabi_ui2d
+                0x0800a664                __floatsidf
+                0x0800a664                __aeabi_i2d
+                0x0800a688                __aeabi_f2d
+                0x0800a688                __extendsfdf2
+                0x0800a6c4                __floatundidf
+                0x0800a6c4                __aeabi_ul2d
+                0x0800a6d4                __floatdidf
+                0x0800a6d4                __aeabi_l2d
+ .text          0x0800a730      0x424 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_muldivdf3.o)
+                0x0800a730                __aeabi_dmul
+                0x0800a730                __muldf3
+                0x0800a984                __divdf3
+                0x0800a984                __aeabi_ddiv
+ .text          0x0800ab54      0x110 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_cmpdf2.o)
+                0x0800ab54                __gtdf2
+                0x0800ab54                __gedf2
+                0x0800ab5c                __ltdf2
+                0x0800ab5c                __ledf2
+                0x0800ab64                __nedf2
+                0x0800ab64                __eqdf2
+                0x0800ab64                __cmpdf2
+                0x0800abe0                __aeabi_cdrcmple
+                0x0800abf0                __aeabi_cdcmpeq
+                0x0800abf0                __aeabi_cdcmple
+                0x0800ac00                __aeabi_dcmpeq
+                0x0800ac14                __aeabi_dcmplt
+                0x0800ac28                __aeabi_dcmple
+                0x0800ac3c                __aeabi_dcmpge
+                0x0800ac50                __aeabi_dcmpgt
+ .text          0x0800ac64       0xa0 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_truncdfsf2.o)
+                0x0800ac64                __truncdfsf2
+                0x0800ac64                __aeabi_d2f
+ .text          0x0800ad04      0x134 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
+                0x0800ad04                memcpy
+ .text.memset   0x0800ae38       0x94 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+                0x0800ae38                memset
+ .text.srand    0x0800aecc       0x10 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
+                0x0800aecc                srand
+ .text.rand     0x0800aedc       0x40 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
+                0x0800aedc                rand
+ *fill*         0x0800af1c        0x4 
+ .text.rand.__stub
+                0x0800af20       0x10 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ .rodata.GPIO_CLK
+                0x0800af30       0x10 ./System/my_stm32f4_discovery.o
+                0x0800af30                GPIO_CLK
+ .rodata.GPIO_PIN
+                0x0800af40        0x8 ./System/my_stm32f4_discovery.o
+                0x0800af40                GPIO_PIN
+ .rodata.MIDIscale04
+                0x0800af48        0x8 ./Synth/notesTables.o
+                0x0800af48                MIDIscale04
+ .rodata.MIDIscale10
+                0x0800af50        0x8 ./Synth/notesTables.o
+                0x0800af50                MIDIscale10
+ .rodata.MIDIscale11
+                0x0800af58        0x8 ./Synth/notesTables.o
+                0x0800af58                MIDIscale11
+ .rodata.MIDIscale12
+                0x0800af60       0x10 ./Synth/notesTables.o
+                0x0800af60                MIDIscale12
+ .rodata.MIDIscale13
+                0x0800af70        0x4 ./Synth/notesTables.o
+                0x0800af70                MIDIscale13
+ .rodata.MIDIscale14
+                0x0800af74        0x4 ./Synth/notesTables.o
+                0x0800af74                MIDIscale14
+ .rodata.notesFreq
+                0x0800af78      0x1ac ./Synth/notesTables.o
+                0x0800af78                notesFreq
+ .rodata.MIDIscale05
+                0x0800b124        0x8 ./Synth/notesTables.o
+                0x0800b124                MIDIscale05
+ .rodata.MIDIscale06
+                0x0800b12c        0x8 ./Synth/notesTables.o
+                0x0800b12c                MIDIscale06
+ .rodata.MIDIscale07
+                0x0800b134        0x4 ./Synth/notesTables.o
+                0x0800b134                MIDIscale07
+ .rodata.MIDIscale08
+                0x0800b138        0x4 ./Synth/notesTables.o
+                0x0800b138                MIDIscale08
+ .rodata.MIDIscale09
+                0x0800b13c        0x4 ./Synth/notesTables.o
+                0x0800b13c                MIDIscale09
+ .rodata.MIDIscale01
+                0x0800b140        0x8 ./Synth/notesTables.o
+                0x0800b140                MIDIscale01
+ .rodata.MIDIscale02
+                0x0800b148        0x8 ./Synth/notesTables.o
+                0x0800b148                MIDIscale02
+ .rodata.MIDIscale03
+                0x0800b150        0x8 ./Synth/notesTables.o
+                0x0800b150                MIDIscale03
+ .rodata.CSWTCH.11
+                0x0800b158       0x3c ./Synth/sequencer.o
+ .rodata.sinetable
+                0x0800b194     0x1004 ./Synth/sinetable.o
+                0x0800b194                sinetable
+ .rodata.str1.4
+                0x0800c198        0x4 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+ .rodata.TWO23  0x0800c19c        0x8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
+ .rodata.TWO23  0x0800c1a4        0x8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
+ .rodata.str1.4
+                0x0800c1ac        0x5 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o)
+                                  0x8 (size before relaxing)
+ *fill*         0x0800c1b1        0x3 
+ .rodata.dp_h   0x0800c1b4        0x8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+ .rodata.dp_l   0x0800c1bc        0x8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+ .rodata.bp     0x0800c1c4        0x8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+ .rodata.str1.4
+                0x00000000        0x5 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+                                  0x4 (size before relaxing)
+ .rodata.npio2_hw
+                0x0800c1cc       0x80 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.two_over_pi
+                0x0800c24c      0x318 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.init_jk
+                0x0800c564        0xc c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
+ .rodata.PIo2   0x0800c570       0x2c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
+ *fill*         0x0800c59c        0x4 
+ .rodata.TWO52  0x0800c5a0       0x10 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o)
+ .rodata.str1.4
+                0x0800c5b0        0x4 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+
+.vfp11_veneer   0x0800c5b4        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x0800c5b4        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x0800c5b4        0x0
+ .iplt          0x00000000        0x0 ./USB/MIDIstream/src/usbh_midi_core.o
+
+.rel.dyn        0x0800c5b4        0x0
+ .rel.iplt      0x00000000        0x0 ./USB/MIDIstream/src/usbh_midi_core.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0800c5b4                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0800c5b4                __exidx_end = .
+                0x0800c5b4                . = ALIGN (0x4)
+                0x0800c5b4                _etext = .
+                0x0800c5b4                _sidata = .
+
+.data           0x20000000      0x4fc load address 0x0800c5b4
+                0x20000000                _sdata = .
+ *(.data .data.*)
+ .data.MIDI_cb  0x20000000       0x10 ./USB/MIDIstream/src/usbh_midi_core.o
+                0x20000000                MIDI_cb
+ .data.USR_Callbacks
+                0x20000010       0x48 ./USB/usbh_usr.o
+                0x20000010                USR_Callbacks
+ .data.GPIO_PORT
+                0x20000058       0x10 ./System/my_stm32f4_discovery.o
+                0x20000058                GPIO_PORT
+ .data.BUTTON_PORT
+                0x20000068        0x4 ./System/my_stm32f4_discovery.o
+                0x20000068                BUTTON_PORT
+ .data.Count    0x2000006c        0x1 ./System/my_stm32f4_discovery.o
+ *fill*         0x2000006d        0x3 
+ .data.AudioRemSize
+                0x20000070        0x4 ./System/my_stm32f4_discovery_audio_codec.o
+                0x20000070                AudioRemSize
+ .data.CODECTimeout
+                0x20000074        0x4 ./System/my_stm32f4_discovery_audio_codec.o
+                0x20000074                CODECTimeout
+ .data.AUDIO_MAL_DMA_CLOCK
+                0x20000078        0x4 ./System/my_stm32f4_discovery_audio_codec.o
+                0x20000078                AUDIO_MAL_DMA_CLOCK
+ .data.AUDIO_MAL_DMA_STREAM
+                0x2000007c        0x4 ./System/my_stm32f4_discovery_audio_codec.o
+                0x2000007c                AUDIO_MAL_DMA_STREAM
+ .data.AUDIO_MAL_DMA_FLAG_TC
+                0x20000080        0x4 ./System/my_stm32f4_discovery_audio_codec.o
+                0x20000080                AUDIO_MAL_DMA_FLAG_TC
+ .data.AudioTotalSize
+                0x20000084        0x4 ./System/my_stm32f4_discovery_audio_codec.o
+                0x20000084                AudioTotalSize
+ .data.AUDIO_MAL_DMA_IRQ
+                0x20000088        0x4 ./System/my_stm32f4_discovery_audio_codec.o
+                0x20000088                AUDIO_MAL_DMA_IRQ
+ .data.CurrAudioInterface
+                0x2000008c        0x4 ./System/my_stm32f4_discovery_audio_codec.o
+                0x2000008c                CurrAudioInterface
+ .data.AUDIO_MAL_DMA_FLAG_HT
+                0x20000090        0x4 ./System/my_stm32f4_discovery_audio_codec.o
+                0x20000090                AUDIO_MAL_DMA_FLAG_HT
+ .data.AUDIO_MAL_DMA_DREG
+                0x20000094        0x4 ./System/my_stm32f4_discovery_audio_codec.o
+                0x20000094                AUDIO_MAL_DMA_DREG
+ .data.SystemCoreClock
+                0x20000098        0x4 ./System/system_stm32f4xx.o
+                0x20000098                SystemCoreClock
+ .data.volume   0x2000009c        0x1 ./Synth/audio.o
+ *fill*         0x2000009d        0x3 
+ .data.fdb      0x200000a0        0x4 ./Synth/delay.o
+ .data.demoMode
+                0x200000a4        0x1 ./Synth/main.o
+                0x200000a4                demoMode
+ *fill*         0x200000a5        0x3 
+ .data.centralFreq
+                0x200000a8        0x4 ./Synth/oscillators.o
+                0x200000a8                centralFreq
+ .data.USBH_HCD_INT_fops
+                0x200000ac        0x4 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+                0x200000ac                USBH_HCD_INT_fops
+ .data.USBH_HCD_INT_cb
+                0x200000b0        0xc ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+                0x200000b0                USBH_HCD_INT_cb
+ .data.APBAHBPrescTable
+                0x200000bc       0x10 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .data.__fdlib_version
+                0x200000cc        0x1 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_lib_ver.o)
+                0x200000cc                __fdlib_version
+ *fill*         0x200000cd        0x3 
+ .data.impure_data
+                0x200000d0      0x428 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x200004f8        0x4 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+                0x200004f8                _impure_ptr
+                0x200004fc                . = ALIGN (0x4)
+                0x200004fc                _edata = .
+
+.igot.plt       0x200004fc        0x0 load address 0x0800cab0
+ .igot.plt      0x00000000        0x0 ./USB/MIDIstream/src/usbh_midi_core.o
+
+.bss            0x200004fc    0x14eac load address 0x0800cab0
+                0x200004fc                _sbss = .
+ *(.bss .bss.*)
+ .bss.start_toggle
+                0x200004fc        0x1 ./USB/MIDIstream/src/usbh_midi_core.o
+                0x200004fc                start_toggle
+ *fill*         0x200004fd        0x3 
+ .bss.BSP_delay
+                0x20000500        0x4 ./USB/usb_bsp.o
+                0x20000500                BSP_delay
+ .bss.Key_pressed
+                0x20000504        0x1 ./System/my_stm32f4_discovery.o
+ .bss.DebouncedKeyPress
+                0x20000505        0x1 ./System/my_stm32f4_discovery.o
+ .bss.Key_changed
+                0x20000506        0x1 ./System/my_stm32f4_discovery.o
+ *fill*         0x20000507        0x1 
+ .bss.AUDIO_MAL_DMA_CHANNEL
+                0x20000508        0x4 ./System/my_stm32f4_discovery_audio_codec.o
+                0x20000508                AUDIO_MAL_DMA_CHANNEL
+ .bss.OutputDev
+                0x2000050c        0x1 ./System/my_stm32f4_discovery_audio_codec.o
+                0x2000050c                OutputDev
+ *fill*         0x2000050d        0x3 
+ .bss.delayline
+                0x20000510    0x13888 ./Synth/delay.o
+ .bss.writepos  0x20013d98        0x4 ./Synth/delay.o
+ .bss.old_dy    0x20013d9c        0x4 ./Synth/delay.o
+ .bss.shift     0x20013da0        0x4 ./Synth/delay.o
+ .bss.readpos   0x20013da4        0x4 ./Synth/delay.o
+ .bss.freeze    0x20013da8        0x1 ./Synth/main.o
+                0x20013da8                freeze
+ *fill*         0x20013da9        0x3 
+ .bss.TimingDelay1
+                0x20013dac        0x4 ./Synth/timers.o
+ .bss.TimingDelay
+                0x20013db0        0x4 ./Synth/timers.o
+ .bss.timeout.8856
+                0x20013db4        0x2 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+ .bss.prev_ep_size.8818
+                0x20013db6        0x2 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+ .bss.prev_itf.8819
+                0x20013db8        0x1 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+ *(COMMON)
+ *fill*         0x20013db9        0x3 
+ COMMON         0x20013dbc       0x58 ./USB/MIDIstream/src/usbh_midi_core.o
+                0x20013dbc                MIDI_Machine
+                0x20013e0c                MIDI_Setup
+ COMMON         0x20013e14        0x8 ./System/my_stm32f4_discovery.o
+                0x20013e14                BlueLED_counter
+                0x20013e18                NVIC_InitStructure
+ COMMON         0x20013e1c       0x7c ./System/my_stm32f4_discovery_audio_codec.o
+                0x20013e1c                CurrentPos
+                0x20013e20                AUDIO_MAL_DMA_InitStructure
+                0x20013e5c                DMA_InitStructure
+ COMMON         0x20013e98       0x28 ./Synth/adsr.o
+                0x20013e98                adsr
+ COMMON         0x20013ec0      0xc80 ./Synth/audio.o
+                0x20013ec0                audiobuff
+ COMMON         0x20014b40      0x618 ./Synth/main.o
+                0x20014b40                USB_OTG_Core_dev
+                0x200150ec                USB_Host
+ COMMON         0x20015158        0xc ./Synth/resonantFilter.o
+                0x20015158                __errno
+                0x2001515c                filterFreq
+                0x20015160                filterFreq2
+ COMMON         0x20015164       0x44 ./Synth/sequencer.o
+                0x20015164                noteG
+                0x20015174                seq
+ COMMON         0x200151a8      0x200 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+                0x200151a8                USBH_CfgDesc
+                0x200153a8                . = ALIGN (0x4)
+                0x200153a8                _ebss = .
+
+.co_stack       0x200153a8      0x800 load address 0x0802195c
+                0x200153a8                . = ALIGN (0x8)
+ *(.co_stack .co_stack.*)
+ .co_stack      0x200153a8      0x800 ./System/startup_stm32f4xx.o
+                0x200153a8                pulStack
+                0x20015ba8                . = ALIGN (0x4)
+                0x20015ba8                _end = .
+OUTPUT(Dekrispator.elf elf32-littlearm)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./USB/MIDIstream/src/usbh_midi_core.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./USB/usb_bsp.o
+ .comment       0x00000000       0x71 ./USB/usbh_usr.o
+ .comment       0x00000000       0x71 ./System/my_stm32f4_discovery.o
+ .comment       0x00000000       0x71 ./System/my_stm32f4_discovery_audio_codec.o
+ .comment       0x00000000       0x71 ./System/startup_stm32f4xx.o
+ .comment       0x00000000       0x71 ./System/stm32fxxx_it.o
+ .comment       0x00000000       0x71 ./System/system_stm32f4xx.o
+ .comment       0x00000000       0x71 ./Synth/adsr.o
+ .comment       0x00000000       0x71 ./Synth/audio.o
+ .comment       0x00000000       0x71 ./Synth/chorusFD.o
+ .comment       0x00000000       0x71 ./Synth/delay.o
+ .comment       0x00000000       0x71 ./Synth/drifter.o
+ .comment       0x00000000       0x71 ./Synth/main.o
+ .comment       0x00000000       0x71 ./Synth/math_tools.o
+ .comment       0x00000000       0x71 ./Synth/midi_interface.o
+ .comment       0x00000000       0x71 ./Synth/notesTables.o
+ .comment       0x00000000       0x71 ./Synth/oscillators.o
+ .comment       0x00000000       0x71 ./Synth/random.o
+ .comment       0x00000000       0x71 ./Synth/resonantFilter.o
+ .comment       0x00000000       0x71 ./Synth/sequencer.o
+ .comment       0x00000000       0x71 ./Synth/sinetable.o
+ .comment       0x00000000       0x71 ./Synth/soundGen.o
+ .comment       0x00000000       0x71 ./Synth/timers.o
+ .comment       0x00000000       0x71 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+ .comment       0x00000000       0x71 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd.o
+ .comment       0x00000000       0x71 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+ .comment       0x00000000       0x71 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+ .comment       0x00000000       0x71 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_hcs.o
+ .comment       0x00000000       0x71 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.o
+ .comment       0x00000000       0x71 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+ .comment       0x00000000       0x71 ./Lib/STM32F4xx_StdPeriph_Driver/src/misc.o
+ .comment       0x00000000       0x71 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .comment       0x00000000       0x71 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .comment       0x00000000       0x71 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o
+ .comment       0x00000000       0x71 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+ .comment       0x00000000       0x71 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .comment       0x00000000       0x71 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .comment       0x00000000       0x71 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o
+ .comment       0x00000000       0x71 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .comment       0x00000000       0x71 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o
+ .comment       0x00000000       0x71 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+
+.ARM.attributes
+                0x00000000       0x37
+ .ARM.attributes
+                0x00000000       0x39 ./USB/MIDIstream/src/usbh_midi_core.o
+ .ARM.attributes
+                0x00000039       0x39 ./USB/usb_bsp.o
+ .ARM.attributes
+                0x00000072       0x39 ./USB/usbh_usr.o
+ .ARM.attributes
+                0x000000ab       0x39 ./System/my_stm32f4_discovery.o
+ .ARM.attributes
+                0x000000e4       0x39 ./System/my_stm32f4_discovery_audio_codec.o
+ .ARM.attributes
+                0x0000011d       0x39 ./System/startup_stm32f4xx.o
+ .ARM.attributes
+                0x00000156       0x39 ./System/stm32fxxx_it.o
+ .ARM.attributes
+                0x0000018f       0x39 ./System/system_stm32f4xx.o
+ .ARM.attributes
+                0x000001c8       0x39 ./Synth/adsr.o
+ .ARM.attributes
+                0x00000201       0x39 ./Synth/audio.o
+ .ARM.attributes
+                0x0000023a       0x39 ./Synth/chorusFD.o
+ .ARM.attributes
+                0x00000273       0x39 ./Synth/delay.o
+ .ARM.attributes
+                0x000002ac       0x39 ./Synth/drifter.o
+ .ARM.attributes
+                0x000002e5       0x39 ./Synth/main.o
+ .ARM.attributes
+                0x0000031e       0x39 ./Synth/math_tools.o
+ .ARM.attributes
+                0x00000357       0x39 ./Synth/midi_interface.o
+ .ARM.attributes
+                0x00000390       0x39 ./Synth/notesTables.o
+ .ARM.attributes
+                0x000003c9       0x39 ./Synth/oscillators.o
+ .ARM.attributes
+                0x00000402       0x39 ./Synth/random.o
+ .ARM.attributes
+                0x0000043b       0x39 ./Synth/resonantFilter.o
+ .ARM.attributes
+                0x00000474       0x39 ./Synth/sequencer.o
+ .ARM.attributes
+                0x000004ad       0x39 ./Synth/sinetable.o
+ .ARM.attributes
+                0x000004e6       0x39 ./Synth/soundGen.o
+ .ARM.attributes
+                0x0000051f       0x39 ./Synth/timers.o
+ .ARM.attributes
+                0x00000558       0x39 ./Lib/STM32_USB_OTG_Driver/src/usb_core.o
+ .ARM.attributes
+                0x00000591       0x39 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd.o
+ .ARM.attributes
+                0x000005ca       0x39 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+ .ARM.attributes
+                0x00000603       0x39 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.o
+ .ARM.attributes
+                0x0000063c       0x39 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_hcs.o
+ .ARM.attributes
+                0x00000675       0x39 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.o
+ .ARM.attributes
+                0x000006ae       0x39 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o
+ .ARM.attributes
+                0x000006e7       0x39 ./Lib/STM32F4xx_StdPeriph_Driver/src/misc.o
+ .ARM.attributes
+                0x00000720       0x39 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o
+ .ARM.attributes
+                0x00000759       0x39 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o
+ .ARM.attributes
+                0x00000792       0x39 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o
+ .ARM.attributes
+                0x000007cb       0x39 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o
+ .ARM.attributes
+                0x00000804       0x39 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o
+ .ARM.attributes
+                0x0000083d       0x39 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o
+ .ARM.attributes
+                0x00000876       0x39 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o
+ .ARM.attributes
+                0x000008af       0x39 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o
+ .ARM.attributes
+                0x000008e8       0x39 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o
+ .ARM.attributes
+                0x00000921       0x39 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o
+ .ARM.attributes
+                0x0000095a       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_floor.o)
+ .ARM.attributes
+                0x0000098e       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
+ .ARM.attributes
+                0x000009c2       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
+ .ARM.attributes
+                0x000009f6       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o)
+ .ARM.attributes
+                0x00000a2a       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o)
+ .ARM.attributes
+                0x00000a5e       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+ .ARM.attributes
+                0x00000a92       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
+ .ARM.attributes
+                0x00000ac6       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_sqrt.o)
+ .ARM.attributes
+                0x00000afa       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_cos.o)
+ .ARM.attributes
+                0x00000b2e       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
+ .ARM.attributes
+                0x00000b62       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_sin.o)
+ .ARM.attributes
+                0x00000b96       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_lib_ver.o)
+ .ARM.attributes
+                0x00000bca       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_matherr.o)
+ .ARM.attributes
+                0x00000bfe       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o)
+ .ARM.attributes
+                0x00000c32       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
+ .ARM.attributes
+                0x00000c66       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_finite.o)
+ .ARM.attributes
+                0x00000c9a       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fpclassify.o)
+ .ARM.attributes
+                0x00000cce       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_nan.o)
+ .ARM.attributes
+                0x00000d02       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_scalbn.o)
+ .ARM.attributes
+                0x00000d36       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
+ .ARM.attributes
+                0x00000d6a       0x22 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000d8c       0x22 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x00000dae       0x22 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000dd0       0x22 C:\Program Files\GNU Tools ARM Embedded\4.8 2013q4\lib\gcc\arm-none-eabi\4.8.3\armv7e-m\fpu\libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x00000df2       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000e12       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000e46       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
+ .ARM.attributes
+                0x00000e7a       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+
+.debug_frame    0x00000000      0x378
+ .debug_frame   0x00000000       0x28 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_floor.o)
+ .debug_frame   0x00000028       0x28 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
+ .debug_frame   0x00000050       0x28 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
+ .debug_frame   0x00000078       0x28 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o)
+ .debug_frame   0x000000a0       0x38 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o)
+ .debug_frame   0x000000d8       0x3c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+ .debug_frame   0x00000114       0x30 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
+ .debug_frame   0x00000144       0x2c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_sqrt.o)
+ .debug_frame   0x00000170       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_cos.o)
+ .debug_frame   0x00000190       0x44 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
+ .debug_frame   0x000001d4       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_sin.o)
+ .debug_frame   0x000001f4       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_matherr.o)
+ .debug_frame   0x00000214       0x30 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o)
+ .debug_frame   0x00000244       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
+ .debug_frame   0x00000264       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_finite.o)
+ .debug_frame   0x00000284       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fpclassify.o)
+ .debug_frame   0x000002a4       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_nan.o)
+ .debug_frame   0x000002c4       0x30 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_scalbn.o)
+ .debug_frame   0x000002f4       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
+ .debug_frame   0x00000314       0x2c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .debug_frame   0x00000340       0x38 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
