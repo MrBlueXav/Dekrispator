@@ -2,8 +2,12 @@
 ## Eclipse
 #################
 
+*.d
+*.o
+
+
 *.pydevproject
-.project
+#.project
 .metadata
 bin/
 tmp/
@@ -13,7 +17,7 @@ tmp/
 *~.nib
 local.properties
 .classpath
-.settings/
+#.settings/
 .loadpath
 
 # External tool builders
@@ -23,7 +27,7 @@ local.properties
 *.launch
 
 # CDT-specific
-.cproject
+#.cproject
 
 # PDT-specific
 .buildpath
@@ -43,8 +47,8 @@ local.properties
 
 # Build results
 
-[Dd]ebug/
-[Rr]elease/
+#[Dd]ebug/
+#[Rr]elease/
 x64/
 build/
 [Bb]in/
