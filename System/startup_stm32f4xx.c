@@ -4,13 +4,13 @@
   * @author    Coocox
   * @version   V1.0
   * @date      03/05/2012
-  * @brief     STM32F4xx Devices vector table for RIDE7 toolchain. 
+  * @brief     STM32F4xx Devices vector table for RIDE7 toolchain.
   *            This module performs:
   *                - Set the initial SP
   *                - Set the initial PC == Reset_Handler,
   *                - Set the vector table entries with the exceptions ISR address
-  *                - Configure the clock system and the external SRAM mounted on 
-  *                  STM324xG-EVAL board to be used as data memory (optional, 
+  *                - Configure the clock system and the external SRAM mounted on
+  *                  STM324xG-EVAL board to be used as data memory (optional,
   *                  to be enabled by user)
   *                - Branches to main in the C library (which eventually
   *                  calls main()).
@@ -18,7 +18,7 @@
   *            priority is Privileged, and the Stack is set to Main.
   ******************************************************************************
   */
-    
+
 
 /*----------Stack Configuration-----------------------------------------------*/
 #define STACK_SIZE       0x00000200      /*!< Stack size (in Words)           */
@@ -167,7 +167,7 @@ void (* const g_pfnVectors[])(void) =
   0,                         /*!< Reserved                                    */
   PendSV_Handler,            /*!< PendSV Handler                              */
   SysTick_Handler,           /*!< SysTick Handler                             */
-  
+
   /*----------External Exceptions---------------------------------------------*/
   WWDG_IRQHandler,           /*!<  0: Window WatchDog                         */
   PVD_IRQHandler,            /*!<  1: PVD through EXTI Line detection         */
@@ -251,7 +251,7 @@ void (* const g_pfnVectors[])(void) =
   CRYP_IRQHandler,           /*!< 53: CRYP crypto                             */
   HASH_RNG_IRQHandler,       /*!< 53: Hash and Rng                            */
   FPU_IRQHandler             /*!< 53: FPU                                     */
-  
+
 };
 
 
@@ -275,7 +275,7 @@ void Default_Reset_Handler(void)
   {
     *(pulDest++) = *(pulSrc++);
   }
-  
+
   /* Zero fill the bss segment.  This is done with inline assembly since this
      will clear the value of pulDest if it is not kept in a register. */
   __asm("  ldr     r0, =_sbss\n"
@@ -288,12 +288,12 @@ void Default_Reset_Handler(void)
         "    strlt   r2, [r0], #4\n"
         "    blt     zero_loop");
 #ifdef __FPU_USED
-  /* Enable FPU.*/ 
+  /* Enable FPU.*/
   __asm("  LDR.W R0, =0xE000ED88\n"
         "  LDR R1, [R0]\n"
         "  ORR R1, R1, #(0xF << 20)\n"
         "  STR R1, [R0]");
-#endif	
+#endif
 
 
   SystemInit();    /* Setup the microcontroller system(CMSIS) */
