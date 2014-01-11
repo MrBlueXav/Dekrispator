@@ -31,14 +31,14 @@ Ready to use files are in Ressources folder.
  * oscillators with :
   * low aliased analog waveforms, 
   * 4 OP FM generator
-  * multisaw
+  * multisaw (several saws with individual "drifters")
   * 10 sine additive generator
   * noise
  * vibrato
  * tremolo
  * drive/distortion
  * 16 step random sequencer
- * choosable scales
+ * several scales to choose from
  * 2 parallel filters LP/BP/HP with LFOs
  * Effects :
   * Echo
