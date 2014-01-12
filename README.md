@@ -45,5 +45,16 @@ Ready to use files are in Ressources folder.
   * Chorus/Flanger
  * random sound/FX patch generator
 
+- - - -
 
+**Buiding from source :**
+
+I've used :
+
+* Eclipse Kepler
+* GNU ARM plugin for Eclipse
+* Yagarto tools for make, rm...
+* GNU Tools for ARM Embedded Processors (gcc)
+
+- - - 
   
