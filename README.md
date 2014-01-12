@@ -49,12 +49,16 @@ Ready to use files are in Ressources folder.
 
 **Buiding from source :**
 
-I've used :
+I've used (Windows):
 
 * Eclipse Kepler
 * GNU ARM plugin for Eclipse
-* Yagarto tools for make, rm...
-* GNU Tools for ARM Embedded Processors (gcc)
+* Yagarto tools for make, rm, ...
+* GNU Tools for ARM Embedded Processors (gcc 4.8 2013 q4)
+* STM32 ST-LINK Utility for flashing the microcontroller
 
+Simple command line :
+
+Go into Release folder and type make (with Cygwin terminal).
 - - - 
   
