@@ -118,7 +118,7 @@
 					<sourceEntries>
 						<entry excluding="Synth|System|USB|Lib" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry excluding="STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c|STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c|STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c|STM32_USB_OTG_Driver/src/usb_otg.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Lib"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Synth"/>
+						<entry excluding="minBLEP_osc.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Synth"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="System"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="USB"/>
 					</sourceEntries>
@@ -176,7 +176,7 @@
 							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.thumbinterwork.619974871" name="Thumb interwork (-mthumb-interwork)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.thumbinterwork" value="false" valueType="boolean"/>
 							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.unalignedaccess.891068068" name="Unaligned access" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.unalignedaccess" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.unalignedaccess.default" valueType="enumerated"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform.344261057" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
-							<builder buildPath="${workspace_loc:/Dekrispator}/Release" id="ilg.gnuarmeclipse.managedbuild.cross.builder.790645686" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="false" stopOnErr="true" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder"/>
+							<builder buildPath="${workspace_loc:/Dekrispator}/Release" id="ilg.gnuarmeclipse.managedbuild.cross.builder.1152809546" keepEnvironmentInBuildfile="true" name="Gnu Make Builder" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder"/>
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.362658698" name="Cross ARM GNU Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.351690457" name="Use preprocessor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" value="true" valueType="boolean"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.137383551" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
@@ -201,13 +201,13 @@
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1350762193" name="Cross ARM C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std.307055829" name="Language standard" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std" value="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std.gnu99" valueType="enumerated"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.1622130568" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/USB}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/System}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/Lib/STM32_USB_HOST_Library/Core/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/Lib/STM32_USB_OTG_Driver/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/Lib/STM32F4xx_StdPeriph_Driver/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/Synth}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Dekrispator/USB/MIDIstream_class}&quot;"/>
+									<listOptionValue builtIn="false" value="../Synth"/>
+									<listOptionValue builtIn="false" value="../USB"/>
+									<listOptionValue builtIn="false" value="../USB/MIDIstream_class"/>
+									<listOptionValue builtIn="false" value="../Lib/STM32F4xx_StdPeriph_Driver/inc"/>
+									<listOptionValue builtIn="false" value="../Lib/STM32_USB_OTG_Driver/inc"/>
+									<listOptionValue builtIn="false" value="../Lib/STM32_USB_HOST_Library/Core/inc"/>
+									<listOptionValue builtIn="false" value="../System"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.1256354901" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="STM32F40_41xxx"/>
@@ -263,7 +263,7 @@
 					<sourceEntries>
 						<entry excluding="Synth|System|USB|Lib" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
 						<entry excluding="STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c|STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c|STM32_USB_OTG_Driver/src/usb_otg.c|STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Lib"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Synth"/>
+						<entry excluding="minBLEP_osc.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Synth"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="System"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="USB"/>
 					</sourceEntries>

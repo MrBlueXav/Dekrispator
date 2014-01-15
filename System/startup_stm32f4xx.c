@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file      startup_stm32f4xx.s
+  * @file      startup_stm32f4xx.c
   * @author    Coocox
   * @version   V1.0
   * @date      03/05/2012

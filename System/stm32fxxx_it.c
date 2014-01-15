@@ -16,8 +16,8 @@
   *
   *        http://www.st.com/software_license_agreement_liberty_v2
   *
-  * Unless required by applicable law or agreed to in writing, software 
-  * distributed under the License is distributed on an "AS IS" BASIS, 
+  * Unless required by applicable law or agreed to in writing, software
+  * distributed under the License is distributed on an "AS IS" BASIS,
   * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   * See the License for the specific language governing permissions and
   * limitations under the License.
@@ -64,6 +64,7 @@ void NMI_Handler(void)
 /**
   * @brief  EXTI1_IRQHandler
   *         This function handles External line 1 interrupt request.
+  *         It's used by USB host function to report over current detection
   * @param  None
   * @retval None
   */
@@ -193,6 +194,7 @@ void OTG_HS_IRQHandler(void)
 
 /**
   * @brief  This function handles SysTick Handler.
+  * 		It's used for delays and button debounce functions
   * @param  None
   * @retval None
   */
@@ -202,6 +204,8 @@ void SysTick_Handler(void)
   update_temporized_LED(LED_Blue);
   if (demoMode == true) DebounceUserButton();
 }
+
+
 /******************************************************************************/
 /*                 STM32Fxxx Peripherals Interrupt Handlers                   */
 /*  Add here the Interrupt Handler for the used peripheral(s) (PPP), for the  */
@@ -210,4 +214,4 @@ void SysTick_Handler(void)
 /******************************************************************************/
 
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+/*****************************************************************************************END OF FILE****/

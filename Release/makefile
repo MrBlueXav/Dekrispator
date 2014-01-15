@@ -56,19 +56,19 @@ Dekrispator.elf: $(OBJS) $(USER_OBJS)
 
 Dekrispator.hex: Dekrispator.elf
 	@echo 'Invoking: Cross ARM GNU Create Flash Image'
-	arm-none-eabi-objcopy "Dekrispator.elf" -O ihex  "Dekrispator.hex"
+	arm-none-eabi-objcopy -O ihex "Dekrispator.elf"  "Dekrispator.hex"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 Dekrispator.lst: Dekrispator.elf
 	@echo 'Invoking: Cross ARM GNU Create Listing'
-	arm-none-eabi-objdump "Dekrispator.elf" --source --all-headers --demangle --line-numbers --wide > "Dekrispator.lst"
+	arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "Dekrispator.elf" > "Dekrispator.lst"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 Dekrispator.siz: Dekrispator.elf
 	@echo 'Invoking: Cross ARM GNU Print Size'
-	arm-none-eabi-size  --format=berkeley --totals "Dekrispator.elf"
+	arm-none-eabi-size --format=berkeley --totals "Dekrispator.elf"
 	@echo 'Finished building: $@'
 	@echo ' '
 
