@@ -57,8 +57,9 @@ I've used (Windows):
 * GNU Tools for ARM Embedded Processors (gcc 4.8 2013 q4)
 * STM32 ST-LINK Utility for flashing the microcontroller
 
-Simple command line :
-
+Simple command line :  
 Go into Release folder and type make (with Cygwin terminal).
+
+Compiles also on Linux (Ubuntu 12.04 LTS) !
 - - - 
   
