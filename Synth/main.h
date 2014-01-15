@@ -38,7 +38,7 @@
 #include "random.h"
 #include "CONSTANTS.h"
 #include "drifter.h"
-#include "ResonantFilter.h"
+#include "resonantFilter.h"
 #include "adsr.h"
 #include "sequencer.h"
 

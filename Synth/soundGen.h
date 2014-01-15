@@ -34,7 +34,7 @@
 #include "sinetable.h"
 #include "notesTables.h"
 #include "timers.h"
-#include "ResonantFilter.h"
+#include "resonantFilter.h"
 #include "adsr.h"
 //#include "usbh_usr.h"
 #include "midi_interface.h"

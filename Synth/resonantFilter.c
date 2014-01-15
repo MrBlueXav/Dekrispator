@@ -33,7 +33,7 @@
  * ------------------------------------------------------------------------------------------------------------------------
  */
 
-#include "ResonantFilter.h"
+#include "resonantFilter.h"
 
 #define FILTER_TYPES	5 // Number of filter types
 
