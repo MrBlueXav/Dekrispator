@@ -118,7 +118,7 @@
 					<sourceEntries>
 						<entry excluding="Synth|System|USB|Lib" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry excluding="STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c|STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c|STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c|STM32_USB_OTG_Driver/src/usb_otg.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Lib"/>
-						<entry excluding="minBLEP_osc.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Synth"/>
+						<entry excluding="blepvco_if.cc|mbVCO.c|minBLEP_osc.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Synth"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="System"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="USB"/>
 					</sourceEntries>
@@ -229,7 +229,7 @@
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile.49592157" name="Script files (-T)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile" valueType="stringList">
 									<listOptionValue builtIn="false" value="../System/stm32f407xav.ld"/>
 								</option>
-								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths.1701782937" name="Library search path (-L)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths" valueType="libPaths"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths.1701782937" name="Library search path (-L)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other.1842259172" name="Other linker flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other" value="-flto --entry=main" valueType="string"/>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input.197019557" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -261,7 +261,7 @@
 					<sourceEntries>
 						<entry excluding="Synth|System|USB|Lib" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
 						<entry excluding="STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c|STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c|STM32_USB_OTG_Driver/src/usb_otg.c|STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Lib"/>
-						<entry excluding="minBLEP_osc.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Synth"/>
+						<entry excluding="blepvco_if.cc|mbVCO.c|minBLEP_osc.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Synth"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="System"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="USB"/>
 					</sourceEntries>

@@ -27,6 +27,10 @@ extern Oscillator_t 		op2 _CCM_;
 extern Oscillator_t 		op3 _CCM_;
 extern Oscillator_t 		op4 _CCM_;
 
+extern VCO_blepsaw_t		mbSawOsc;
+extern VCO_bleprect_t		mbRectOsc;
+extern VCO_bleptri_t		mbTriOsc;
+
 extern Oscillator_t 		vibr_lfo _CCM_;
 extern Oscillator_t 		filt_lfo _CCM_;
 extern Oscillator_t 		filt2_lfo _CCM_;
@@ -154,16 +158,29 @@ void SynthOut_switch(uint8_t val)
 	//if (val == 127) toggleSynthOut();
 	switch (val)
 	{
-	case MIDI_MAXi : 	op1.amp = op1.last_amp;
+	case MIDI_MAXi :
+	op1.amp = op1.last_amp;
 	op2.amp = op2.last_amp;
-	op3.amp = op3.last_amp; break;
+	op3.amp = op3.last_amp;
+	mbSawOsc.amp = mbSawOsc.last_amp;
+	mbRectOsc.amp = mbRectOsc.last_amp;
+	mbTriOsc.amp = mbTriOsc.last_amp;
+	break;
 
-	case 0 : 	op1.last_amp = op1.amp;
+	case 0 :
+	op1.last_amp = op1.amp;
 	op1.amp = 0;
 	op2.last_amp = op2.amp;
 	op2.amp = 0;
 	op3.last_amp = op3.amp;
-	op3.amp = 0; break;
+	op3.amp = 0;
+	mbSawOsc.last_amp = mbSawOsc.amp;
+	mbSawOsc.amp = 0;
+	mbRectOsc.last_amp = mbRectOsc.amp;
+	mbRectOsc.amp = 0;
+	mbTriOsc.last_amp = mbTriOsc.amp;
+	mbTriOsc.amp = 0;
+	break;
 	}
 }
 
@@ -189,6 +206,9 @@ void SynthOut_amp_set(uint8_t val)
 	op1.amp = amp;
 	op2.amp = amp;
 	op3.amp = amp;
+	mbSawOsc.amp = amp;
+	mbRectOsc.amp = amp;
+	mbTriOsc.amp = amp;
 }
 /*-------------------------------------------------------*/
 void Delay_toggle(void)
@@ -251,7 +271,7 @@ void prevSound(void)
 /*-------------------------------------------------------*/
 void Sound_set(uint8_t val)
 {
-	sound = (uint8_t) rintf(LAST_SOUND / MIDI_MAX * val);
+	sound = (uint8_t) rintf((LAST_SOUND - 1) / MIDI_MAX * val);
 	if (sound != ADDITIVE) AdditiveGen_newWaveform();
 }
 /*******************************************************************************************************************************/
@@ -381,6 +401,9 @@ Synth_Init(void)
 	osc_init(&filt2_lfo, 0, 0);
 	osc_init(&amp_lfo, 0, 0);
 	AdditiveGen_newWaveform();
+	VCO_blepsaw_Init(&mbSawOsc);
+	VCO_bleprect_Init(&mbRectOsc);
+	VCO_bleptri_Init(&mbTriOsc);
 }
 /*---------------------------------------------------------------------------------------*/
 

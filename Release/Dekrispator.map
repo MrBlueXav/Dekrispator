@@ -5,7 +5,7 @@ c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/
 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_floor.o)
                               ./Synth/chorusFD.o (symbol from plugin) (floorf)
 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
-                              ./Synth/chorusFD.o (symbol from plugin) (lrintf)
+                              ./Synth/blepvco.o (symbol from plugin) (lrintf)
 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
                               ./Synth/sequencer.o (symbol from plugin) (rintf)
 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o)
@@ -48,20 +48,20 @@ c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/
                               c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o) (__aeabi_dcmpeq)
 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_truncdfsf2.o)
                               c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o) (__aeabi_d2f)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
+                              ./Synth/blepvco.o (symbol from plugin) (memcpy)
+c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+                              ./Synth/blepvco.o (symbol from plugin) (memset)
 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
                               ./Synth/random.o (symbol from plugin) (srand)
 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
                               c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o) (_impure_ptr)
-c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
-                              C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o (memcpy)
-c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
-                              C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o (memset)
 
 Allocating common symbols
 Common symbol       size              file
 
 HSEStartUpStatus    0x1               ./USB/usb_bsp.o (symbol from plugin)
-__errno             0x4               C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
+__errno             0x4               C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
 USBH_CfgDesc        0x200             ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o (symbol from plugin)
 AUDIO_MAL_DMA_InitStructure
                     0x3c              ./System/my_stm32f4_discovery_audio_codec.o (symbol from plugin)
@@ -71,48 +71,43 @@ NVIC_InitStructure  0x4               ./System/my_stm32f4_discovery.o (symbol fr
 Discarded input sections
 
  .text          0x00000000        0x0 ./USB/MIDIstream_class/usbh_midi_core.o (symbol from plugin)
- .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
- .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
- .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
+ .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
  .rodata.AUDIO_MAL_DMA_STREAM
-                0x00000000        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
+                0x00000000        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
  .rodata.BUTTON_PORT
-                0x00000000        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
- .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans1.ltrans.o
- .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans1.ltrans.o
- .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans1.ltrans.o
- .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
- .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
- .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
- .text.unlikely.RCC_APB2PeriphResetCmd.part.9.10360
-                0x00000000       0x10 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
- .text.unlikely.RCC_AHB1PeriphClockCmd.part.0.10332
-                0x00000000       0x10 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
- .data.AHBPrescTable.4951
-                0x00000000       0x10 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
- .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans3.ltrans.o
- .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans3.ltrans.o
- .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans3.ltrans.o
- .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans4.ltrans.o
- .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans4.ltrans.o
- .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans4.ltrans.o
- .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans5.ltrans.o
- .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans5.ltrans.o
- .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans5.ltrans.o
- .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans6.ltrans.o
- .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans6.ltrans.o
- .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans6.ltrans.o
- .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans7.ltrans.o
- .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans7.ltrans.o
- .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans7.ltrans.o
- .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans8.ltrans.o
- .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans8.ltrans.o
- .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans8.ltrans.o
- .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
- .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
- .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
- .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
- .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+                0x00000000        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+ .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans1.ltrans.o
+ .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans1.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans1.ltrans.o
+ .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+ .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+ .text.unlikely.RCC_APB2PeriphResetCmd.part.9.10577
+                0x00000000       0x10 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+ .text.unlikely.RCC_AHB1PeriphClockCmd.part.0.10549
+                0x00000000       0x10 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+ .data.AHBPrescTable.4952
+                0x00000000       0x10 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+ .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans3.ltrans.o
+ .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans3.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans3.ltrans.o
+ .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans4.ltrans.o
+ .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans4.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans4.ltrans.o
+ .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans5.ltrans.o
+ .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans5.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans5.ltrans.o
+ .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans6.ltrans.o
+ .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans6.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans6.ltrans.o
+ .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans7.ltrans.o
+ .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans7.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans7.ltrans.o
+ .text          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans8.ltrans.o
+ .data          0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans8.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans8.ltrans.o
  .text          0x00000000        0x0 ./USB/usb_bsp.o (symbol from plugin)
  .text          0x00000000        0x0 ./USB/usbh_usr.o (symbol from plugin)
  .text          0x00000000        0x0 ./System/my_stm32f4_discovery.o (symbol from plugin)
@@ -122,12 +117,14 @@ Discarded input sections
  .text          0x00000000        0x0 ./System/system_stm32f4xx.o (symbol from plugin)
  .text          0x00000000        0x0 ./Synth/adsr.o (symbol from plugin)
  .text          0x00000000        0x0 ./Synth/audio.o (symbol from plugin)
+ .text          0x00000000        0x0 ./Synth/blepvco.o (symbol from plugin)
  .text          0x00000000        0x0 ./Synth/chorusFD.o (symbol from plugin)
  .text          0x00000000        0x0 ./Synth/delay.o (symbol from plugin)
  .text          0x00000000        0x0 ./Synth/drifter.o (symbol from plugin)
  .text          0x00000000        0x0 ./Synth/main.o (symbol from plugin)
  .text          0x00000000        0x0 ./Synth/math_tools.o (symbol from plugin)
  .text          0x00000000        0x0 ./Synth/midi_interface.o (symbol from plugin)
+ .text          0x00000000        0x0 ./Synth/minblep_tables.o (symbol from plugin)
  .text          0x00000000        0x0 ./Synth/notesTables.o (symbol from plugin)
  .text          0x00000000        0x0 ./Synth/oscillators.o (symbol from plugin)
  .text          0x00000000        0x0 ./Synth/random.o (symbol from plugin)
@@ -222,6 +219,11 @@ Discarded input sections
  .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_cmpdf2.o)
  .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_truncdfsf2.o)
  .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_truncdfsf2.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
  .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
  .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
  .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
@@ -242,15 +244,15 @@ ccm              0x10000000         0x00010000         xrw
 Linker script and memory map
 
 LOAD ./USB/MIDIstream_class/usbh_midi_core.o
-LOAD C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-LOAD C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans1.ltrans.o
-LOAD C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-LOAD C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans3.ltrans.o
-LOAD C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans4.ltrans.o
-LOAD C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans5.ltrans.o
-LOAD C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans6.ltrans.o
-LOAD C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans7.ltrans.o
-LOAD C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans8.ltrans.o
+LOAD C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+LOAD C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans1.ltrans.o
+LOAD C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+LOAD C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans3.ltrans.o
+LOAD C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans4.ltrans.o
+LOAD C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans5.ltrans.o
+LOAD C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans6.ltrans.o
+LOAD C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans7.ltrans.o
+LOAD C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans8.ltrans.o
 LOAD c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a
 LOAD c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a
 LOAD ./USB/usb_bsp.o
@@ -262,12 +264,14 @@ LOAD ./System/stm32fxxx_it.o
 LOAD ./System/system_stm32f4xx.o
 LOAD ./Synth/adsr.o
 LOAD ./Synth/audio.o
+LOAD ./Synth/blepvco.o
 LOAD ./Synth/chorusFD.o
 LOAD ./Synth/delay.o
 LOAD ./Synth/drifter.o
 LOAD ./Synth/main.o
 LOAD ./Synth/math_tools.o
 LOAD ./Synth/midi_interface.o
+LOAD ./Synth/minblep_tables.o
 LOAD ./Synth/notesTables.o
 LOAD ./Synth/oscillators.o
 LOAD ./Synth/random.o
@@ -304,21 +308,21 @@ END GROUP
 .ccm            0x10000000     0x2e3c
                 0x10000000                . = ALIGN (0x4)
  *(.ccm)
- .ccm           0x10000000     0x2e38 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
+ .ccm           0x10000000     0x2e38 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
                 0x10000000                a
-                0x1000002c                env.7180
-                0x10000030                vol.7181
-                0x10000034                sound.7175
-                0x10000035                autoFilterON.7178
-                0x10000036                chorusON.7179
-                0x10000037                delayON.7177
+                0x1000002c                env.7397
+                0x10000030                vol.7398
+                0x10000034                sound.7392
+                0x10000035                autoFilterON.7395
+                0x10000036                chorusON.7396
+                0x10000037                delayON.7394
                 0x10000038                d1
                 0x10000064                d2
                 0x10000090                d3
-                0x100000bc                delL.5935
-                0x100016b4                delR.5932
-                0x10002cac                lfoL.5936
-                0x10002cbc                lfoR.5934
+                0x100000bc                delL.6032
+                0x100016b4                delR.6029
+                0x10002cac                lfoL.6033
+                0x10002cbc                lfoR.6031
                 0x10002ccc                SVFilter
                 0x10002cec                SVFilter2
                 0x10002d0c                op1
@@ -330,558 +334,562 @@ END GROUP
                 0x10002dcc                filt2_lfo
                 0x10002dec                amp_lfo
                 0x10002e0c                ph
- .ccm           0x10002e38        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans1.ltrans.o
+ .ccm           0x10002e38        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans1.ltrans.o
  *(.ccm.*)
                 0x10002e3c                . = ALIGN (0x4)
 
-.text           0x08000000     0xdaea
+.text           0x08000000    0x1c6fa
  *(.isr_vector .isr_vector.*)
- .isr_vector    0x08000000      0x188 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans7.ltrans.o
+ .isr_vector    0x08000000      0x188 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans7.ltrans.o
                 0x08000000                g_pfnVectors
  *(.text .text.* .gnu.linkonce.t.*)
  .text.startup.main
-                0x08000188     0x2330 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
+                0x08000188     0x23c4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
                 0x08000188                main
- .text.make_sound.constprop.52
-                0x080024b8     0x2214 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans1.ltrans.o
-                0x080024b8                make_sound.constprop.52
+ .text.make_sound.constprop.55
+                0x0800254c     0x35fc C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans1.ltrans.o
+                0x0800254c                make_sound.constprop.55
  .text.SysTick_Handler
-                0x080046cc       0xc4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080046cc                SysTick_Handler
+                0x08005b48       0xc4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005b48                SysTick_Handler
  .text.USBH_USR_DeviceDisconnected
-                0x08004790       0x10 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x08004790                USBH_USR_DeviceDisconnected
+                0x08005c0c       0x10 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005c0c                USBH_USR_DeviceDisconnected
  .text.USBH_USR_UnrecoveredError
-                0x080047a0       0x10 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080047a0                USBH_USR_UnrecoveredError
+                0x08005c1c       0x10 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005c1c                USBH_USR_UnrecoveredError
  .text.USBH_USR_EnumerationDone
-                0x080047b0       0x10 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080047b0                USBH_USR_EnumerationDone
+                0x08005c2c       0x10 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005c2c                USBH_USR_EnumerationDone
  .text.USBH_USR_OverCurrentDetected
-                0x080047c0       0x10 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080047c0                USBH_USR_OverCurrentDetected
+                0x08005c3c       0x10 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005c3c                USBH_USR_OverCurrentDetected
  .text.SPI3_IRQHandler
-                0x080047d0       0x40 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080047d0                SPI3_IRQHandler
+                0x08005c4c       0x40 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005c4c                SPI3_IRQHandler
  .text.TIM2_IRQHandler
-                0x08004810       0x3c C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x08004810                TIM2_IRQHandler
+                0x08005c8c       0x3c C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005c8c                TIM2_IRQHandler
  .text.USBH_USR_DeviceNotSupported
-                0x0800484c       0x10 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x0800484c                USBH_USR_DeviceNotSupported
+                0x08005cc8       0x10 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005cc8                USBH_USR_DeviceNotSupported
  .text.EXTI1_IRQHandler
-                0x0800485c       0x20 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x0800485c                EXTI1_IRQHandler
+                0x08005cd8       0x20 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005cd8                EXTI1_IRQHandler
  .text.USBH_SOF
-                0x0800487c        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x0800487c                USBH_SOF
+                0x08005cf8        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005cf8                USBH_SOF
  .text.USBH_Disconnected
-                0x08004880        0xc C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x08004880                USBH_Disconnected
+                0x08005cfc        0xc C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005cfc                USBH_Disconnected
  .text.USBH_Connected
-                0x0800488c        0xc C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x0800488c                USBH_Connected
+                0x08005d08        0xc C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d08                USBH_Connected
  .text.PendSV_Handler
-                0x08004898        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x08004898                PendSV_Handler
+                0x08005d14        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d14                PendSV_Handler
  .text.DebugMon_Handler
-                0x0800489c        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x0800489c                DebugMon_Handler
+                0x08005d18        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d18                DebugMon_Handler
  .text.SVC_Handler
-                0x080048a0        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048a0                SVC_Handler
+                0x08005d1c        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d1c                SVC_Handler
  .text.UsageFault_Handler
-                0x080048a4        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048a4                UsageFault_Handler
+                0x08005d20        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d20                UsageFault_Handler
  .text.BusFault_Handler
-                0x080048a8        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048a8                BusFault_Handler
+                0x08005d24        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d24                BusFault_Handler
  .text.MemManage_Handler
-                0x080048ac        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048ac                MemManage_Handler
+                0x08005d28        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d28                MemManage_Handler
  .text.HardFault_Handler
-                0x080048b0        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048b0                HardFault_Handler
+                0x08005d2c        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d2c                HardFault_Handler
  .text.NMI_Handler
-                0x080048b4        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048b4                NMI_Handler
+                0x08005d30        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d30                NMI_Handler
  .text.USBH_USR_MIDI_Application
-                0x080048b8        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048b8                USBH_USR_MIDI_Application
+                0x08005d34        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d34                USBH_USR_MIDI_Application
  .text.USBH_USR_DeInit
-                0x080048bc        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048bc                USBH_USR_DeInit
+                0x08005d38        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d38                USBH_USR_DeInit
  .text.USBH_USR_UserInput
-                0x080048c0        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048c0                USBH_USR_UserInput
+                0x08005d3c        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d3c                USBH_USR_UserInput
  .text.USBH_USR_SerialNum_String
-                0x080048c4        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048c4                USBH_USR_SerialNum_String
+                0x08005d40        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d40                USBH_USR_SerialNum_String
  .text.USBH_USR_Product_String
-                0x080048c8        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048c8                USBH_USR_Product_String
+                0x08005d44        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d44                USBH_USR_Product_String
  .text.USBH_USR_Manufacturer_String
-                0x080048cc        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048cc                USBH_USR_Manufacturer_String
+                0x08005d48        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d48                USBH_USR_Manufacturer_String
  .text.USBH_USR_Configuration_DescAvailable
-                0x080048d0        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048d0                USBH_USR_Configuration_DescAvailable
+                0x08005d4c        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d4c                USBH_USR_Configuration_DescAvailable
  .text.USBH_USR_DeviceAddressAssigned
-                0x080048d4        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048d4                USBH_USR_DeviceAddressAssigned
+                0x08005d50        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d50                USBH_USR_DeviceAddressAssigned
  .text.USBH_USR_Device_DescAvailable
-                0x080048d8        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048d8                USBH_USR_Device_DescAvailable
+                0x08005d54        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d54                USBH_USR_Device_DescAvailable
  .text.USBH_USR_DeviceSpeedDetected
-                0x080048dc        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048dc                USBH_USR_DeviceSpeedDetected
+                0x08005d58        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d58                USBH_USR_DeviceSpeedDetected
  .text.USBH_USR_ResetDevice
-                0x080048e0        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048e0                USBH_USR_ResetDevice
+                0x08005d5c        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d5c                USBH_USR_ResetDevice
  .text.USBH_USR_DeviceAttached
-                0x080048e4        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048e4                USBH_USR_DeviceAttached
+                0x08005d60        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d60                USBH_USR_DeviceAttached
  .text.USBH_USR_Init
-                0x080048e8        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048e8                USBH_USR_Init
+                0x08005d64        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d64                USBH_USR_Init
  .text.USBH_MIDI_ClassRequest.4167
-                0x080048ec        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080048ec                USBH_MIDI_ClassRequest.4167
+                0x08005d68        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005d68                USBH_MIDI_ClassRequest.4167
  .text.delay_read.4604
-                0x080048f0       0xf8 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
+                0x08005d6c       0xf8 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
  .text.USB_OTG_ResetPort
-                0x080049e8      0x110 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080049e8                USB_OTG_ResetPort
+                0x08005e64      0x110 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005e64                USB_OTG_ResetPort
  .text.BSP_Delay.4435
-                0x08004af8       0x90 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x08004af8                BSP_Delay.4435
+                0x08005f74       0x90 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08005f74                BSP_Delay.4435
  .text.SVF_calcSample
-                0x08004b88      0x244 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x08004b88                SVF_calcSample
+                0x08006004      0x244 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08006004                SVF_calcSample
  .text.drifter_newSegment
-                0x08004dcc       0x98 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x08004dcc                drifter_newSegment
+                0x08006248       0x98 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08006248                drifter_newSegment
  .text.seq_sequence_new
-                0x08004e64       0xb8 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x08004e64                seq_sequence_new
- .text.unlikely.USB_OTG_CoreReset.7279.constprop.10
-                0x08004f1c       0x58 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x08004f1c                USB_OTG_CoreReset.7279.constprop.10
- .text.USB_OTG_HC_StartXfer.constprop.106
-                0x08004f74      0x134 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x08004f74                USB_OTG_HC_StartXfer.constprop.106
- .text.DMA_Init.constprop.46
-                0x080050a8       0x8c C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080050a8                DMA_Init.constprop.46
- .text.RCC_APB1PeriphResetCmd.part.8.10357
-                0x08005134       0x10 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x08005134                RCC_APB1PeriphResetCmd.part.8.10357
+                0x080062e0       0xb8 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x080062e0                seq_sequence_new
+ .text.unlikely.USB_OTG_CoreReset.7496.constprop.13
+                0x08006398       0x58 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08006398                USB_OTG_CoreReset.7496.constprop.13
+ .text.USB_OTG_HC_StartXfer.constprop.111
+                0x080063f0      0x134 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x080063f0                USB_OTG_HC_StartXfer.constprop.111
+ .text.DMA_Init.constprop.49
+                0x08006524       0x8c C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08006524                DMA_Init.constprop.49
+ .text.RCC_APB1PeriphResetCmd.part.8.10574
+                0x080065b0       0x10 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x080065b0                RCC_APB1PeriphResetCmd.part.8.10574
  .text.GPIO_Init
-                0x08005144       0xc0 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x08005144                GPIO_Init
+                0x080065c0       0xc0 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x080065c0                GPIO_Init
  .text.STM_EVAL_LEDInit
-                0x08005204       0x50 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x08005204                STM_EVAL_LEDInit
+                0x08006680       0x50 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08006680                STM_EVAL_LEDInit
  .text.unlikely.USB_OTG_BSP_ConfigVBUS
-                0x08005254       0x48 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x08005254                USB_OTG_BSP_ConfigVBUS
+                0x080066d0       0x48 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x080066d0                USB_OTG_BSP_ConfigVBUS
  .text.NVIC_Init
-                0x0800529c       0x74 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x0800529c                NVIC_Init
+                0x08006718       0x74 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08006718                NVIC_Init
  .text.USB_OTG_HC_Init
-                0x08005310       0xe4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x08005310                USB_OTG_HC_Init
+                0x0800678c       0xe4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x0800678c                USB_OTG_HC_Init
  .text.USBH_MIDI_InterfaceInit.4189
-                0x080053f4      0x270 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080053f4                USBH_MIDI_InterfaceInit.4189
+                0x08006870      0x270 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08006870                USBH_MIDI_InterfaceInit.4189
  .text.mono_chorus_compute
-                0x08005664      0x150 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x08005664                mono_chorus_compute
+                0x08006ae0      0x150 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08006ae0                mono_chorus_compute
  .text.Default_Handler.5167.4624
-                0x080057b4        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x080057b4                RTC_Alarm_IRQHandler
-                0x080057b4                HASH_RNG_IRQHandler
-                0x080057b4                EXTI2_IRQHandler
-                0x080057b4                TIM8_CC_IRQHandler
-                0x080057b4                TIM1_CC_IRQHandler
-                0x080057b4                DMA2_Stream5_IRQHandler
-                0x080057b4                DMA1_Stream5_IRQHandler
-                0x080057b4                PVD_IRQHandler
-                0x080057b4                SDIO_IRQHandler
-                0x080057b4                TAMP_STAMP_IRQHandler
-                0x080057b4                CAN2_RX1_IRQHandler
-                0x080057b4                EXTI3_IRQHandler
-                0x080057b4                TIM8_TRG_COM_TIM14_IRQHandler
-                0x080057b4                TIM1_UP_TIM10_IRQHandler
-                0x080057b4                TIM8_UP_TIM13_IRQHandler
-                0x080057b4                I2C3_ER_IRQHandler
-                0x080057b4                EXTI0_IRQHandler
-                0x080057b4                I2C2_EV_IRQHandler
-                0x080057b4                DMA1_Stream2_IRQHandler
-                0x080057b4                CAN1_RX0_IRQHandler
-                0x080057b4                FPU_IRQHandler
-                0x080057b4                OTG_HS_WKUP_IRQHandler
-                0x080057b4                CAN2_SCE_IRQHandler
-                0x080057b4                DMA2_Stream2_IRQHandler
-                0x080057b4                SPI1_IRQHandler
-                0x080057b4                TIM6_DAC_IRQHandler
-                0x080057b4                TIM1_BRK_TIM9_IRQHandler
-                0x080057b4                DCMI_IRQHandler
-                0x080057b4                CAN2_RX0_IRQHandler
-                0x080057b4                DMA2_Stream3_IRQHandler
-                0x080057b4                USART6_IRQHandler
-                0x080057b4                USART3_IRQHandler
-                0x080057b4                CRYP_IRQHandler
-                0x080057b4                CAN1_RX1_IRQHandler
-                0x080057b4                UART5_IRQHandler
-                0x080057b4                DMA2_Stream0_IRQHandler
-                0x080057b4                TIM4_IRQHandler
-                0x080057b4                I2C1_EV_IRQHandler
-                0x080057b4                DMA1_Stream6_IRQHandler
-                0x080057b4                DMA1_Stream1_IRQHandler
-                0x080057b4                UART4_IRQHandler
-                0x080057b4                TIM3_IRQHandler
-                0x080057b4                RCC_IRQHandler
-                0x080057b4                TIM8_BRK_TIM12_IRQHandler
-                0x080057b4                EXTI15_10_IRQHandler
-                0x080057b4                ADC_IRQHandler
-                0x080057b4                TIM7_IRQHandler
-                0x080057b4                CAN2_TX_IRQHandler
-                0x080057b4                TIM5_IRQHandler
-                0x080057b4                DMA2_Stream7_IRQHandler
-                0x080057b4                I2C3_EV_IRQHandler
-                0x080057b4                EXTI9_5_IRQHandler
-                0x080057b4                RTC_WKUP_IRQHandler
-                0x080057b4                ETH_WKUP_IRQHandler
-                0x080057b4                SPI2_IRQHandler
-                0x080057b4                OTG_HS_EP1_IN_IRQHandler
-                0x080057b4                CAN1_TX_IRQHandler
-                0x080057b4                EXTI4_IRQHandler
-                0x080057b4                FSMC_IRQHandler
-                0x080057b4                ETH_IRQHandler
-                0x080057b4                OTG_HS_EP1_OUT_IRQHandler
-                0x080057b4                WWDG_IRQHandler
-                0x080057b4                OTG_FS_WKUP_IRQHandler
-                0x080057b4                TIM1_TRG_COM_TIM11_IRQHandler
-                0x080057b4                OTG_HS_IRQHandler
-                0x080057b4                USART2_IRQHandler
-                0x080057b4                I2C2_ER_IRQHandler
-                0x080057b4                DMA2_Stream1_IRQHandler
-                0x080057b4                CAN1_SCE_IRQHandler
-                0x080057b4                FLASH_IRQHandler
-                0x080057b4                DMA2_Stream4_IRQHandler
-                0x080057b4                USART1_IRQHandler
-                0x080057b4                DMA1_Stream4_IRQHandler
-                0x080057b4                I2C1_ER_IRQHandler
-                0x080057b4                DMA2_Stream6_IRQHandler
-                0x080057b4                DMA1_Stream3_IRQHandler
+                0x08006c30        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x08006c30                RTC_Alarm_IRQHandler
+                0x08006c30                HASH_RNG_IRQHandler
+                0x08006c30                EXTI2_IRQHandler
+                0x08006c30                TIM8_CC_IRQHandler
+                0x08006c30                TIM1_CC_IRQHandler
+                0x08006c30                DMA2_Stream5_IRQHandler
+                0x08006c30                DMA1_Stream5_IRQHandler
+                0x08006c30                PVD_IRQHandler
+                0x08006c30                SDIO_IRQHandler
+                0x08006c30                TAMP_STAMP_IRQHandler
+                0x08006c30                CAN2_RX1_IRQHandler
+                0x08006c30                EXTI3_IRQHandler
+                0x08006c30                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08006c30                TIM1_UP_TIM10_IRQHandler
+                0x08006c30                TIM8_UP_TIM13_IRQHandler
+                0x08006c30                I2C3_ER_IRQHandler
+                0x08006c30                EXTI0_IRQHandler
+                0x08006c30                I2C2_EV_IRQHandler
+                0x08006c30                DMA1_Stream2_IRQHandler
+                0x08006c30                CAN1_RX0_IRQHandler
+                0x08006c30                FPU_IRQHandler
+                0x08006c30                OTG_HS_WKUP_IRQHandler
+                0x08006c30                CAN2_SCE_IRQHandler
+                0x08006c30                DMA2_Stream2_IRQHandler
+                0x08006c30                SPI1_IRQHandler
+                0x08006c30                TIM6_DAC_IRQHandler
+                0x08006c30                TIM1_BRK_TIM9_IRQHandler
+                0x08006c30                DCMI_IRQHandler
+                0x08006c30                CAN2_RX0_IRQHandler
+                0x08006c30                DMA2_Stream3_IRQHandler
+                0x08006c30                USART6_IRQHandler
+                0x08006c30                USART3_IRQHandler
+                0x08006c30                CRYP_IRQHandler
+                0x08006c30                CAN1_RX1_IRQHandler
+                0x08006c30                UART5_IRQHandler
+                0x08006c30                DMA2_Stream0_IRQHandler
+                0x08006c30                TIM4_IRQHandler
+                0x08006c30                I2C1_EV_IRQHandler
+                0x08006c30                DMA1_Stream6_IRQHandler
+                0x08006c30                DMA1_Stream1_IRQHandler
+                0x08006c30                UART4_IRQHandler
+                0x08006c30                TIM3_IRQHandler
+                0x08006c30                RCC_IRQHandler
+                0x08006c30                TIM8_BRK_TIM12_IRQHandler
+                0x08006c30                EXTI15_10_IRQHandler
+                0x08006c30                ADC_IRQHandler
+                0x08006c30                TIM7_IRQHandler
+                0x08006c30                CAN2_TX_IRQHandler
+                0x08006c30                TIM5_IRQHandler
+                0x08006c30                DMA2_Stream7_IRQHandler
+                0x08006c30                I2C3_EV_IRQHandler
+                0x08006c30                EXTI9_5_IRQHandler
+                0x08006c30                RTC_WKUP_IRQHandler
+                0x08006c30                ETH_WKUP_IRQHandler
+                0x08006c30                SPI2_IRQHandler
+                0x08006c30                OTG_HS_EP1_IN_IRQHandler
+                0x08006c30                CAN1_TX_IRQHandler
+                0x08006c30                EXTI4_IRQHandler
+                0x08006c30                FSMC_IRQHandler
+                0x08006c30                ETH_IRQHandler
+                0x08006c30                OTG_HS_EP1_OUT_IRQHandler
+                0x08006c30                WWDG_IRQHandler
+                0x08006c30                OTG_FS_WKUP_IRQHandler
+                0x08006c30                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08006c30                OTG_HS_IRQHandler
+                0x08006c30                USART2_IRQHandler
+                0x08006c30                I2C2_ER_IRQHandler
+                0x08006c30                DMA2_Stream1_IRQHandler
+                0x08006c30                CAN1_SCE_IRQHandler
+                0x08006c30                FLASH_IRQHandler
+                0x08006c30                DMA2_Stream4_IRQHandler
+                0x08006c30                USART1_IRQHandler
+                0x08006c30                DMA1_Stream4_IRQHandler
+                0x08006c30                I2C1_ER_IRQHandler
+                0x08006c30                DMA2_Stream6_IRQHandler
+                0x08006c30                DMA1_Stream3_IRQHandler
  .text.USBH_MIDI_Handle.4181
-                0x080057b8     0x1450 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans3.ltrans.o
-                0x080057b8                USBH_MIDI_Handle.4181
- .text.MagicPatch.part.1.6386
-                0x08006c08      0xc2c C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans4.ltrans.o
-                0x08006c08                MagicPatch.part.1.6386
+                0x08006c34     0x14d4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans3.ltrans.o
+                0x08006c34                USBH_MIDI_Handle.4181
+ .text.MagicPatch.part.1.6483
+                0x08008108      0xc2c C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans4.ltrans.o
+                0x08008108                MagicPatch.part.1.6483
  .text.USBH_MIDI_InterfaceDeInit.4173
-                0x08007834       0xcc C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans5.ltrans.o
-                0x08007834                USBH_MIDI_InterfaceDeInit.4173
- .text.MagicFX.part.0.6384
-                0x08007900      0x2a8 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans5.ltrans.o
-                0x08007900                MagicFX.part.0.6384
+                0x08008d34       0xcc C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans5.ltrans.o
+                0x08008d34                USBH_MIDI_InterfaceDeInit.4173
+ .text.MagicFX.part.0.6481
+                0x08008e00      0x2a8 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans5.ltrans.o
+                0x08008e00                MagicFX.part.0.6481
  .text.Codec_WriteRegister.4974
-                0x08007ba8      0x358 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans5.ltrans.o
-                0x08007ba8                Codec_WriteRegister.4974
- .text.USB_OTG_USBH_handle_hc_n_Out_ISR.8127
-                0x08007f00      0xb3c C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans6.ltrans.o
-                0x08007f00                USB_OTG_USBH_handle_hc_n_Out_ISR.8127
- .text.USB_OTG_USBH_handle_port_ISR.8124
-                0x08008a3c      0x1a8 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans6.ltrans.o
-                0x08008a3c                USB_OTG_USBH_handle_port_ISR.8124
- .text.USB_OTG_USBH_handle_ptxfempty_ISR.8121
-                0x08008be4      0x1e4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans6.ltrans.o
-                0x08008be4                USB_OTG_USBH_handle_ptxfempty_ISR.8121
- .text.USB_OTG_USBH_handle_nptxfempty_ISR.8118
-                0x08008dc8      0x1e4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans6.ltrans.o
-                0x08008dc8                USB_OTG_USBH_handle_nptxfempty_ISR.8118
- .text.USB_OTG_USBH_handle_Disconnect_ISR.8115
-                0x08008fac       0x34 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans6.ltrans.o
-                0x08008fac                USB_OTG_USBH_handle_Disconnect_ISR.8115
- .text.USB_OTG_USBH_handle_sof_ISR.7972
-                0x08008fe0       0x34 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans6.ltrans.o
-                0x08008fe0                USB_OTG_USBH_handle_sof_ISR.7972
+                0x080090a8      0x358 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans5.ltrans.o
+                0x080090a8                Codec_WriteRegister.4974
+ .text.USB_OTG_USBH_handle_hc_n_Out_ISR.8344
+                0x08009400      0xb3c C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans6.ltrans.o
+                0x08009400                USB_OTG_USBH_handle_hc_n_Out_ISR.8344
+ .text.USB_OTG_USBH_handle_port_ISR.8341
+                0x08009f3c      0x1a8 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans6.ltrans.o
+                0x08009f3c                USB_OTG_USBH_handle_port_ISR.8341
+ .text.USB_OTG_USBH_handle_ptxfempty_ISR.8338
+                0x0800a0e4      0x1e4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans6.ltrans.o
+                0x0800a0e4                USB_OTG_USBH_handle_ptxfempty_ISR.8338
+ .text.USB_OTG_USBH_handle_nptxfempty_ISR.8335
+                0x0800a2c8      0x1e4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans6.ltrans.o
+                0x0800a2c8                USB_OTG_USBH_handle_nptxfempty_ISR.8335
+ .text.USB_OTG_USBH_handle_Disconnect_ISR.8332
+                0x0800a4ac       0x34 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans6.ltrans.o
+                0x0800a4ac                USB_OTG_USBH_handle_Disconnect_ISR.8332
+ .text.USB_OTG_USBH_handle_sof_ISR.8189
+                0x0800a4e0       0x34 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans6.ltrans.o
+                0x0800a4e0                USB_OTG_USBH_handle_sof_ISR.8189
  .text.Default_Reset_Handler.4199
-                0x08009014      0x174 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans6.ltrans.o
-                0x08009014                Reset_Handler
- .text.USB_OTG_USBH_handle_IncompletePeriodicXfer_ISR.8141.4166
-                0x08009188       0x50 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans7.ltrans.o
- .text.USB_OTG_USBH_handle_rx_qlvl_ISR.8138.4169
-                0x080091d8      0x1cc C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans7.ltrans.o
- .text.USB_OTG_USBH_handle_hc_n_In_ISR.8131.4183
-                0x080093a4      0xa48 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans7.ltrans.o
- .text.USB_OTG_USBH_handle_hc_ISR.8135.4177
-                0x08009dec       0x90 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans7.ltrans.o
+                0x0800a514      0x174 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans6.ltrans.o
+                0x0800a514                Reset_Handler
+ .text.USB_OTG_USBH_handle_IncompletePeriodicXfer_ISR.8358.4166
+                0x0800a688       0x50 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans7.ltrans.o
+ .text.USB_OTG_USBH_handle_rx_qlvl_ISR.8355.4169
+                0x0800a6d8      0x1cc C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans7.ltrans.o
+ .text.USB_OTG_USBH_handle_hc_n_In_ISR.8348.4183
+                0x0800a8a4      0xa48 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans7.ltrans.o
+ .text.USB_OTG_USBH_handle_hc_ISR.8352.4177
+                0x0800b2ec       0x90 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans7.ltrans.o
  .text.USBH_OTG_ISR_Handler.4013
-                0x08009e7c      0x128 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans7.ltrans.o
+                0x0800b37c      0x128 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans7.ltrans.o
  .text.OTG_FS_IRQHandler.4010
-                0x08009fa4        0xc C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans7.ltrans.o
+                0x0800b4a4        0xc C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans7.ltrans.o
  .text.DMA1_Stream0_IRQHandler
-                0x08009fb0       0x58 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans8.ltrans.o
-                0x08009fb0                DMA1_Stream0_IRQHandler
+                0x0800b4b0       0x58 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans8.ltrans.o
+                0x0800b4b0                DMA1_Stream0_IRQHandler
  .text.DMA1_Stream7_IRQHandler
-                0x0800a008       0x58 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans8.ltrans.o
-                0x0800a008                DMA1_Stream7_IRQHandler
- .text          0x0800a060      0x134 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
-                0x0800a060                memcpy
- .text.memset   0x0800a194       0x94 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
-                0x0800a194                memset
- .text.fabsf    0x0800a228       0x10 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
-                0x0800a228                fabsf
- .text.floorf   0x0800a238       0xa0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_floor.o)
-                0x0800a238                floorf
- .text.lrintf   0x0800a2d8       0x94 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
-                0x0800a2d8                lrintf
- .text.rintf    0x0800a36c       0xd0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
-                0x0800a36c                rintf
- .text.sinf     0x0800a43c       0x7c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o)
-                0x0800a43c                sinf
- .text.powf     0x0800a4b8      0x348 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o)
-                0x0800a4b8                powf
+                0x0800b508       0x58 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans8.ltrans.o
+                0x0800b508                DMA1_Stream7_IRQHandler
+ .text.fabsf    0x0800b560       0x10 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
+                0x0800b560                fabsf
+ .text.floorf   0x0800b570       0xa0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_floor.o)
+                0x0800b570                floorf
+ .text.lrintf   0x0800b610       0x94 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
+                0x0800b610                lrintf
+ .text.rintf    0x0800b6a4       0xd0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
+                0x0800b6a4                rintf
+ .text.sinf     0x0800b774       0x7c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o)
+                0x0800b774                sinf
+ .text.powf     0x0800b7f0      0x348 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o)
+                0x0800b7f0                powf
  .text.__ieee754_powf
-                0x0800a800      0x5c8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
-                0x0800a800                __ieee754_powf
+                0x0800bb38      0x5c8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+                0x0800bb38                __ieee754_powf
  .text.__ieee754_rem_pio2f
-                0x0800adc8      0x28c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
-                0x0800adc8                __ieee754_rem_pio2f
+                0x0800c100      0x28c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
+                0x0800c100                __ieee754_rem_pio2f
  .text.__ieee754_sqrtf
-                0x0800b054       0xa4 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_sqrt.o)
-                0x0800b054                __ieee754_sqrtf
+                0x0800c38c       0xa4 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_sqrt.o)
+                0x0800c38c                __ieee754_sqrtf
  .text.__kernel_cosf
-                0x0800b0f8      0x104 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_cos.o)
-                0x0800b0f8                __kernel_cosf
+                0x0800c430      0x104 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_cos.o)
+                0x0800c430                __kernel_cosf
  .text.__kernel_rem_pio2f
-                0x0800b1fc      0x5cc c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
-                0x0800b1fc                __kernel_rem_pio2f
+                0x0800c534      0x5cc c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
+                0x0800c534                __kernel_rem_pio2f
  .text.__kernel_sinf
-                0x0800b7c8       0x90 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_sin.o)
-                0x0800b7c8                __kernel_sinf
- .text.matherr  0x0800b858        0x4 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_matherr.o)
-                0x0800b858                matherr
- .text.rint     0x0800b85c      0x120 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o)
-                0x0800b85c                rint
- .text.finitef  0x0800b97c       0x14 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_finite.o)
-                0x0800b97c                finitef
+                0x0800cb00       0x90 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_sin.o)
+                0x0800cb00                __kernel_sinf
+ .text.matherr  0x0800cb90        0x4 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_matherr.o)
+                0x0800cb90                matherr
+ .text.rint     0x0800cb94      0x120 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o)
+                0x0800cb94                rint
+ .text.finitef  0x0800ccb4       0x14 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_finite.o)
+                0x0800ccb4                finitef
  .text.__fpclassifyf
-                0x0800b990       0x38 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fpclassify.o)
-                0x0800b990                __fpclassifyf
- .text.nanf     0x0800b9c8        0xc c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_nan.o)
-                0x0800b9c8                nanf
- .text.scalbnf  0x0800b9d4       0xd8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_scalbn.o)
-                0x0800b9d4                scalbnf
+                0x0800ccc8       0x38 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fpclassify.o)
+                0x0800ccc8                __fpclassifyf
+ .text.nanf     0x0800cd00        0xc c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_nan.o)
+                0x0800cd00                nanf
+ .text.scalbnf  0x0800cd0c       0xd8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_scalbn.o)
+                0x0800cd0c                scalbnf
  .text.copysignf
-                0x0800baac       0x18 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
-                0x0800baac                copysignf
- .text          0x0800bac4      0x370 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_addsubdf3.o)
-                0x0800bac4                __aeabi_drsub
-                0x0800bacc                __aeabi_dsub
-                0x0800bacc                __subdf3
-                0x0800bad0                __aeabi_dadd
-                0x0800bad0                __adddf3
-                0x0800bd48                __floatunsidf
-                0x0800bd48                __aeabi_ui2d
-                0x0800bd68                __floatsidf
-                0x0800bd68                __aeabi_i2d
-                0x0800bd8c                __aeabi_f2d
-                0x0800bd8c                __extendsfdf2
-                0x0800bdc8                __floatundidf
-                0x0800bdc8                __aeabi_ul2d
-                0x0800bdd8                __floatdidf
-                0x0800bdd8                __aeabi_l2d
- .text          0x0800be34      0x424 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_muldivdf3.o)
-                0x0800be34                __aeabi_dmul
-                0x0800be34                __muldf3
-                0x0800c088                __divdf3
-                0x0800c088                __aeabi_ddiv
- .text          0x0800c258      0x110 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_cmpdf2.o)
-                0x0800c258                __gtdf2
-                0x0800c258                __gedf2
-                0x0800c260                __ltdf2
-                0x0800c260                __ledf2
-                0x0800c268                __nedf2
-                0x0800c268                __eqdf2
-                0x0800c268                __cmpdf2
-                0x0800c2e4                __aeabi_cdrcmple
-                0x0800c2f4                __aeabi_cdcmpeq
-                0x0800c2f4                __aeabi_cdcmple
-                0x0800c304                __aeabi_dcmpeq
-                0x0800c318                __aeabi_dcmplt
-                0x0800c32c                __aeabi_dcmple
-                0x0800c340                __aeabi_dcmpge
-                0x0800c354                __aeabi_dcmpgt
- .text          0x0800c368       0xa0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_truncdfsf2.o)
-                0x0800c368                __truncdfsf2
-                0x0800c368                __aeabi_d2f
- .text.srand    0x0800c408       0x10 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
-                0x0800c408                srand
- .text.rand     0x0800c418       0x40 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
-                0x0800c418                rand
+                0x0800cde4       0x18 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
+                0x0800cde4                copysignf
+ .text          0x0800cdfc      0x370 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_addsubdf3.o)
+                0x0800cdfc                __aeabi_drsub
+                0x0800ce04                __aeabi_dsub
+                0x0800ce04                __subdf3
+                0x0800ce08                __aeabi_dadd
+                0x0800ce08                __adddf3
+                0x0800d080                __floatunsidf
+                0x0800d080                __aeabi_ui2d
+                0x0800d0a0                __floatsidf
+                0x0800d0a0                __aeabi_i2d
+                0x0800d0c4                __aeabi_f2d
+                0x0800d0c4                __extendsfdf2
+                0x0800d100                __floatundidf
+                0x0800d100                __aeabi_ul2d
+                0x0800d110                __floatdidf
+                0x0800d110                __aeabi_l2d
+ .text          0x0800d16c      0x424 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_muldivdf3.o)
+                0x0800d16c                __aeabi_dmul
+                0x0800d16c                __muldf3
+                0x0800d3c0                __divdf3
+                0x0800d3c0                __aeabi_ddiv
+ .text          0x0800d590      0x110 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_cmpdf2.o)
+                0x0800d590                __gtdf2
+                0x0800d590                __gedf2
+                0x0800d598                __ltdf2
+                0x0800d598                __ledf2
+                0x0800d5a0                __nedf2
+                0x0800d5a0                __eqdf2
+                0x0800d5a0                __cmpdf2
+                0x0800d61c                __aeabi_cdrcmple
+                0x0800d62c                __aeabi_cdcmpeq
+                0x0800d62c                __aeabi_cdcmple
+                0x0800d63c                __aeabi_dcmpeq
+                0x0800d650                __aeabi_dcmplt
+                0x0800d664                __aeabi_dcmple
+                0x0800d678                __aeabi_dcmpge
+                0x0800d68c                __aeabi_dcmpgt
+ .text          0x0800d6a0       0xa0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_truncdfsf2.o)
+                0x0800d6a0                __truncdfsf2
+                0x0800d6a0                __aeabi_d2f
+ .text          0x0800d740      0x134 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
+                0x0800d740                memcpy
+ .text.memset   0x0800d874       0x94 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+                0x0800d874                memset
+ .text.srand    0x0800d908       0x10 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
+                0x0800d908                srand
+ .text.rand     0x0800d918       0x40 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
+                0x0800d918                rand
  .text.rand.__stub
-                0x0800c458       0x10 linker stubs
+                0x0800d958       0x10 linker stubs
  *(.glue_7t)
  .glue_7t       0x00000000        0x0 linker stubs
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.rodata .rodata* .gnu.linkonce.r.*)
- .rodata.MIDIscale04
-                0x0800c468        0x8 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x0800c468                MIDIscale04
- .rodata.MIDIscale14
-                0x0800c470        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x0800c470                MIDIscale14
- .rodata.CSWTCH.11.6911.6911
-                0x0800c474       0x3c C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x0800c474                CSWTCH.11.6911.6911
- .rodata.MIDIscale02
-                0x0800c4b0        0x8 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x0800c4b0                MIDIscale02
- .rodata.MIDIscale05
-                0x0800c4b8        0x8 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x0800c4b8                MIDIscale05
- .rodata.MIDIscale01
-                0x0800c4c0        0x8 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x0800c4c0                MIDIscale01
- .rodata.MIDIscale03
-                0x0800c4c8        0x8 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x0800c4c8                MIDIscale03
- .rodata.MIDIscale06
-                0x0800c4d0        0x8 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x0800c4d0                MIDIscale06
- .rodata.str1.4
-                0x0800c4d8        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
- .rodata.MIDIscale12
-                0x0800c4dc       0x10 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x0800c4dc                MIDIscale12
- .rodata.MIDIscale13
-                0x0800c4ec        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x0800c4ec                MIDIscale13
- .rodata.MIDIscale11
-                0x0800c4f0        0x8 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x0800c4f0                MIDIscale11
+ .rodata.CSWTCH.11.7073.7073
+                0x0800d968       0x3c C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x0800d968                CSWTCH.11.7073.7073
  .rodata.MIDIscale10
-                0x0800c4f8        0x8 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x0800c4f8                MIDIscale10
+                0x0800d9a4        0x8 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x0800d9a4                MIDIscale10
+ .rodata.MIDIscale11
+                0x0800d9ac        0x8 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x0800d9ac                MIDIscale11
+ .rodata.MIDIscale12
+                0x0800d9b4       0x10 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x0800d9b4                MIDIscale12
+ .rodata.MIDIscale13
+                0x0800d9c4        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x0800d9c4                MIDIscale13
+ .rodata.MIDIscale14
+                0x0800d9c8        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x0800d9c8                MIDIscale14
+ .rodata.MIDIscale01
+                0x0800d9cc        0x8 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x0800d9cc                MIDIscale01
+ .rodata.MIDIscale02
+                0x0800d9d4        0x8 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x0800d9d4                MIDIscale02
+ .rodata.MIDIscale03
+                0x0800d9dc        0x8 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x0800d9dc                MIDIscale03
+ .rodata.MIDIscale04
+                0x0800d9e4        0x8 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x0800d9e4                MIDIscale04
+ .rodata.MIDIscale05
+                0x0800d9ec        0x8 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x0800d9ec                MIDIscale05
+ .rodata.MIDIscale06
+                0x0800d9f4        0x8 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x0800d9f4                MIDIscale06
  .rodata.MIDIscale07
-                0x0800c500        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x0800c500                MIDIscale07
- .rodata.MIDIscale09
-                0x0800c504        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x0800c504                MIDIscale09
+                0x0800d9fc        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x0800d9fc                MIDIscale07
  .rodata.MIDIscale08
-                0x0800c508        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x0800c508                MIDIscale08
- .rodata.sinetable
-                0x0800c50c     0x1004 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans1.ltrans.o
-                0x0800c50c                sinetable
- .rodata.notesFreq
-                0x0800d510      0x1ac C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans1.ltrans.o
- .rodata.GPIO_CLK.4836
-                0x0800d6bc       0x10 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
- .rodata.GPIO_PIN
-                0x0800d6cc        0x8 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans3.ltrans.o
-                0x0800d6cc                GPIO_PIN
- .rodata.USBH_HCD_INT_fops.4224
-                0x0800d6d4        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans6.ltrans.o
- .rodata.TWO23  0x0800d6d8        0x8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
- .rodata.TWO23  0x0800d6e0        0x8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
+                0x0800da00        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x0800da00                MIDIscale08
+ .rodata.MIDIscale09
+                0x0800da04        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x0800da04                MIDIscale09
  .rodata.str1.4
-                0x0800d6e8        0x5 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o)
+                0x0800da08        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+ .rodata.sinetable
+                0x0800da0c     0x1004 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans1.ltrans.o
+                0x0800da0c                sinetable
+ .rodata.step_dd_table
+                0x0800ea10     0x9008 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans1.ltrans.o
+ .rodata.notesFreq
+                0x08017a18      0x1ac C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans1.ltrans.o
+ .rodata.slope_dd_table.4379
+                0x08017bc4     0x4704 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans1.ltrans.o
+ .rodata.GPIO_CLK.4837
+                0x0801c2c8       0x10 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+ .rodata.USBH_HCD_INT_fops.4224
+                0x0801c2d8        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans6.ltrans.o
+ .rodata.GPIO_PIN
+                0x0801c2dc        0x8 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans8.ltrans.o
+                0x0801c2dc                GPIO_PIN
+ .rodata.TWO23  0x0801c2e4        0x8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
+ .rodata.TWO23  0x0801c2ec        0x8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
+ .rodata.str1.4
+                0x0801c2f4        0x5 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o)
                                   0x8 (size before relaxing)
- *fill*         0x0800d6ed        0x3 
- .rodata.dp_h   0x0800d6f0        0x8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
- .rodata.dp_l   0x0800d6f8        0x8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
- .rodata.bp     0x0800d700        0x8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+ *fill*         0x0801c2f9        0x3 
+ .rodata.dp_h   0x0801c2fc        0x8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+ .rodata.dp_l   0x0801c304        0x8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+ .rodata.bp     0x0801c30c        0x8 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
  .rodata.str1.4
                 0x00000000        0x5 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
                                   0x4 (size before relaxing)
  .rodata.npio2_hw
-                0x0800d708       0x80 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
+                0x0801c314       0x80 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
  .rodata.two_over_pi
-                0x0800d788      0x318 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
+                0x0801c394      0x318 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
  .rodata.init_jk
-                0x0800daa0        0xc c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
- .rodata.PIo2   0x0800daac       0x2c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
- .rodata.TWO52  0x0800dad8       0x10 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o)
+                0x0801c6ac        0xc c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
+ .rodata.PIo2   0x0801c6b8       0x2c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
+ *fill*         0x0801c6e4        0x4 
+ .rodata.TWO52  0x0801c6e8       0x10 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o)
  .rodata.str1.4
-                0x0800dae8        0x2 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+                0x0801c6f8        0x2 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
                                   0x4 (size before relaxing)
 
-.vfp11_veneer   0x0800daec        0x0
+.vfp11_veneer   0x0801c6fc        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x0800daec        0x0
+.v4_bx          0x0801c6fc        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x0800daec        0x0
+.iplt           0x0801c6fc        0x0
  .iplt          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
 
-.rel.dyn        0x0800daec        0x0
+.rel.dyn        0x0801c6fc        0x0
  .rel.iplt      0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0800daec                __exidx_start = .
+                0x0801c6fc                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0800daec                __exidx_end = .
-                0x0800daec                . = ALIGN (0x4)
-                0x0800daec                _etext = .
-                0x0800daec                _sidata = .
+                0x0801c6fc                __exidx_end = .
+                0x0801c6fc                . = ALIGN (0x4)
+                0x0801c6fc                _etext = .
+                0x0801c6fc                _sidata = .
 
-.data           0x20000000      0x4dc load address 0x0800daec
+.data           0x20000000      0x4dc load address 0x0801c6fc
                 0x20000000                _sdata = .
  *(.data .data.*)
- .data.demoMode
-                0x20000000        0x1 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x20000000                demoMode
- *fill*         0x20000001        0x3 
- .data.MIDI_cb.5296
-                0x20000004       0x10 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
- .data.CurrAudioInterface
-                0x20000014        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x20000014                CurrAudioInterface
- .data.AudioTotalSize
-                0x20000018        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
- .data.APBAHBPrescTable.10569.5324
-                0x2000001c       0x10 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
  .data.AudioRemSize
-                0x2000002c        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x2000002c                AudioRemSize
- .data.SystemCoreClock
-                0x20000030        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
+                0x20000000        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x20000000                AudioRemSize
+ .data.CurrAudioInterface
+                0x20000004        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x20000004                CurrAudioInterface
+ .data.AudioTotalSize
+                0x20000008        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+ .data.APBAHBPrescTable.10786.5391
+                0x2000000c       0x10 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
  .data.USR_Callbacks
-                0x20000034       0x48 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
- .data.Count.4859.4779
-                0x2000007c        0x1 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
- *fill*         0x2000007d        0x3 
- .data.fdb.5982
-                0x20000080        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans3.ltrans.o
-                0x20000080                fdb.5982
- .data.GPIO_PORT
-                0x20000084       0x10 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans3.ltrans.o
-                0x20000084                GPIO_PORT
- .data.volume.5809.4699
-                0x20000094        0x1 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans3.ltrans.o
- *fill*         0x20000095        0x3 
+                0x2000001c       0x48 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+ .data.SystemCoreClock
+                0x20000064        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+ .data.MIDI_cb.5360
+                0x20000068       0x10 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+ .data.demoMode
+                0x20000078        0x1 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x20000078                demoMode
+ *fill*         0x20000079        0x3 
  .data.centralFreq
-                0x20000098        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans3.ltrans.o
-                0x20000098                centralFreq
- .data.CODECTimeout.4359
-                0x2000009c        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans5.ltrans.o
+                0x2000007c        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans1.ltrans.o
+                0x2000007c                centralFreq
+ .data.fdb.6079
+                0x20000080        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans1.ltrans.o
+                0x20000080                fdb.6079
+ .data.Count.4859.4780
+                0x20000084        0x1 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+ .data.volume.5809.4700
+                0x20000085        0x1 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans3.ltrans.o
+ *fill*         0x20000086        0x2 
+ .data.CODECTimeout.4360
+                0x20000088        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans5.ltrans.o
  .data.USBH_HCD_INT_cb
-                0x200000a0        0xc C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans6.ltrans.o
+                0x2000008c        0xc C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans6.ltrans.o
+ .data.GPIO_PORT
+                0x20000098       0x10 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans8.ltrans.o
+                0x20000098                GPIO_PORT
  .data.__fdlib_version
-                0x200000ac        0x1 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_lib_ver.o)
-                0x200000ac                __fdlib_version
- *fill*         0x200000ad        0x3 
+                0x200000a8        0x1 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_lib_ver.o)
+                0x200000a8                __fdlib_version
+ *fill*         0x200000a9        0x7 
  .data.impure_data
                 0x200000b0      0x428 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
  .data._impure_ptr
@@ -890,215 +898,224 @@ END GROUP
                 0x200004dc                . = ALIGN (0x4)
                 0x200004dc                _edata = .
 
-.igot.plt       0x200004dc        0x0 load address 0x0800dfc8
+.igot.plt       0x200004dc        0x0 load address 0x0801cbd8
  .igot.plt      0x00000000        0x0 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
 
-.bss            0x200004dc    0x14e64 load address 0x0800dfc8
+.bss            0x200004dc    0x15e6c load address 0x0801cbd8
                 0x200004dc                _sbss = .
  *(.bss .bss.*)
- .bss.prev_itf.8502.9666.5291
-                0x200004dc        0x1 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
- *fill*         0x200004dd        0x3 
- .bss.shift.5977
-                0x200004e0        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x200004e0                shift.5977
- .bss.filterFreq2
-                0x200004e4        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x200004e4                filterFreq2
- .bss.readpos.5981
-                0x200004e8        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x200004e8                readpos.5981
- .bss.BSP_delay
-                0x200004ec        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x200004ec                BSP_delay
- .bss.seq       0x200004f0       0x34 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x200004f0                seq
- .bss.OutputDev.5323
-                0x20000524        0x1 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
- *fill*         0x20000525        0x1 
- .bss.timeout.8539.8738.5290
-                0x20000526        0x2 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
- .bss.prev_ep_size.8501.9667.5292
-                0x20000528        0x2 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
- *fill*         0x2000052a        0x2 
- .bss.noteG     0x2000052c       0x10 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x2000052c                noteG
- .bss.USB_Host  0x2000053c       0x6c C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x2000053c                USB_Host
- .bss.audiobuff
-                0x200005a8      0xc80 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x200005a8                audiobuff
- .bss.delayline.5980
-                0x20001228    0x13888 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x20001228                delayline.5980
- .bss.DMA_InitStructure
-                0x20014ab0       0x3c C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x20014ab0                DMA_InitStructure
- .bss.USBH_CfgDesc.5293
-                0x20014aec      0x200 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
  .bss.CurrentPos
-                0x20014cec        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x20014cec                CurrentPos
+                0x200004dc        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x200004dc                CurrentPos
+ .bss.USB_Host  0x200004e0       0x6c C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x200004e0                USB_Host
+ .bss.timeout.8539.8955.5354
+                0x2000054c        0x2 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+ *fill*         0x2000054e        0x2 
+ .bss.mbTriOsc  0x20000550      0x558 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x20000550                mbTriOsc
+ .bss.readpos.6078
+                0x20000aa8        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x20000aa8                readpos.6078
+ .bss.OutputDev.5390
+                0x20000aac        0x1 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+ *fill*         0x20000aad        0x3 
+ .bss.filterFreq2
+                0x20000ab0        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x20000ab0                filterFreq2
+ .bss.prev_itf.8502.9883.5355
+                0x20000ab4        0x1 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+ *fill*         0x20000ab5        0x3 
+ .bss.noteG     0x20000ab8       0x10 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x20000ab8                noteG
  .bss.filterFreq
-                0x20014cf0        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x20014cf0                filterFreq
- .bss.adsr      0x20014cf4       0x28 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x20014cf4                adsr
- .bss.writepos.5979
-                0x20014d1c        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
-                0x20014d1c                writepos.5979
- .bss.old_dy.5984.4231
-                0x20014d20        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans1.ltrans.o
- .bss.DebouncedKeyPress.4857.4777
-                0x20014d24        0x1 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
- *fill*         0x20014d25        0x3 
- .bss.TimingDelay.7233.4809
-                0x20014d28        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
- .bss.Key_changed.4860.4780
-                0x20014d2c        0x1 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
- *fill*         0x20014d2d        0x3 
- .bss.TimingDelay1.7234.4810
-                0x20014d30        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
- .bss.Key_pressed.4861.4781
-                0x20014d34        0x1 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
- *fill*         0x20014d35        0x3 
+                0x20000ac8        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x20000ac8                filterFreq
+ .bss.prev_ep_size.8501.9884.5356
+                0x20000acc        0x2 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+ *fill*         0x20000ace        0x2 
+ .bss.writepos.6076
+                0x20000ad0        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x20000ad0                writepos.6076
+ .bss.seq       0x20000ad4       0x34 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x20000ad4                seq
+ .bss.BSP_delay
+                0x20000b08        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x20000b08                BSP_delay
+ .bss.mbRectOsc
+                0x20000b0c      0x55c C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x20000b0c                mbRectOsc
+ .bss.USBH_CfgDesc.5357
+                0x20001068      0x200 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+ .bss.adsr      0x20001268       0x28 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x20001268                adsr
+ .bss.mbSawOsc  0x20001290      0x54c C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x20001290                mbSawOsc
+ .bss.shift.6074
+                0x200017dc        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x200017dc                shift.6074
+ .bss.audiobuff
+                0x200017e0      0xc80 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x200017e0                audiobuff
+ .bss.DMA_InitStructure
+                0x20002460       0x3c C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x20002460                DMA_InitStructure
+ .bss.delayline.6077
+                0x2000249c    0x13888 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
+                0x2000249c                delayline.6077
+ .bss.freeze    0x20015d24        0x1 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans1.ltrans.o
+                0x20015d24                freeze
+ *fill*         0x20015d25        0x3 
+ .bss.old_dy.6081.4307
+                0x20015d28        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans1.ltrans.o
+ .bss.Key_pressed.4861.4782
+                0x20015d2c        0x1 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+ *fill*         0x20015d2d        0x3 
+ .bss.TimingDelay.7450.4810
+                0x20015d30        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+ .bss.DebouncedKeyPress.4857.4778
+                0x20015d34        0x1 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+ *fill*         0x20015d35        0x3 
+ .bss.TimingDelay1.7451.4811
+                0x20015d38        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+ .bss.Key_changed.4860.4781
+                0x20015d3c        0x1 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+ *fill*         0x20015d3d        0x3 
  .bss.BlueLED_counter
-                0x20014d38        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans3.ltrans.o
-                0x20014d38                BlueLED_counter
- .bss.freeze    0x20014d3c        0x1 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans3.ltrans.o
-                0x20014d3c                freeze
+                0x20015d40        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans3.ltrans.o
+                0x20015d40                BlueLED_counter
  .bss.start_toggle
-                0x20014d3d        0x1 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans3.ltrans.o
-                0x20014d3d                start_toggle
- *fill*         0x20014d3e        0x2 
+                0x20015d44        0x1 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans3.ltrans.o
+                0x20015d44                start_toggle
+ *fill*         0x20015d45        0x3 
  .bss.MIDI_Machine
-                0x20014d40       0x50 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans3.ltrans.o
-                0x20014d40                MIDI_Machine
+                0x20015d48       0x50 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans3.ltrans.o
+                0x20015d48                MIDI_Machine
  .bss.USB_OTG_Core_dev
-                0x20014d90      0x5ac C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans7.ltrans.o
-                0x20014d90                USB_OTG_Core_dev
+                0x20015d98      0x5ac C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans7.ltrans.o
+                0x20015d98                USB_OTG_Core_dev
  *(COMMON)
- COMMON         0x2001533c        0x4 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
-                0x2001533c                __errno
-                0x20015340                . = ALIGN (0x4)
-                0x20015340                _ebss = .
+ COMMON         0x20016344        0x4 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+                0x20016344                __errno
+                0x20016348                . = ALIGN (0x4)
+                0x20016348                _ebss = .
 
-.co_stack       0x20015340      0x800 load address 0x08022e2c
-                0x20015340                . = ALIGN (0x8)
+.co_stack       0x20016348      0x800 load address 0x08032a44
+                0x20016348                . = ALIGN (0x8)
  *(.co_stack .co_stack.*)
- .co_stack      0x20015340      0x800 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans7.ltrans.o
-                0x20015b40                . = ALIGN (0x4)
-                0x20015b40                _end = .
+ .co_stack      0x20016348      0x800 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans7.ltrans.o
+                0x20016b48                . = ALIGN (0x4)
+                0x20016b48                _end = .
 OUTPUT(Dekrispator.elf elf32-littlearm)
 
 .comment        0x00000000       0x70
- .comment       0x00000000       0x70 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
+ .comment       0x00000000       0x70 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
                                  0x71 (size before relaxing)
- .comment       0x00000000       0x71 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans1.ltrans.o
- .comment       0x00000000       0x71 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
- .comment       0x00000000       0x71 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans3.ltrans.o
- .comment       0x00000000       0x71 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans4.ltrans.o
- .comment       0x00000000       0x71 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans5.ltrans.o
- .comment       0x00000000       0x71 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans6.ltrans.o
- .comment       0x00000000       0x71 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans7.ltrans.o
- .comment       0x00000000       0x71 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans8.ltrans.o
+ .comment       0x00000000       0x71 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans1.ltrans.o
+ .comment       0x00000000       0x71 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
+ .comment       0x00000000       0x71 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans3.ltrans.o
+ .comment       0x00000000       0x71 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans4.ltrans.o
+ .comment       0x00000000       0x71 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans5.ltrans.o
+ .comment       0x00000000       0x71 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans6.ltrans.o
+ .comment       0x00000000       0x71 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans7.ltrans.o
+ .comment       0x00000000       0x71 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans8.ltrans.o
 
 .ARM.attributes
                 0x00000000       0x37
  .ARM.attributes
-                0x00000000       0x37 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans0.ltrans.o
+                0x00000000       0x37 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans0.ltrans.o
  .ARM.attributes
-                0x00000037       0x37 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans1.ltrans.o
+                0x00000037       0x37 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans1.ltrans.o
  .ARM.attributes
-                0x0000006e       0x37 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans2.ltrans.o
+                0x0000006e       0x37 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans2.ltrans.o
  .ARM.attributes
-                0x000000a5       0x37 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans3.ltrans.o
+                0x000000a5       0x37 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans3.ltrans.o
  .ARM.attributes
-                0x000000dc       0x37 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans4.ltrans.o
+                0x000000dc       0x37 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans4.ltrans.o
  .ARM.attributes
-                0x00000113       0x37 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans5.ltrans.o
+                0x00000113       0x37 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans5.ltrans.o
  .ARM.attributes
-                0x0000014a       0x37 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans6.ltrans.o
+                0x0000014a       0x37 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans6.ltrans.o
  .ARM.attributes
-                0x00000181       0x37 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans7.ltrans.o
+                0x00000181       0x37 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans7.ltrans.o
  .ARM.attributes
-                0x000001b8       0x37 C:\Users\CNous\AppData\Local\Temp\ccMKL8Nd.ltrans8.ltrans.o
+                0x000001b8       0x37 C:\Users\CNous\AppData\Local\Temp\ccKmYnP2.ltrans8.ltrans.o
  .ARM.attributes
-                0x000001ef       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
+                0x000001ef       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
  .ARM.attributes
-                0x0000020f       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+                0x00000223       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_floor.o)
  .ARM.attributes
-                0x00000243       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
+                0x00000257       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
  .ARM.attributes
-                0x00000277       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_floor.o)
+                0x0000028b       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
  .ARM.attributes
-                0x000002ab       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
+                0x000002bf       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o)
  .ARM.attributes
-                0x000002df       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
+                0x000002f3       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o)
  .ARM.attributes
-                0x00000313       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o)
+                0x00000327       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
  .ARM.attributes
-                0x00000347       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o)
+                0x0000035b       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
  .ARM.attributes
-                0x0000037b       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+                0x0000038f       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_sqrt.o)
  .ARM.attributes
-                0x000003af       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
+                0x000003c3       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_cos.o)
  .ARM.attributes
-                0x000003e3       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_sqrt.o)
+                0x000003f7       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
  .ARM.attributes
-                0x00000417       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_cos.o)
+                0x0000042b       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_sin.o)
  .ARM.attributes
-                0x0000044b       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
+                0x0000045f       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_lib_ver.o)
  .ARM.attributes
-                0x0000047f       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_sin.o)
+                0x00000493       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_matherr.o)
  .ARM.attributes
-                0x000004b3       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_lib_ver.o)
+                0x000004c7       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o)
  .ARM.attributes
-                0x000004e7       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_matherr.o)
+                0x000004fb       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_finite.o)
  .ARM.attributes
-                0x0000051b       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o)
+                0x0000052f       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fpclassify.o)
  .ARM.attributes
-                0x0000054f       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_finite.o)
+                0x00000563       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_nan.o)
  .ARM.attributes
-                0x00000583       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fpclassify.o)
+                0x00000597       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_scalbn.o)
  .ARM.attributes
-                0x000005b7       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_nan.o)
+                0x000005cb       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
  .ARM.attributes
-                0x000005eb       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_scalbn.o)
+                0x000005ff       0x22 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x0000061f       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
+                0x00000621       0x22 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x00000653       0x22 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_addsubdf3.o)
+                0x00000643       0x22 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x00000675       0x22 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_muldivdf3.o)
+                0x00000665       0x22 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_truncdfsf2.o)
  .ARM.attributes
-                0x00000697       0x22 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_cmpdf2.o)
+                0x00000687       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memcpy.o)
  .ARM.attributes
-                0x000006b9       0x22 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu\libgcc.a(_arm_truncdfsf2.o)
+                0x000006a7       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
  .ARM.attributes
                 0x000006db       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)
  .ARM.attributes
                 0x0000070f       0x34 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
 
 .debug_frame    0x00000000      0x378
- .debug_frame   0x00000000       0x2c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
- .debug_frame   0x0000002c       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
- .debug_frame   0x0000004c       0x28 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_floor.o)
- .debug_frame   0x00000074       0x28 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
- .debug_frame   0x0000009c       0x28 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
- .debug_frame   0x000000c4       0x28 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o)
- .debug_frame   0x000000ec       0x38 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o)
- .debug_frame   0x00000124       0x3c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
- .debug_frame   0x00000160       0x30 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
- .debug_frame   0x00000190       0x2c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_sqrt.o)
- .debug_frame   0x000001bc       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_cos.o)
- .debug_frame   0x000001dc       0x44 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
- .debug_frame   0x00000220       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_sin.o)
- .debug_frame   0x00000240       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_matherr.o)
- .debug_frame   0x00000260       0x30 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o)
- .debug_frame   0x00000290       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_finite.o)
- .debug_frame   0x000002b0       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fpclassify.o)
- .debug_frame   0x000002d0       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_nan.o)
- .debug_frame   0x000002f0       0x30 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_scalbn.o)
- .debug_frame   0x00000320       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
+ .debug_frame   0x00000000       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fabs.o)
+ .debug_frame   0x00000020       0x28 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_floor.o)
+ .debug_frame   0x00000048       0x28 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_lrint.o)
+ .debug_frame   0x00000070       0x28 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_rint.o)
+ .debug_frame   0x00000098       0x28 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_sin.o)
+ .debug_frame   0x000000c0       0x38 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-wf_pow.o)
+ .debug_frame   0x000000f8       0x3c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_pow.o)
+ .debug_frame   0x00000134       0x30 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_rem_pio2.o)
+ .debug_frame   0x00000164       0x2c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-ef_sqrt.o)
+ .debug_frame   0x00000190       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_cos.o)
+ .debug_frame   0x000001b0       0x44 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_rem_pio2.o)
+ .debug_frame   0x000001f4       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-kf_sin.o)
+ .debug_frame   0x00000214       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_matherr.o)
+ .debug_frame   0x00000234       0x30 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-s_rint.o)
+ .debug_frame   0x00000264       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_finite.o)
+ .debug_frame   0x00000284       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_fpclassify.o)
+ .debug_frame   0x000002a4       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_nan.o)
+ .debug_frame   0x000002c4       0x30 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_scalbn.o)
+ .debug_frame   0x000002f4       0x20 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_copysign.o)
+ .debug_frame   0x00000314       0x2c c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
  .debug_frame   0x00000340       0x38 c:/program files/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-rand.o)

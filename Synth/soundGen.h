@@ -38,7 +38,7 @@
 #include "adsr.h"
 //#include "usbh_usr.h"
 #include "midi_interface.h"
-
+#include "blepvco.h"
 
 /* Exported functions ------------------------------------------------------- */
 uint8_t soundNumber_get(void);

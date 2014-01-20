@@ -29,7 +29,7 @@ Ready to use files are in Ressources folder.
  * monophonic
  * all digital !
  * oscillators with :
-  * low aliased analog waveforms, 
+  * very low aliased analog waveforms with minBLEP oscillators (thanks Sean Bolton)
   * 4 OP FM generator
   * multisaw (several saws with individual "drifters")
   * 10 sine additive generator

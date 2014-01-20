@@ -24,10 +24,11 @@
 #include "sinetable.h"
 #include "notesTables.h"
 #include "drifter.h"
+#include "blepvco.h"
 /*----------------------------------------------------------------------------*/
 
-enum timbre { MORPH_SAW = 0, SPLIT, ACC_SINE, WT_SINE, ADDITIVE, SQUARED_SAW, BAD_SAW, POWER_SINE, BAD_TRIANGLE, BAD_SQUARE,
-	NOISE, CHORD15, CHORD135, CHORD13min5, VOICES3, DRIFTERS, FM2, LAST_SOUND };
+enum timbre { MORPH_SAW = 0, SPLIT, ACC_SINE, WT_SINE, ADDITIVE, POWER_SINE, BLEPTRIANGLE, BLEPSQUARE,
+	NOISE, CHORD15, CHORD135, CHORD13min5, VOICES3, DRIFTERS, FM2, BLEPSAW, LAST_SOUND };
 
 /*----------------------------------------------------------------------------*/
 typedef struct

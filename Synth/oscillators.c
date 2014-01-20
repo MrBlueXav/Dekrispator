@@ -17,6 +17,10 @@ Oscillator_t 		op2 _CCM_;
 Oscillator_t 		op3 _CCM_;
 Oscillator_t 		op4 _CCM_;
 
+extern VCO_blepsaw_t		mbSawOsc;
+extern VCO_bleprect_t		mbRectOsc;
+extern VCO_bleptri_t		mbTriOsc;
+
 Oscillator_t 		vibr_lfo _CCM_;
 
 Oscillator_t 		filt_lfo _CCM_;
@@ -31,6 +35,24 @@ float_t			centralFreq = 3000;
 
 /*===============================================================================================================*/
 
+void
+osc_init(Oscillator_t * op, float_t amp, float_t freq)
+{
+	op->amp = amp;
+	op->last_amp = amp;
+	op->freq = freq;
+	op->phase = 0;
+	op->out = 0;
+	op->modInd = 0;
+	op->mul = 1;
+}
+/*-------------------------------------------------------*/
+
+void
+OpSetFreq(Oscillator_t * op, float_t f)
+{
+	op->freq = f;
+}
 
 /*---------------------------------------------------------------*/
 void	Drifter_centralFreq_set(uint8_t val)
@@ -299,25 +321,6 @@ float_t AdditiveGen_SampleCompute(Oscillator_t * op) // additive sine generator
 
 	return op->out;
 }
-/*-------------------------------------------------------*/
-void
-osc_init(Oscillator_t * op, float_t amp, float_t freq)
-{
-	op->amp = amp;
-	op->last_amp = amp;
-	op->freq = freq;
-	op->phase = 0;
-	op->out = 0;
-	op->modInd = 0;
-	op->mul = 1;
-}
-/*-------------------------------------------------------*/
-
-void
-OpSetFreq(Oscillator_t * op, float_t f)
-{
-	op->freq = f;
-}
 
 /*-------------------------------------------------------------------------------------------------------------------*/
 
@@ -326,6 +329,9 @@ float waveCompute(uint8_t sound, float frq)
 	float y;
 
 	OpSetFreq(&op1, frq);
+
+	//sound = BLEPSQUARE;
+	//sound = BLEPTRIANGLE;
 
 	/* choose waveform generator */
 	switch (sound)
@@ -339,11 +345,22 @@ float waveCompute(uint8_t sound, float frq)
 	} 	break;
 
 	case ACC_SINE : 		y = 0.8 * OpSampleCompute0(&op1); 		break;
+
 	case POWER_SINE : 		y = OpSampleCompute3(&op1);				break;
-	case BAD_TRIANGLE :	 	y = OpSampleCompute5(&op1);				break;
-	case BAD_SQUARE : 		y = 0.6f * OpSampleCompute8(&op1);		break;
+
+	case BLEPTRIANGLE :	 	mbTriOsc.freq = frq;
+	y = VCO_bleptri_SampleCompute(&mbTriOsc); break;
+
+	//y = OpSampleCompute5(&op1);				break;
+
+	case BLEPSQUARE : 		mbRectOsc.freq = frq;
+	y = VCO_bleprect_SampleCompute(&mbRectOsc);		break;
+	//y = 0.6f * OpSampleCompute8(&op1);		break;
+
 	case WT_SINE : 			y = 0.8f * Osc_WT_SINE_SampleCompute(&op1);		break;
+
 	case ADDITIVE : 		y = AdditiveGen_SampleCompute(&op1);	break;
+
 	case NOISE : 			y = op1.amp * frand_a_b(-.8f , .8f);	break; // noise !
 
 	case CHORD15 : 	{	// fundamental + fifth : 1 5
@@ -374,8 +391,14 @@ float waveCompute(uint8_t sound, float frq)
 
 	case FM2 : 			y = FM2_sampleCompute(frq); break;
 
-	default :			y = 0.8f * Osc_WT_SINE_SampleCompute(&op1);		break;
-		//y = 0;	break ;
+	case BLEPSAW :		{
+		mbSawOsc.freq = frq;
+		y = VCO_blepsaw_SampleCompute(&mbSawOsc);
+	}	break;
+
+
+	default :			//y = 0.8f * Osc_WT_SINE_SampleCompute(&op1);		break;
+		y = 0;	break ;
 
 	}
 

@@ -6,12 +6,14 @@
 C_SRCS += \
 ../Synth/adsr.c \
 ../Synth/audio.c \
+../Synth/blepvco.c \
 ../Synth/chorusFD.c \
 ../Synth/delay.c \
 ../Synth/drifter.c \
 ../Synth/main.c \
 ../Synth/math_tools.c \
 ../Synth/midi_interface.c \
+../Synth/minblep_tables.c \
 ../Synth/notesTables.c \
 ../Synth/oscillators.c \
 ../Synth/random.c \
@@ -24,12 +26,14 @@ C_SRCS += \
 OBJS += \
 ./Synth/adsr.o \
 ./Synth/audio.o \
+./Synth/blepvco.o \
 ./Synth/chorusFD.o \
 ./Synth/delay.o \
 ./Synth/drifter.o \
 ./Synth/main.o \
 ./Synth/math_tools.o \
 ./Synth/midi_interface.o \
+./Synth/minblep_tables.o \
 ./Synth/notesTables.o \
 ./Synth/oscillators.o \
 ./Synth/random.o \
@@ -42,12 +46,14 @@ OBJS += \
 C_DEPS += \
 ./Synth/adsr.d \
 ./Synth/audio.d \
+./Synth/blepvco.d \
 ./Synth/chorusFD.d \
 ./Synth/delay.d \
 ./Synth/drifter.d \
 ./Synth/main.d \
 ./Synth/math_tools.d \
 ./Synth/midi_interface.d \
+./Synth/minblep_tables.d \
 ./Synth/notesTables.d \
 ./Synth/oscillators.d \
 ./Synth/random.d \
