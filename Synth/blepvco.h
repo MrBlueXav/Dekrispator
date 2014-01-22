@@ -38,16 +38,11 @@
 #include "minblep_tables.h"
 #include "CONSTANTS.h"
 
-//#include <ladspa.h>
-//#include "ladspaplugin.h"
-
 //----------------------------------------------------------------------------------------------------------
 
 enum { FILLEN = 256 };
-enum { OUTP = 1, SYNCOUT, FREQ, EXPM, LINM, WAVM, SYNCIN, OCTN, TUNE, EXPG, LING, WAVE, WMDG, FILT, NPORT };
 
 //----------------------------------------------------------------------------------------------------------
-
 
 void place_step_dd(float *buffer, int index, float phase, float w, float scale);
 void place_slope_dd(float *buffer, int index, float phase, float w, float slope_delta);
@@ -58,7 +53,6 @@ void place_slope_dd(float *buffer, int index, float phase, float w, float slope_
 
 typedef struct
 {
-	//float   _port [NPORT];
 	float	out;
 	float	amp;
 	float	last_amp;
@@ -74,13 +68,13 @@ typedef struct
 
 void VCO_blepsaw_Init(VCO_blepsaw_t *vco);
 float VCO_blepsaw_SampleCompute(VCO_blepsaw_t *vco);
+
 //----------------------------------------------------------------------------------------------------------
 
 //	class VCO_bleprect
 
 typedef struct
 {
-	//float   _port [NPORT];
 	float	out;
 	float	amp;
 	float	last_amp;
@@ -104,7 +98,6 @@ float VCO_bleprect_SampleCompute(VCO_bleprect_t *vco);
 
 typedef struct
 {
-	//float   _port [NPORT];
 	float	out;
 	float	amp;
 	float	last_amp;

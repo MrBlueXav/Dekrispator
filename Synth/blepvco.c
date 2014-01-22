@@ -45,18 +45,8 @@
 VCO_blepsaw_t	mbSawOsc;
 VCO_bleprect_t	mbRectOsc;
 VCO_bleptri_t	mbTriOsc;
-//----------------------------------------------------------------------------------------------------------
 
-//float exp2ap(float x)
-//{
-//	int i;
-//
-//	i = (int)(floor (x));
-//	x -= i;
-//	//    return ldexp (1 + x * (0.66 + 0.34 * x), i);
-//	return ldexp (1 + x * (0.6930 + x * (0.2416 + x * (0.0517 + x * 0.0137))), i);
-//}
-
+/**======================================================================================================**/
 //----------------------------------------------------------------------------------------------------------
 
 void place_step_dd(float *buffer, int index, float phase, float w, float scale)
@@ -122,17 +112,10 @@ void VCO_blepsaw_Init(VCO_blepsaw_t *vco)
 float VCO_blepsaw_SampleCompute(VCO_blepsaw_t *vco)
 {
 	int    j;
-	//int	 n;
-	//float  *outp, *freq, *expm, *linm, *syncin, *syncout;
 	float  freq, syncin;
 	float  a, p, t, w, dw, z;
-
-	//outp    = vco->_port[OUTP];
-	//syncout = vco->_port[SYNCOUT];
 	syncin  = vco->syncin;
 	freq = vco->freq;
-	//expm = vco->_port[EXPM];
-	//linm = vco->_port[LINM];
 
 	p = vco->_p;  /* phase [0, 1) */
 	w = vco->_w;  /* phase increment */
@@ -141,8 +124,6 @@ float VCO_blepsaw_SampleCompute(VCO_blepsaw_t *vco)
 
 	if (vco->_init) {
 		p = 0.5f;
-		//w = (exp2ap (freq + vco->_port[OCTN] + vco->_port[TUNE] + expm * vco->_port[EXPG] + 8.03136)
-		//		+ 1e3 * linm * vco->_port[LING]) / SAMPLERATE;
 		w = freq / SAMPLERATE;
 		if (w < 1e-5) w = 1e-5;
 		if (w > 0.5) w = 0.5;
@@ -155,26 +136,10 @@ float VCO_blepsaw_SampleCompute(VCO_blepsaw_t *vco)
 	//a = 0.2 + 0.8 * vco->_port [FILT];
 	a = 0.5f; // when a = 1, LPfilter is disabled
 
-	//do
-	//{
-	//n = (len > 24) ? 16 : len;
-	//freq += n;
-	//expm += n;
-	//linm += n;
-	//len -= n;
-
-	//t = (exp2ap(freq + vco->_port[OCTN] + vco->_port[TUNE] + expm * vco->_port[EXPG] + 8.03136)
-	//		+ 1e3 * linm * vco->_port[LING]) / SAMPLERATE;
 	t = freq / SAMPLERATE;
-
 	if (t < 1e-5) t = 1e-5;
 	if (t > 0.5) t = 0.5;
-
-	//dw = (t - w) / n;
 	dw = (t - w); // n= 1
-
-	//while (n--)
-	//{
 	w += dw;
 	p += w;
 
@@ -209,18 +174,13 @@ float VCO_blepsaw_SampleCompute(VCO_blepsaw_t *vco)
 
 	z += a * (vco->_f[j] - z); // LP filtering
 	vco->out = vco->amp * z;
-	//*outp++ = z;
-	//syncin++;
-	//syncout++;
+
 	if (++j == FILLEN)
 	{
 		j = 0;
 		memcpy (vco->_f, vco->_f + FILLEN, STEP_DD_PULSE_LENGTH * sizeof (float));
 		memset (vco->_f + STEP_DD_PULSE_LENGTH, 0,  FILLEN * sizeof (float));
 	}
-	//}
-	//}
-	//while (len);
 
 	vco->_p = p;
 	vco->_w = w;
@@ -230,8 +190,8 @@ float VCO_blepsaw_SampleCompute(VCO_blepsaw_t *vco)
 	return vco->out;
 }
 
+//----------------------------------------------------------------------------------------------------------
 /* ==== variable-width, hard-sync-capable rectangular oscillator ==== */
-
 
 void VCO_bleprect_Init(VCO_bleprect_t *vco)
 {
@@ -244,13 +204,11 @@ void VCO_bleprect_Init(VCO_bleprect_t *vco)
 	vco->_j = 0;
 	memset (vco->_f, 0, (FILLEN + STEP_DD_PULSE_LENGTH) * sizeof (float));
 }
-//
 ////----------------------------------------------------------------------------------------------------------
-//
+
 float VCO_bleprect_SampleCompute(VCO_bleprect_t *vco)
 {
 	int    j, k;
-	//	float  *outp, *freq, *expm, *linm, *wavm, *syncin, *syncout;
 	float  freq, syncin;
 	float  a, b, db, p, t, w, dw, x, z;
 
@@ -266,8 +224,7 @@ float VCO_bleprect_SampleCompute(VCO_bleprect_t *vco)
 	//
 	if (vco->_init) {
 		p = 0.0f;
-		//		w = (exp2ap (freq[1] + vco->_port[OCTN] + vco->_port[TUNE] + expm[1] * vco->_port[EXPG] + 8.03136)
-		//				+ 1e3 * linm[1] * vco->_port[LING]) / SAMPLERATE;
+
 		w = freq / SAMPLERATE;
 		if (w < 1e-5) w = 1e-5;
 		if (w > 0.5) w = 0.5;
@@ -288,17 +245,7 @@ float VCO_bleprect_SampleCompute(VCO_bleprect_t *vco)
 	//
 	//	a = 0.2 + 0.8 * vco->_port [FILT];
 	a = 0.5f; // when a = 1, LPfilter is disabled
-	//	do
-	//	{
-	//		n = (len > 24) ? 16 : len;
-	//		freq += n;
-	//		expm += n;
-	//		linm += n;
-	//		wavm += n;
-	//		len -= n;
-	//
-	//		t = (exp2ap (*freq + vco->_port[OCTN] + vco->_port[TUNE] + *expm * vco->_port[EXPG] + 8.03136)
-	//				+ 1e3 * *linm * vco->_port[LING]) / SAMPLERATE;
+
 	t = freq / SAMPLERATE;
 	if (t < 1e-5) t = 1e-5;
 	if (t > 0.5) t = 0.5;
@@ -307,13 +254,11 @@ float VCO_bleprect_SampleCompute(VCO_bleprect_t *vco)
 	if (t < w) t = w;
 	if (t > 1.0f - w) t = 1.0f - w;
 	db = (t - b) ;
-	//
-	//		while (n--)
-	//		{
+
 	w += dw;
 	b += db;
 	p += w;
-	//
+
 	if (syncin >= 1e-20f) {  /* sync to master */
 		//
 		float eof_offset = (syncin - 1e-20f) * w;
@@ -399,19 +344,14 @@ float VCO_bleprect_SampleCompute(VCO_bleprect_t *vco)
 
 	z += a * (vco->_f[j] - z);
 	vco->out = vco->amp * z;
-	//	*outp++ = z;
-	//	syncin++;
-	//	syncout++;
+
 	if (++j == FILLEN)
 	{
 		j = 0;
 		memcpy (vco->_f, vco->_f + FILLEN, STEP_DD_PULSE_LENGTH * sizeof (float));
 		memset (vco->_f + STEP_DD_PULSE_LENGTH, 0,  FILLEN * sizeof (float));
 	}
-	//}
-	//}
-	//	while (len);
-	//
+
 	vco->_p = p;
 	vco->_w = w;
 	vco->_b = b;
@@ -423,11 +363,10 @@ float VCO_bleprect_SampleCompute(VCO_bleprect_t *vco)
 	return vco->out;
 
 }
-//
 
+//----------------------------------------------------------------------------------------------------------
 
 ///* ==== variable-slope, hard-sync-capable triangle oscillator ==== */
-//
 
 void VCO_bleptri_Init(VCO_bleptri_t *vco)
 {
@@ -441,22 +380,13 @@ void VCO_bleptri_Init(VCO_bleptri_t *vco)
 	memset (vco->_f, 0, (FILLEN + STEP_DD_PULSE_LENGTH) * sizeof (float));
 }
 ////----------------------------------------------------------------------------------------------------------
-//
+
 float VCO_bleptri_SampleCompute(VCO_bleptri_t *vco)
 {
 	int    j, k;
-	//	float  *outp, *freq, *expm, *linm, *wavm, *syncin, *syncout;
 	float  freq, syncin;
 	float  a, b, b1, db, p, t, w, dw, x, z;
-	//
-	//	outp    = vco->_port[OUTP];
-	//	syncout = vco->_port[SYNCOUT];
-	//	syncin  = vco->_port[SYNCIN];
-	//	freq = vco->_port[FREQ] - 1;
-	//	expm = vco->_port[EXPM] - 1;
-	//	linm = vco->_port[LINM] - 1;
-	//	wavm = vco->_port[WAVM] - 1;
-	//
+
 	syncin  = vco->syncin;
 	freq = vco->freq;
 	p = vco->_p;  /* phase [0, 1) */
@@ -465,7 +395,7 @@ float VCO_bleptri_SampleCompute(VCO_bleptri_t *vco)
 	z = vco->_z;  /* low pass filter state */
 	j = vco->_j;  /* index into buffer _f */
 	k = vco->_k;  /* output state, 0 = positive slope, 1 = negative slope */
-	//
+
 	if (vco->_init) {
 		//		w = (exp2ap (freq[1] + vco->_port[OCTN] + vco->_port[TUNE] + expm[1] * vco->_port[EXPG] + 8.03136)
 		//				+ 1e3 * linm[1] * vco->_port[LING]) / SAMPLERATE;
@@ -482,20 +412,10 @@ float VCO_bleptri_SampleCompute(VCO_bleptri_t *vco)
 		k = 0;
 		vco->_init = false;
 	}
-	//
+
 	//	a = 0.2 + 0.8 * vco->_port [FILT];
 	a = 0.5f; // when a = 1, LPfilter is disabled
-	//	do
-	//	{
-	//		n = (len > 24) ? 16 : len;
-	//		freq += n;
-	//		expm += n;
-	//		linm += n;
-	//		wavm += n;
-	//		len -= n;
-	//
-	//		t = (exp2ap (*freq + vco->_port[OCTN] + vco->_port[TUNE] + *expm * vco->_port[EXPG] + 8.03136)
-	//				+ 1e3 * *linm * vco->_port[LING]) / SAMPLERATE;
+
 	t = freq / SAMPLERATE;
 	if (t < 1e-5) t = 1e-5;
 	if (t > 0.5) t = 0.5;
@@ -504,9 +424,7 @@ float VCO_bleptri_SampleCompute(VCO_bleptri_t *vco)
 	if (t < w) t = w;
 	if (t > 1.0f - w) t = 1.0f - w;
 	db = (t - b) ;
-	//
-	//		while (n--)
-	//		{
+
 	w += dw;
 	b += db;
 	b1 = 1.0f - b;
@@ -601,20 +519,13 @@ float VCO_bleptri_SampleCompute(VCO_bleptri_t *vco)
 	z += a * (vco->_f[j] - z);
 	vco->out = vco->amp * z;
 
-	//			*outp++ = z;
-	//			syncin++;
-	//			syncout++;
-
 	if (++j == FILLEN)
 	{
 		j = 0;
 		memcpy (vco->_f, vco->_f + FILLEN, STEP_DD_PULSE_LENGTH * sizeof (float));
 		memset (vco->_f + STEP_DD_PULSE_LENGTH, 0,  FILLEN * sizeof (float));
 	}
-	//		}
-	//	}
-	//	while (len);
-	//
+
 	vco->_p = p;
 	vco->_w = w;
 	vco->_b = b;
