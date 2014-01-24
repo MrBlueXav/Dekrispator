@@ -16,9 +16,11 @@ static float		*readpos; // output pointer of delay line
 static float      	*writepos; // input pointer of delay line
 static uint32_t		shift;
 static float		coeff_a1 = 0.6f; 	// coeff for the one pole low-pass filter in the feedback loop
-										// coeff_a1 is between 0 and 1, 0 : no filtering, 1 : heavy filtering
+										// coeff_a1 is between 0 and 1
+										//	 0 : no filtering ;     1 : heavy filtering
 static float		old_dy; //previous delayed sample
-static float		fdb = FEEDB;
+static float		fdb = INIT_FEEDB;
+static float		wet = INIT_WET;
 
 /*-------------------------------------------------------------------------------------------*/
 void Delay_init(void)
@@ -94,6 +96,10 @@ void DelayFeedback_set(uint8_t val)
 {
 	fdb = val / MIDI_MAX;
 }
+void DelayWet_set(uint8_t val)
+{
+	wet = val / MIDI_MAX;
+}
 /*-------------------------------------------------------------------------------------------*/
 float Delay_compute (float x)
 {
@@ -119,6 +125,6 @@ float Delay_compute (float x)
 	if ((readpos - delayline) >= DELAYLINE_LEN)
 		readpos = delayline;  // wrap pointer
 
-	return y;
+	return (wet * y + (1 - wet) * x);
 
 }

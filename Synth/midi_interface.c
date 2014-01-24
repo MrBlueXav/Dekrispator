@@ -115,10 +115,10 @@ void MIDI_Decode(uint8_t * outBuf)
 
 		switch(outBuf[2])
 		{
-		case 2 	: 	seq_tempo_set(val); 		break ;	// tempo
+		case 3 	: 	seq_tempo_set(val); 		break ;	// tempo
 		case 13 : 	Volume_set(val); 			break;	// master volume
 		case 31 :	SynthOut_switch(val); 		break;  // toggle synth output
-		case 3  : 	seq_freqMax_set(val);		break;	// max frequency
+		case 4  : 	seq_freqMax_set(val);		break;	// max frequency
 
 		case 67 :	DemoMode_toggle(val);		break;
 		case 76 :	DemoMode_freeze(val);		break;
@@ -142,6 +142,7 @@ void MIDI_Decode(uint8_t * outBuf)
 		case 23 :	Delay_switch(val);			break;	// Delay ON/OFF
 		case 14 :	Delay_time_set(val);		break;	// Delay time
 		case 15 :	DelayFeedback_set(val);		break;	// Delay feedback
+		case 2 :	DelayWet_set(val);			break;	// Delay wet signal amplitude
 		case 40 :	Delay_time_dec(val);		break;
 		case 41 :	Delay_time_inc(val);		break;
 
