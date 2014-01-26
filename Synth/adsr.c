@@ -24,7 +24,7 @@
 
 #include "adsr.h"
 
-ADSR_t			adsr;
+ADSR_t			adsr _CCM_;
 
 void ADSR_init(ADSR_t *env)
 {

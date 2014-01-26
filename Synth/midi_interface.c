@@ -18,10 +18,12 @@ void MagicFX(uint8_t val) /* random effects parameters */
 	{
 		Delay_switch(MIDI_MAXi);
 		Delay_time_set(MIDIrandVal());
+		DelayWet_set(MIDIrandVal());
 		DelayFeedback_set(MIDIrandVal());
 
 		Chorus_switch(MIDI_MAXi);
 		ChorusRate_set(MIDIrandVal());
+		ChorusSecondRate_set(MIDIrandVal());
 		ChorusDelay_set(MIDIrandVal());
 		ChorusSweep_set(MIDIrandVal());
 		ChorusFeedback_set(MIDIrandVal());
@@ -150,11 +152,12 @@ void MIDI_Decode(uint8_t * outBuf)
 		case 17 :	VibratoFreq_set(val);		break;	// Vibrato frequency
 
 		case 27 :	Filter_Random_switch(val);	break;	// Filter ON/OFF
-		case 22 :	SynthOut_amp_set(val);		break;	// Distorsion
+		case 63 :	SynthOut_amp_set(val);		break;	// Distorsion
 
 		case 28 :	Chorus_switch(val);			break;	// Chorus ON/OFF
 		case 37 :	Chorus_reset(val);			break;
 		case 18 :	ChorusRate_set(val);		break;	// Chorus rate
+		case 22 :	ChorusSecondRate_set(val);	break;	// Chorus relative rate for LFO right
 		case 19 :	ChorusDelay_set(val);		break;	// Chorus delay
 		case 20 :	ChorusSweep_set(val);		break;	// Chorus sweep
 		case 21 :	ChorusFeedback_set(val);	break;	// Chorus feedback

@@ -96,6 +96,7 @@ void DelayFeedback_set(uint8_t val)
 {
 	fdb = val / MIDI_MAX;
 }
+/*-------------------------------------------------------------------------------------------*/
 void DelayWet_set(uint8_t val)
 {
 	wet = val / MIDI_MAX;
@@ -105,7 +106,6 @@ float Delay_compute (float x)
 {
 	float y, dy;
 
-	/**** insert delay effect  ****/
 	// (*readpos) : delayed sample read at the output of the delay line
 	dy = (1.f - coeff_a1)*(*readpos) + coeff_a1 * old_dy; // apply lowpass filter in the loop
 	old_dy = dy;

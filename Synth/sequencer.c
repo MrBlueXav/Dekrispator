@@ -10,8 +10,8 @@
 #include "sequencer.h"
 
 /*--------------------------------------------------------------------------------------------*/
-Sequencer_t 		seq;
-NoteGenerator_t 	noteG;
+Sequencer_t 		seq _CCM_;
+NoteGenerator_t 	noteG _CCM_;
 /*--------------------------------------------------------------------------------------------*/
 
 void seq_gateTime_set(uint8_t val) // val is a number of samples
