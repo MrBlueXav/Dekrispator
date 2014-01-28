@@ -48,6 +48,7 @@ extern ADSR_t 			adsr;
 static bool 		autoFilterON _CCM_;
 static bool			delayON _CCM_;
 static bool 		chorusON _CCM_;
+static int8_t		autoSound _CCM_;
 
 static float			f0 _CCM_ ;
 static float 			vol  _CCM_;
@@ -56,6 +57,28 @@ static enum timbre 		sound _CCM_;
 
 
 /*===============================================================================================================*/
+void RandSound1(uint8_t val) /* random series of tones */
+{
+	if (val == MIDI_MAX)
+	{
+		if (autoSound == 0)
+			autoSound = 1;
+		else
+			autoSound = 0;
+	}
+}
+
+void RandSound2(uint8_t val) /* random series of tones */
+{
+	if (val == MIDI_MAX)
+	{
+		if (autoSound == 0)
+			autoSound = 2;
+		else
+			autoSound = 0;
+	}
+}
+
 uint8_t soundNumber_get(void)
 {
 	return sound;
@@ -73,13 +96,13 @@ void DemoMode_toggle(uint8_t val)
 		demoMode = !demoMode;
 	}
 }
-void DemoMode_freeze(uint8_t val)
-{
-	if (val == MIDI_MAX)
-	{
-		freeze = !freeze;
-	}
-}
+//void DemoMode_freeze(uint8_t val)
+//{
+//	if (val == MIDI_MAX)
+//	{
+//		freeze = !freeze;
+//	}
+//}
 
 /*-------------------------------------------------------*/
 void AmpLFO_amp_set(uint8_t val)
@@ -159,28 +182,28 @@ void SynthOut_switch(uint8_t val)
 	switch (val)
 	{
 	case MIDI_MAXi :
-	op1.amp = op1.last_amp;
-	op2.amp = op2.last_amp;
-	op3.amp = op3.last_amp;
-	mbSawOsc.amp = mbSawOsc.last_amp;
-	mbRectOsc.amp = mbRectOsc.last_amp;
-	mbTriOsc.amp = mbTriOsc.last_amp;
-	break;
+		op1.amp = op1.last_amp;
+		op2.amp = op2.last_amp;
+		op3.amp = op3.last_amp;
+		mbSawOsc.amp = mbSawOsc.last_amp;
+		mbRectOsc.amp = mbRectOsc.last_amp;
+		mbTriOsc.amp = mbTriOsc.last_amp;
+		break;
 
 	case 0 :
-	op1.last_amp = op1.amp;
-	op1.amp = 0;
-	op2.last_amp = op2.amp;
-	op2.amp = 0;
-	op3.last_amp = op3.amp;
-	op3.amp = 0;
-	mbSawOsc.last_amp = mbSawOsc.amp;
-	mbSawOsc.amp = 0;
-	mbRectOsc.last_amp = mbRectOsc.amp;
-	mbRectOsc.amp = 0;
-	mbTriOsc.last_amp = mbTriOsc.amp;
-	mbTriOsc.amp = 0;
-	break;
+		op1.last_amp = op1.amp;
+		op1.amp = 0;
+		op2.last_amp = op2.amp;
+		op2.amp = 0;
+		op3.last_amp = op3.amp;
+		op3.amp = 0;
+		mbSawOsc.last_amp = mbSawOsc.amp;
+		mbSawOsc.amp = 0;
+		mbRectOsc.last_amp = mbRectOsc.amp;
+		mbRectOsc.amp = 0;
+		mbTriOsc.last_amp = mbTriOsc.amp;
+		mbTriOsc.amp = 0;
+		break;
 	}
 }
 
@@ -380,6 +403,7 @@ Synth_Init(void)
 	vol = env = 1;
 	sound = MORPH_SAW;
 	autoFilterON = false;
+	autoSound = 0;
 	chorusON = false;
 	delayON = false;
 
@@ -428,6 +452,61 @@ void sequencer_newStep_action(void) // User callback function called by sequence
 	{
 		noteG.rootNote += noteG.transpose ;
 		seq_transpose();
+	}
+
+	if (autoSound == 1)
+	{
+		switch(rand() % 4) // 4 random timbers
+		{
+		case 0 : sound = CHORD15; break;
+		case 1 : AdditiveGen_newWaveform(); sound = ADDITIVE; break;
+		case 2 : sound = CHORD13min5; break;
+		case 3 : sound = VOICES3; break;
+		}
+	}
+	if (autoSound == 2)
+	{
+		sound = rand() % LAST_SOUND;
+		if ((sound == CHORD13min5) || (sound == CHORD135))
+			sound = VOICES3;
+		if ( sound == ADDITIVE)
+			AdditiveGen_newWaveform();
+
+		//		switch (sound)
+		//			{
+		//			case 0 : sound = MORPH_SAW ; 	break ;
+		//
+		//			case 0 : sound = SPLIT ;	 	break;
+		//
+		//			case 0 : sound = ACC_SINE ;		break;
+		//
+		//			case 0 : sound = POWER_SINE ;	break;
+		//
+		//			case 0 : sound = BLEPTRIANGLE ; break;
+		//
+		//			case 0 : sound = BLEPSQUARE ;	break;
+		//
+		//			case 0 : sound = WT_SINE ;		break;
+		//
+		//			case 0 : sound = ADDITIVE ;	break;
+		//
+		//			case 0 : sound = NOISE ;	break; // noise !
+		//
+		//			case 0 : sound = CHORD15 ; break;
+		//
+		//			case 0 : sound = CHORD135 ; break;
+		//
+		//			case 0 : sound = CHORD13min5 ; break;
+		//
+		//			case 0 : sound = VOICES3 ;break;
+		//
+		//			case 0 : sound = DRIFTERS ; break;
+		//
+		//			case 0 : sound = FM2 ; break;
+		//
+		//			case 0 : sound = BLEPSAW ; break;
+		//
+		//			}
 	}
 
 	f0 = notesFreq[seq.track1.note[seq.step_idx]]; // Main "melody" frequency

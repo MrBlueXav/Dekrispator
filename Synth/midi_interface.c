@@ -123,7 +123,7 @@ void MIDI_Decode(uint8_t * outBuf)
 		case 4  : 	seq_freqMax_set(val);		break;	// max frequency
 
 		case 67 :	DemoMode_toggle(val);		break;
-		case 76 :	DemoMode_freeze(val);		break;
+		//case 76 :	DemoMode_freeze(val);		break;
 
 		case 39 :	MagicPatch(val);			break;	// random settings except effects
 		case 38 :	MagicFX(val);				break;	// random settings for effects
@@ -132,6 +132,8 @@ void MIDI_Decode(uint8_t * outBuf)
 
 		case 5 :	seq_scale_set(val);			break; 	// scale
 		case 6 :	Sound_set(val);				break;	// waveform
+		case 76 :	RandSound1(val);			break;
+		case 77 :	RandSound2(val);			break;
 
 		case 8 :	Filter1Freq_set(val);		break;	//
 		case 9 :	Filter1Res_set(val);		break;	//

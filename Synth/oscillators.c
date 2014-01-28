@@ -322,6 +322,11 @@ float_t AdditiveGen_SampleCompute(Oscillator_t * op) // additive sine generator
 	return op->out;
 }
 
+//float randsound(void)
+//{
+//
+//}
+
 /*-------------------------------------------------------------------------------------------------------------------*/
 
 float waveCompute(uint8_t sound, float frq)
@@ -330,8 +335,6 @@ float waveCompute(uint8_t sound, float frq)
 
 	OpSetFreq(&op1, frq);
 
-	//sound = BLEPSQUARE;
-	//sound = BLEPTRIANGLE;
 
 	/* choose waveform generator */
 	switch (sound)
@@ -396,6 +399,7 @@ float waveCompute(uint8_t sound, float frq)
 		y = VCO_blepsaw_SampleCompute(&mbSawOsc);
 	}	break;
 
+	//case RANDSOUND :	y = randsound(); break;
 
 	default :			//y = 0.8f * Osc_WT_SINE_SampleCompute(&op1);		break;
 		y = 0;	break ;

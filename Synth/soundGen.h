@@ -42,8 +42,11 @@
 
 /* Exported functions ------------------------------------------------------- */
 uint8_t soundNumber_get(void);
+void RandSound1(uint8_t val);
+void RandSound2(uint8_t val);
+
 void DemoMode_toggle(uint8_t val);
-void DemoMode_freeze(uint8_t val); // is it useful ?
+//void DemoMode_freeze(uint8_t val); // is it useful ?
 /*-------------------------------------------------------*/
 void FM_OP1_freq_set(uint8_t val);
 void FM_OP1_modInd_set(uint8_t val);
