@@ -3,6 +3,10 @@ Dekrispator
 
 Transform your STM32F4 Discovery board into an experimental music synthesizer or autonomous noise box with USB MIDI Host function for interaction !
 
+The sound demos are here : https://soundcloud.com/bluexav
+
+A video is here : http://youtu.be/fcLrcDCaI7w
+
 - - - -
 
 **Usage**
