@@ -47,6 +47,7 @@ Ready to use files are in Ressources folder.
  * Effects :
   * Echo
   * Chorus/Flanger
+  * Phaser
  * random sound/FX patch generator
 
 - - - -
