@@ -31,17 +31,18 @@
 #include "oscillators.h"
 #include "delay.h"
 #include "chorusFD.h"
+#include "phaser.h"
 #include "sinetable.h"
 #include "notesTables.h"
 #include "timers.h"
 #include "resonantFilter.h"
 #include "adsr.h"
-//#include "usbh_usr.h"
 #include "midi_interface.h"
 #include "blepvco.h"
 
 /* Exported functions ------------------------------------------------------- */
 uint8_t soundNumber_get(void);
+void autoSound_set(int8_t val);
 void RandSound1(uint8_t val);
 void RandSound2(uint8_t val);
 
@@ -97,6 +98,8 @@ void Delay_switch(uint8_t val);
 
 void toggleFilter(void);
 void Filter_Random_switch(uint8_t val);
+
+void Phaser_switch(uint8_t val);
 
 void Chorus_toggle(void);
 void Chorus_switch(uint8_t val);

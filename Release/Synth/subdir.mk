@@ -16,6 +16,7 @@ C_SRCS += \
 ../Synth/minblep_tables.c \
 ../Synth/notesTables.c \
 ../Synth/oscillators.c \
+../Synth/phaser.c \
 ../Synth/random.c \
 ../Synth/resonantFilter.c \
 ../Synth/sequencer.c \
@@ -36,6 +37,7 @@ OBJS += \
 ./Synth/minblep_tables.o \
 ./Synth/notesTables.o \
 ./Synth/oscillators.o \
+./Synth/phaser.o \
 ./Synth/random.o \
 ./Synth/resonantFilter.o \
 ./Synth/sequencer.o \
@@ -56,6 +58,7 @@ C_DEPS += \
 ./Synth/minblep_tables.d \
 ./Synth/notesTables.d \
 ./Synth/oscillators.d \
+./Synth/phaser.d \
 ./Synth/random.d \
 ./Synth/resonantFilter.d \
 ./Synth/sequencer.d \

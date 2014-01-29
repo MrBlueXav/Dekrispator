@@ -47,6 +47,7 @@ extern ADSR_t 			adsr;
 
 static bool 		autoFilterON _CCM_;
 static bool			delayON _CCM_;
+static bool			phaserON _CCM_;
 static bool 		chorusON _CCM_;
 static int8_t		autoSound _CCM_;
 
@@ -57,6 +58,12 @@ static enum timbre 		sound _CCM_;
 
 
 /*===============================================================================================================*/
+
+void autoSound_set(int8_t val)
+{
+	autoSound = val;
+}
+/*---------------------------------------------------------*/
 void RandSound1(uint8_t val) /* random series of tones */
 {
 	if (val == MIDI_MAX)
@@ -67,7 +74,7 @@ void RandSound1(uint8_t val) /* random series of tones */
 			autoSound = 0;
 	}
 }
-
+/*---------------------------------------------------------*/
 void RandSound2(uint8_t val) /* random series of tones */
 {
 	if (val == MIDI_MAX)
@@ -78,12 +85,12 @@ void RandSound2(uint8_t val) /* random series of tones */
 			autoSound = 0;
 	}
 }
-
+/*---------------------------------------------------------*/
 uint8_t soundNumber_get(void)
 {
 	return sound;
 }
-
+/*---------------------------------------------------------*/
 void Parameter_fine_tune(uint8_t val)
 {
 
@@ -282,6 +289,15 @@ void Chorus_switch(uint8_t val)
 		chorusON = false;
 }
 /*-------------------------------------------------------*/
+void Phaser_switch(uint8_t val)
+{
+
+	if (val > 63)
+		phaserON = true;
+	else
+		phaserON = false;
+}
+/*-------------------------------------------------------*/
 void nextSound(void)
 {
 	if (sound < LAST_SOUND) (sound)++ ; else sound = LAST_SOUND;
@@ -406,6 +422,7 @@ Synth_Init(void)
 	autoSound = 0;
 	chorusON = false;
 	delayON = false;
+	phaserON = false;
 
 	Delay_init();
 	drifter_init();
@@ -413,6 +430,7 @@ Synth_Init(void)
 	sequencer_init();
 	ADSR_init(&adsr);
 	Chorus_init();
+	PhaserInit();
 	SVF_init();
 	filterFreq = 0.25f;
 	filterFreq2 = 0.25f;
@@ -563,6 +581,9 @@ void make_sound(uint16_t *buf , uint16_t length) // To be used with the Sequence
 
 		/*---  Apply delay effect ----*/
 		if (delayON) 	y = Delay_compute(y);
+
+		/*---  Apply phaser effect ----*/
+		if (phaserON) 	y = Phaser_compute(y);
 
 		/*--- Apply chorus/flanger effect ---*/
 		if (chorusON) stereoChorus_compute (&yL, &yR, y) ;

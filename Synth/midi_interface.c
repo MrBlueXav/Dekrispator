@@ -29,6 +29,11 @@ void MagicFX(uint8_t val) /* random effects parameters */
 		ChorusFeedback_set(MIDIrandVal());
 		ChorusMode_switch(MIDIrandVal());
 		ChorusFDBsign_switch(MIDIrandVal());
+
+		Phaser_switch(MIDI_MAXi);
+		Phaser_Rate_set(MIDIrandVal());
+		Phaser_Feedback_set(MIDIrandVal());
+		Phaser_Wet_set(MIDIrandVal());
 	}
 }
 /*-----------------------------------------------------------------------------*/
@@ -42,7 +47,7 @@ void MagicPatch(uint8_t val) /* random sound parameters */
 		seq_switchMovingSeq(MIDIrandVal());
 		seq_switchMute(MIDIrandVal());
 		seq_gateTime_set(MIDIrandVal());
-
+		autoSound_set(rand()%3);
 		Sound_set(MIDIrandVal());
 		uint8_t snd = soundNumber_get();
 
@@ -166,8 +171,13 @@ void MIDI_Decode(uint8_t * outBuf)
 		case 29 :	ChorusMode_switch(val);		break;	// Chorus mode
 		case 30 :	ChorusFDBsign_switch(val);	break;	// Chorus fdb sign
 
+		case 24 :	Phaser_switch(val);			break;
+		case 102 :	Phaser_Rate_set(val);		break;
+		case 103 :	Phaser_Feedback_set(val);	break;
+		case 89 :	Phaser_Wet_set(val);		break;
+
 		case 26 :	seq_switchMovingSeq(val);	break;	// toggle sequence mode
-		case 24 :	seq_switchGlide(val);		break; 	// toggle glissando
+		//case 24 :	seq_switchGlide(val);		break; 	// toggle glissando
 		case 25 :	seq_switchMute(val);		break;	// toggle muted notes
 
 		case 33 :	seq_transp(-2, val);		break;	// transpose 1 tone down
