@@ -21,6 +21,24 @@
  ******************************************************************************
  */
 
+/*
+* This program is free software; you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation; either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program; if not, write to the Free Software
+* Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+*
+*/
+
+
 /* Includes ------------------------------------------------------------------*/
 #include "usbh_midi_core.h"
 //#include "usbh_midi_controller.h"
@@ -58,7 +76,7 @@ static USBH_Status 	USBH_MIDI_Handle(USB_OTG_CORE_HANDLE *pdev ,
 
 /****************** MIDI interface ****************************/
 
-USBH_Class_cb_TypeDef  MIDI_cb = 
+USBH_Class_cb_TypeDef  MIDI_cb =
 {
 		USBH_MIDI_InterfaceInit,
 		USBH_MIDI_InterfaceDeInit,
@@ -74,9 +92,9 @@ USBH_Class_cb_TypeDef  MIDI_cb =
  * @param  hdev: Selected device property
  * @retval  USBH_Status :Response for USB MIDI driver intialization
  */
-static USBH_Status USBH_MIDI_InterfaceInit ( USB_OTG_CORE_HANDLE *pdev, 
+static USBH_Status USBH_MIDI_InterfaceInit ( USB_OTG_CORE_HANDLE *pdev,
 		void *phost)
-{	
+{
 
 	USBH_HOST *pphost = phost;
 	USBH_Status status = USBH_BUSY ;
@@ -155,7 +173,7 @@ static USBH_Status USBH_MIDI_InterfaceInit ( USB_OTG_CORE_HANDLE *pdev,
  */
 void USBH_MIDI_InterfaceDeInit ( USB_OTG_CORE_HANDLE *pdev,
 		void *phost)
-{	
+{
 	if ( MIDI_Machine.hc_num_out)
 	{
 		USB_OTG_HC_Halt(pdev, MIDI_Machine.hc_num_out);
@@ -180,9 +198,9 @@ void USBH_MIDI_InterfaceDeInit ( USB_OTG_CORE_HANDLE *pdev,
  * @param  hdev: Selected device property
  * @retval  USBH_Status :Response for USB Set Protocol request
  */
-static USBH_Status USBH_MIDI_ClassRequest(USB_OTG_CORE_HANDLE *pdev , 
+static USBH_Status USBH_MIDI_ClassRequest(USB_OTG_CORE_HANDLE *pdev ,
 		void *phost)
-{   
+{
 	USBH_Status status = USBH_OK ;
 
 	return status;
@@ -196,7 +214,7 @@ static USBH_Status USBH_MIDI_ClassRequest(USB_OTG_CORE_HANDLE *pdev ,
  * @param  hdev: Selected device property
  * @retval USBH_Status
  */
-static USBH_Status USBH_MIDI_Handle(USB_OTG_CORE_HANDLE *pdev , 
+static USBH_Status USBH_MIDI_Handle(USB_OTG_CORE_HANDLE *pdev ,
 		void   *phost)
 {
 	USBH_HOST *pphost = phost;
