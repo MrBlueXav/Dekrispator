@@ -52,7 +52,7 @@ Ready to use files are in Ressources folder.
 
 - - - -
 
-**Buiding from source :**
+**Building from source :**
 
 I've used (Windows):
 
