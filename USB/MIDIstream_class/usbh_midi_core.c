@@ -53,7 +53,7 @@ MIDI_Machine_t				MIDI_Machine  ;
 
 USB_Setup_TypeDef			MIDI_Setup  ;
 
-//USBH_MIDIDesc_t				MIDI_Desc  ;
+//USBH_MIDIDesc_t			MIDI_Desc  ;
 
 __IO uint8_t 				start_toggle = 0;
 
@@ -61,17 +61,13 @@ __IO uint8_t 				start_toggle = 0;
 
 /*-----------------------------------------------------------------------------------------*/
 
-static USBH_Status 	USBH_MIDI_InterfaceInit  (USB_OTG_CORE_HANDLE *pdev ,
-		void *phost);
+static USBH_Status 	USBH_MIDI_InterfaceInit(USB_OTG_CORE_HANDLE *pdev , void *phost);
 
-static void 		USBH_MIDI_InterfaceDeInit  (USB_OTG_CORE_HANDLE *pdev ,
-		void *phost);
+static void 		USBH_MIDI_InterfaceDeInit(USB_OTG_CORE_HANDLE *pdev , void *phost);
 
-static USBH_Status 	USBH_MIDI_ClassRequest(USB_OTG_CORE_HANDLE *pdev ,
-		void *phost);
+static USBH_Status 	USBH_MIDI_ClassRequest(USB_OTG_CORE_HANDLE *pdev , void *phost);
 
-static USBH_Status 	USBH_MIDI_Handle(USB_OTG_CORE_HANDLE *pdev ,
-		void *phost);
+static USBH_Status 	USBH_MIDI_Handle(USB_OTG_CORE_HANDLE *pdev , void *phost);
 
 
 /****************** MIDI interface ****************************/
@@ -92,8 +88,7 @@ USBH_Class_cb_TypeDef  MIDI_cb =
  * @param  hdev: Selected device property
  * @retval  USBH_Status :Response for USB MIDI driver intialization
  */
-static USBH_Status USBH_MIDI_InterfaceInit ( USB_OTG_CORE_HANDLE *pdev,
-		void *phost)
+static USBH_Status USBH_MIDI_InterfaceInit ( USB_OTG_CORE_HANDLE *pdev,	void *phost)
 {
 
 	USBH_HOST *pphost = phost;
@@ -350,92 +345,6 @@ uint8_t MIDI_RcvData(uint8_t *outBuf)
 
 }
 /*-----------------------------------------------------------------------------------------*/
-//************************************** DRAFT !!! ******************************************
-/* Receive data from MIDI device */
-
-uint8_t MIDI_RcvDataDraft(uint8_t *outBuf)
-{
-	//	HC_STATUS hc_state;
-
-	//URB_STATE urb_status;
-
-	//	//USBH_Status rcode = USBH_OK; //return code
-	//
-	//	hc_state = HCD_GetHCState (&USB_OTG_Core_dev , MIDI_Machine.hc_num_in);
-
-	//urb_status = HCD_GetURB_State( &USB_OTG_Core_dev , MIDI_Machine.hc_num_in);
-
-	//if (urb_status == URB_NOTREADY)
-	//{
-	//	STM_EVAL_LEDOn(LED_Red);
-	//	return 0;
-	//}
-	//else
-	//{
-	USBH_BulkReceiveData( &USB_OTG_Core_dev, MIDI_Machine.buff, 64, MIDI_Machine.hc_num_in);
-	if( MIDI_Machine.buff[0] == 0 && MIDI_Machine.buff[1] == 0 && MIDI_Machine.buff[2] == 0 && MIDI_Machine.buff[3] == 0 )
-		return 0;
-	outBuf[0] = MIDI_Machine.buff[1];
-	outBuf[1] = MIDI_Machine.buff[2];
-	outBuf[2] = MIDI_Machine.buff[3];
-	return MIDI_lookupMsgSize(MIDI_Machine.buff[1]);
-	//STM_EVAL_LEDOff(LED_Red);
-	//}
-
-	//
-	//	if ((urb_status == URB_IDLE) || (urb_status == URB_DONE))
-	//	{
-	//		USBH_BulkReceiveData( &USB_OTG_Core_dev, MIDI_Machine.buff, 64, MIDI_Machine.hc_num_in);
-	//		//USB_OTG_BSP_mDelay(1);
-	//		//if all data is zero, no valid data received.
-	//		if( MIDI_Machine.buff[0] == 0 && MIDI_Machine.buff[1] == 0 && MIDI_Machine.buff[2] == 0 && MIDI_Machine.buff[3] == 0 ) {
-	//			return 0;
-	//		}
-	//		outBuf[0] = MIDI_Machine.buff[1];
-	//		outBuf[1] = MIDI_Machine.buff[2];
-	//		outBuf[2] = MIDI_Machine.buff[3];
-	//		return MIDI_lookupMsgSize(MIDI_Machine.buff[1]);
-	//	}
-	//	if (urb_status == URB_ERROR) STM_EVAL_LEDOn(LED_Red);
-	//	if (urb_status == URB_NOTREADY) STM_EVAL_LEDOn(LED_Blue);
-	//	if (urb_status == URB_STALL) STM_EVAL_LEDOn(LED_Green);
-	//	return 0;
-
-
-	//	{
-	//
-	//		switch(State){
-	//		case 0:
-	//			USBH_BulkReceiveData( &USB_OTG_Core_dev, MIDI_Machine.buff, 64, MIDI_Machine.hc_num_in);
-	//			State = 1;
-	//			//if all data is zero, no valid data received.
-	//						if( MIDI_Machine.buff[0] == 0 && MIDI_Machine.buff[1] == 0 && MIDI_Machine.buff[2] == 0 && MIDI_Machine.buff[3] == 0 ) {
-	//							return 0;
-	//						}
-	//						outBuf[0] = MIDI_Machine.buff[1];
-	//						outBuf[1] = MIDI_Machine.buff[2];
-	//						outBuf[2] = MIDI_Machine.buff[3];
-	//						return MIDI_lookupMsgSize(MIDI_Machine.buff[1]);
-	//			return 0;
-	//		case 1:
-	//			switch(HCD_GetURB_State(&USB_OTG_Core_dev , MIDI_Machine.hc_num_in)){
-	//			case URB_DONE:
-	//
-	//				State = 0;
-	//				return 0;
-	//			case URB_STALL:
-	////				if(USBH_OK == USBH_ClrFeature(BT_State.pdev, BT_State.phost, ACLI_EP, BT_State.acli_hcn))
-	////					BT_State.acli_state = 0;
-	//				break;
-	//			default: return 0;
-	//			}
-	//			break;
-	//			default: return -1;
-	//		}
-	//		return 0;
-	//	}
-}
-
 
 
 /*****************************END OF FILE****/

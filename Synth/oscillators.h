@@ -67,7 +67,7 @@ float_t OpSampleCompute7bis(Oscillator_t * op); // basic wave table positive sin
 /*-------------------------------------------------------*/
 float_t OpSampleCompute8(Oscillator_t * op); // basic square
 /*-------------------------------------------------------*/
-void AdditiveGen_newWaveform(void); //
+void 	AdditiveGen_newWaveform(void); //
 /*-------------------------------------------------------*/
 float_t AdditiveGen_SampleCompute(Oscillator_t * op); // additive sine generator
 /*-------------------------------------------------------*/
@@ -78,15 +78,12 @@ void 	FM_op_modInd_set(Oscillator_t *op, uint8_t val);
 /*-------------------------------------------------------*/
 void 	osc_init(Oscillator_t * op, float_t amp, float_t freq);
 /*-------------------------------------------------------*/
-void OpSetFreq(Oscillator_t * op, float_t f);
+void 	OpSetFreq(Oscillator_t * op, float_t f);
 /*-------------------------------------------------------*/
-
 void	Drifter_centralFreq_set(uint8_t val);
-
-//void OpSetPhaseAdd(Oscillator_t * op, float_t phi);
 float	Lin2Exp(uint8_t val, float min, float max); // input val in 0 ... 127
 /*-------------------------------------------------------*/
-float waveCompute(uint8_t sound, float f0);
+float 	waveCompute(uint8_t sound, float f0);
 
 /****************************************************************************************************************************/
 #endif /* __OSCILLATORS_H */

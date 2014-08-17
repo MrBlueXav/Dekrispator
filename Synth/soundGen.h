@@ -9,6 +9,7 @@
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef __SOUNDGEN_H
 #define __SOUNDGEN_H
+
 /*--------------------- Global Defines ------------------------ */
 
 #define MAX_FILTER_LFO_AMP	32.f

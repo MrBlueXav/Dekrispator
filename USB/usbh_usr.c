@@ -61,7 +61,7 @@ void USBH_USR_Init(void)
  * @retval None
  */
 void USBH_USR_DeviceAttached(void)
-{  
+{
 	//LCD_UsrLog ((void*)MSG_DEV_ATTACHED);
 }
 
@@ -143,14 +143,6 @@ void USBH_USR_Configuration_DescAvailable(USBH_CfgDesc_TypeDef * cfgDesc,
 		USBH_InterfaceDesc_TypeDef *itfDesc,
 		USBH_EpDesc_TypeDef *epDesc)
 {
-	//	USBH_InterfaceDesc_TypeDef *id;
-	//
-	//	id = itfDesc;
-	//
-	//	if(((*id).bInterfaceClass  == USB_AUDIO_CLASS) && ((*id).bInterfaceSubClass == USB_MIDISTREAMING_SubCLASS))
-	//	{
-	//
-	//	}
 
 }
 
@@ -185,7 +177,7 @@ void USBH_USR_Product_String(void *ProductString)
 void USBH_USR_SerialNum_String(void *SerialNumString)
 {
 
-} 
+}
 
 /**
  * @brief  EnumerationDone
@@ -198,7 +190,7 @@ void USBH_USR_EnumerationDone(void)
 {
 	/* Enumeration complete */
 	STM_EVAL_LEDOn(LED_Green);
-} 
+}
 
 /**
  * @brief  USBH_USR_DeviceNotSupported
@@ -209,7 +201,7 @@ void USBH_USR_EnumerationDone(void)
 void USBH_USR_DeviceNotSupported(void)
 {
 	STM_EVAL_LEDOff(LED_Green);
-}  
+}
 
 
 /**

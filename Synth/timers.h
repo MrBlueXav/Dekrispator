@@ -20,7 +20,7 @@
 #include "my_stm32f4_discovery_audio_codec.h"
 #include "my_stm32f4_discovery.h"
 #include "soundGen.h"
-//#include "bargraph.h"
+
 
 /* Exported functions ------------------------------------------------------- */
 void 		TimingDelay_Decrement(void);
@@ -29,4 +29,5 @@ void 		setSysTick(void);
 uint32_t 	getTime(void);
 void 		setTime(uint32_t val);
 
+/*************************************************************************************/
 #endif /* __TIMERS_H */

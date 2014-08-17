@@ -10,6 +10,8 @@
 #ifndef __NOTESTABLES_H
 #define __NOTESTABLES_H
 
+/* Includes ------------------------------------------------------------------*/
+
 #include <math.h>
 #include <stdint.h>
 
@@ -20,7 +22,7 @@
 #define MAX_NOTE_INDEX		106	/* starting at 0 ! */
 
 
-
+/*---------------------------------------------------------------------------*/
 extern const float_t notesFreq[];
 extern const uint8_t MIDIscale01[];
 extern const uint8_t MIDIscale02[];
@@ -36,5 +38,7 @@ extern const uint8_t MIDIscale11[];
 extern const uint8_t MIDIscale12[];
 extern const uint8_t MIDIscale13[];
 extern const uint8_t MIDIscale14[];
+
+/*---------------------------------------------------------------------------*/
 
 #endif

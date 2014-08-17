@@ -1,7 +1,7 @@
 /**
  ******************************************************************************
  * @file    usbh_midi_core.h
- * @author
+ * @author	Xavier Halgand
  * @version
  * @date
  * @brief   This file contains all the prototypes for the usbh_midi_core.c

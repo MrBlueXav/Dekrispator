@@ -27,7 +27,7 @@
 #ifndef __PHASER_H__
 #define __PHASER_H__
 
-//#include "main.h"
+/* Includes ------------------------------------------------------------------*/
 #include <stdint.h>
 #include "CONSTANTS.h"
 #include "sinetable.h"
@@ -42,5 +42,5 @@ void PhaserRate(float rate);
 void PhaserFeedback(float fdb);
 
 
-
+/*---------------------------------------------------------------------------*/
 #endif

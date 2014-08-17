@@ -113,7 +113,7 @@ void 	Filter1Res_set(uint8_t val);
 void	Filter1Drive_set(uint8_t val);
 
 void 	Filter1Type_set(uint8_t val);
-/*---------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
 void 	Filter2Freq_set(uint8_t val);
 
 void 	Filter2Res_set(uint8_t val);

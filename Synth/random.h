@@ -9,6 +9,7 @@
 #ifndef __RANDOM_H__
 #define __RANDOM_H__
 
+/* Includes ------------------------------------------------------------------*/
 #include  <stdint.h>
 #include <math.h>
 #include <stdlib.h>
@@ -17,7 +18,7 @@
 #include "CONSTANTS.h"
 
 
-//---------------------------------------------------------------------------
+/*-Exported functions---------------------------------------------------------*/
 void 		randomGen_init (void);
 float_t 	frand_a_b (float_t a, float_t b);
 float_t 	randomNum (void);
