@@ -9,6 +9,8 @@
 #ifndef __CONSTANTS_H__
 #define __CONSTANTS_H__
 
+/*--------------------------------------------------------------------------------------*/
+
 #define SAMPLERATE              48000
 #define Fs             			((float)(SAMPLERATE))	// samplerate
 #define Ts						(1.f/Fs)  // sample period
@@ -32,7 +34,6 @@
 
 #if defined   (__GNUC__)        /* GNU Compiler */
     #define __ALIGN    __attribute__ ((aligned (4)))
-
 #endif /* __GNUC__ */
 
 /************************************************************************************/

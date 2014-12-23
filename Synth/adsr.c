@@ -40,7 +40,11 @@
 
 #include "adsr.h"
 
+/*---------------------------------------------------------------------------*/
+
 ADSR_t			adsr _CCM_;
+
+/*---------------------------------------------------------------------------*/
 
 void ADSR_init(ADSR_t *env)
 {
@@ -164,12 +168,12 @@ float ADSR_computeSample(ADSR_t *env)
 {
 	(env->cnt_)++;
 
-
 	switch (env->state_) {
 
   case ATTACK:
 	  env->value_ += env->rate_;
-    if (env->value_ >= env->target_) {
+    if (env->value_ >= env->target_)
+    {
     	env->value_ = env->target_;
     	env->rate_ = env->decayRate_;
     	env->target_ = env->sustainLevel_;
@@ -179,7 +183,8 @@ float ADSR_computeSample(ADSR_t *env)
 
   case DECAY:
 	  env->value_ -= env->decayRate_;
-    if (env->value_ <= env->sustainLevel_) {
+    if (env->value_ <= env->sustainLevel_)
+    {
     	env->value_ = env->sustainLevel_;
     	env->rate_ = 0.0f;
     	env->state_ = SUSTAIN;
@@ -188,7 +193,8 @@ float ADSR_computeSample(ADSR_t *env)
 
   case RELEASE:
 	  env->value_ -= env->releaseRate_;
-    if (env->value_ <= 0.0f)       {
+    if (env->value_ <= 0.0f)
+    {
     	env->value_ =  0.0f;
     	env->state_ = DONE;
     }
@@ -197,3 +203,5 @@ float ADSR_computeSample(ADSR_t *env)
   env->lastOutput_ = env->value_;
   return env->value_;
 }
+
+/*******************************************************   EOF   ***********************************************************/

@@ -47,7 +47,7 @@ VCO_bleprect_t	mbRectOsc _CCM_;
 VCO_bleptri_t	mbTriOsc _CCM_;
 
 /**======================================================================================================**/
-//----------------------------------------------------------------------------------------------------------
+
 
 void place_step_dd(float *buffer, int index, float phase, float w, float scale)
 {
@@ -94,7 +94,6 @@ void place_slope_dd(float *buffer, int index, float phase, float w, float slope_
 //----------------------------------------------------------------------------------------------------------
 
 /* ==== hard-sync-capable sawtooth oscillator ==== */
-
 
 void VCO_blepsaw_Init(VCO_blepsaw_t *vco)
 {

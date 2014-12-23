@@ -26,15 +26,17 @@
 #ifndef STK_ADSR_H
 #define STK_ADSR_H
 
-//#include "Envelope.h"
+/* Includes ------------------------------------------------------------------*/
+
 #include <math.h>
 #include <stdint.h>
 #include <stdbool.h>
 #include "CONSTANTS.h"
 
+/* Exported types ------------------------------------------------------------*/
+
 //! Envelope states.
 enum { ATTACK, DECAY, SUSTAIN, RELEASE, DONE };
-
 
 typedef struct
 {
@@ -53,6 +55,7 @@ typedef struct
 } ADSR_t ;
 
 
+/* Exported functions --------------------------------------------------------*/
 
 //! Default constructor.
 void ADSR_init(ADSR_t *env);
@@ -104,5 +107,5 @@ void DecTime_set(uint8_t val);
 void SustLevel_set(uint8_t val);
 void RelTime_set(uint8_t val);
 
-
+/*********************************************************************************************************/
 #endif

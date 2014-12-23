@@ -26,11 +26,14 @@
 #ifndef __CHORUSFD_H__
 #define __CHORUSFD_H__
 
+/*--------------------------------------------------------------------------------------*/
+
 #include <stdint.h>
 #include <math.h>
 #include "sinetable.h"
 #include <stdint.h>
 #include "CONSTANTS.h"
+
 /*--------------------------------------------------------------------------------------*/
 
 #define DEPTH	 		1400 // Size of delay buffer, in samples : 29.17 ms

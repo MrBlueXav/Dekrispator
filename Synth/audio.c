@@ -22,16 +22,18 @@
 * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 *
 */
+
 /* Includes ------------------------------------------------------------------*/
 
 #include "audio.h"
 
+/*----------------------------------------------------------------------------*/
 
 uint16_t 			audiobuff[BUFF_LEN]; // THE audio buffer
 static uint8_t		volume = VOL;
 static bool			sound = true;
 
-
+/*------------------------------------------------------------------------------*/
 void audio_init(void)
 {
 	EVAL_AUDIO_Init(OUTPUT_DEVICE_AUTO, VOL, SAMPLERATE);

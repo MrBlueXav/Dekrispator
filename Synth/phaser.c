@@ -23,10 +23,9 @@
  * MA 02111-1307, USA.
  */
 
-
-
 #include "phaser.h"
 
+/*---------------------------------------------------------------------*/
 #define MAX_RATE		7.f // in Hz
 #define MIN_RATE		0.02f // in Hz
 
@@ -41,12 +40,12 @@ static float 	old[PH_STAGES];
 static float 	f_min, f_max;
 static float 	swrate;
 static float 	wet ;
-static float	 _dmin, _dmax; //range
-static float	 _fb; //feedback
-static float 	_lfoPhase;
-static float 	_lfoInc;
-static float	_a1;
-static float 	_zm1;
+static float	dmin, dmax; //range
+static float	fb; //feedback
+static float 	lfoPhase;
+static float 	lfoInc;
+static float	a1;
+static float	zm1;
 
 /*---------------------------------------------------------------------*/
 void PhaserInit(void)
@@ -54,24 +53,23 @@ void PhaserInit(void)
 	f_min = 200.f;
 	f_max = 1700.f;
 	swrate = 0.1f;
-	_fb = 0.7f;
-	//dry = 0.7f;
+	fb = 0.7f;
 	wet = 0.3f;
 
-	_dmin = 2 * f_min / SAMPLERATE;
-	_dmax = 2 * f_max / SAMPLERATE;
-	_lfoInc = _2PI * swrate / SAMPLERATE;
+	dmin = 2 * f_min / SAMPLERATE;
+	dmax = 2 * f_max / SAMPLERATE;
+	lfoInc = _2PI * swrate / SAMPLERATE;
 }
 /*---------------------------------------------------------------------*/
 void Phaser_Rate_set(uint8_t val)
 {
 	swrate = (MAX_RATE - MIN_RATE) / MIDI_MAX * val + MIN_RATE;
-	_lfoInc = _2PI * swrate / SAMPLERATE;
+	lfoInc = _2PI * swrate / SAMPLERATE;
 }
 /*---------------------------------------------------------------------*/
 void Phaser_Feedback_set(uint8_t val)
 {
-	_fb = 0.999f * val / MIDI_MAX;
+	fb = 0.999f * val / MIDI_MAX;
 }
 /*---------------------------------------------------------------------*/
 void Phaser_Wet_set(uint8_t val)
@@ -82,20 +80,20 @@ void Phaser_Wet_set(uint8_t val)
 void PhaserRate(float rate)
 {
 	swrate = rate;
-	_lfoInc = _2PI * swrate / SAMPLERATE;
+	lfoInc = _2PI * swrate / SAMPLERATE;
 }
 /*---------------------------------------------------------------------*/
 void PhaserFeedback(float fdb)
 {
-	_fb = fdb;
+	fb = fdb;
 }
 /*---------------------------------------------------------------------*/
 static float allpass(float yin, int ind)
 {
 	float yout;
 
-	yout = - yin * _a1 + old[ind];
-	old[ind] = yout * _a1 + yin;
+	yout = - yin * a1 + old[ind];
+	old[ind] = yout * a1 + yin;
 	return yout;
 }
 
@@ -104,29 +102,27 @@ float Phaser_compute(float xin)
 {
 	float yout;
 	int i;
+	float d;
 
 	//calculate and update phaser sweep lfo...
 
-	//float d  = _dmin + (_dmax - _dmin) * ((sinf(_lfoPhase) + 1.f)*0.5f);
+	d  = dmin + (dmax - dmin) * ((sinetable[lrintf(ALPHA * lfoPhase)] + 1.f)*0.5f);
 
-	float d  = _dmin + (_dmax - _dmin) * ((sinetable[lrintf(ALPHA * _lfoPhase)] + 1.f)*0.5f);
-
-
-	_lfoPhase += _lfoInc;
-	if( _lfoPhase >= _2PI ) 	_lfoPhase -= _2PI;
+	lfoPhase += lfoInc;
+	if( lfoPhase >= _2PI ) 	lfoPhase -= _2PI;
 
 	//update filter coeffs
-	_a1 = (1.f - d) / (1.f + d);
+	a1 = (1.f - d) / (1.f + d);
 
 	//calculate output
 
-	yout = allpass(xin + _zm1 * _fb, 0);
+	yout = allpass(xin + zm1 * fb, 0);
 
 	for(i = 1; i < PH_STAGES; i++)
 	{
 		yout = allpass(yout, i);
 	}
-	_zm1 = yout;
+	zm1 = yout;
 
 	yout = (1 - wet) * xin + wet * yout;
 

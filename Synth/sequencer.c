@@ -170,14 +170,7 @@ void seq_incTempo(void)
 {
 	//if (noteG.freq <= 5) noteG.freq += 0.01f;
 }
-///*-------------------------------------------------------*/
-//void seq_tempo_set( uint8_t val)
-//{
-//	if (val == 0)
-//		noteG.freq = 0;
-//	else
-//		noteG.freq = (1.5f - 0.05f)/127.f * val + 0.05f;
-//}
+
 /*-------------------------------------------------------*/
 void seq_decTempo(void)
 {
@@ -223,7 +216,7 @@ void seq_sequence_new(void)
 	int16_t octaveShift;
 	int16_t index;
 
-	for (uint8_t i = 0; i <= NUMBER_STEPS; i++)
+	for (uint8_t i = 0; i < NUMBER_STEPS; i++)
 	{
 		relativeNote = noteG.currentScale[lrintf(frand_a_b(1 , noteG.currentScale[0]))];
 		octaveShift = 12 * lrintf(frand_a_b(0 , noteG.octaveSpread));
@@ -239,7 +232,7 @@ void seq_transpose(void)
 {
 	int16_t  noteIndex;
 
-	for (uint8_t i = 0; i <= NUMBER_STEPS; i++)
+	for (uint8_t i = 0; i < NUMBER_STEPS; i++)
 	{
 		noteIndex = seq.track1.note[i] + noteG.transpose;
 		while (noteIndex > MAX_NOTE_INDEX) noteIndex -= 12;
