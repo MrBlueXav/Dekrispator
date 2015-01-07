@@ -24,8 +24,6 @@
 #include "usbh_usr.h"
 #include "midi_interface.h"
 
-//#define MIDI_MIN_POLL          10
-
 /******************************************************************************/
 /* States for MIDI State Machine */
 typedef enum

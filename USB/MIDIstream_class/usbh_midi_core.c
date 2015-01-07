@@ -6,58 +6,39 @@
  * @date
  * @brief   Very basic driver for USB Host MIDI class.
  *
- * @verbatim
- *
- *          ===================================================================
- *                                MIDI Class  Description
- *          ===================================================================
- *
- *
- *  @endverbatim
- *
- ******************************************************************************
- *
  *
  ******************************************************************************
  */
 
 /*
-* This program is free software; you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation; either version 2 of the License, or
-* (at your option) any later version.
-*
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License
-* along with this program; if not, write to the Free Software
-* Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
-*
-*/
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ */
 
 
 /* Includes ------------------------------------------------------------------*/
 #include "usbh_midi_core.h"
-//#include "usbh_midi_controller.h"
 
-
-/** @defgroup USBH_MIDI_CORE_Private_Variables
- * @{
- */
+/*-----------------------------------------------------------------------------------------*/
 extern USB_OTG_CORE_HANDLE	USB_OTG_Core_dev  ;
 
 MIDI_Machine_t				MIDI_Machine  ;
 
 USB_Setup_TypeDef			MIDI_Setup  ;
 
-//USBH_MIDIDesc_t			MIDI_Desc  ;
-
 __IO uint8_t 				start_toggle = 0;
-
-//int State;
 
 /*-----------------------------------------------------------------------------------------*/
 
@@ -70,7 +51,7 @@ static USBH_Status 	USBH_MIDI_ClassRequest(USB_OTG_CORE_HANDLE *pdev , void *pho
 static USBH_Status 	USBH_MIDI_Handle(USB_OTG_CORE_HANDLE *pdev , void *phost);
 
 
-/****************** MIDI interface ****************************/
+/****************** MIDI interface *********************************************************/
 
 USBH_Class_cb_TypeDef  MIDI_cb =
 {
@@ -88,75 +69,69 @@ USBH_Class_cb_TypeDef  MIDI_cb =
  * @param  hdev: Selected device property
  * @retval  USBH_Status :Response for USB MIDI driver intialization
  */
-static USBH_Status USBH_MIDI_InterfaceInit ( USB_OTG_CORE_HANDLE *pdev,	void *phost)
-{
 
+static USBH_Status USBH_MIDI_InterfaceInit ( USB_OTG_CORE_HANDLE *pdev,
+		void *phost)
+{
 	USBH_HOST *pphost = phost;
-	USBH_Status status = USBH_BUSY ;
+	// USBH_Status status = USBH_BUSY ;
 	MIDI_Machine.state = MIDI_ERROR;
 
-
-	if((pphost->device_prop.Itf_Desc[0].bInterfaceClass == USB_AUDIO_CLASS) && \
-			(pphost->device_prop.Itf_Desc[0].bInterfaceSubClass == USB_MIDISTREAMING_SubCLASS))
+	for(int iface=0; iface < pphost->device_prop.Cfg_Desc.bNumInterfaces && iface < USBH_MAX_NUM_INTERFACES; iface++) // looking for a MIDI interface
 	{
-		if(pphost->device_prop.Ep_Desc[0][0].bEndpointAddress & 0x80)
-		{
-			MIDI_Machine.MIDIBulkInEp = (pphost->device_prop.Ep_Desc[0][0].bEndpointAddress);
-			MIDI_Machine.MIDIBulkInEpSize  = pphost->device_prop.Ep_Desc[0][0].wMaxPacketSize;
-		}
-		else
-		{
-			MIDI_Machine.MIDIBulkOutEp = (pphost->device_prop.Ep_Desc[0][0].bEndpointAddress);
-			MIDI_Machine.MIDIBulkOutEpSize  = pphost->device_prop.Ep_Desc[0] [0].wMaxPacketSize;
-		}
-
-		if(pphost->device_prop.Ep_Desc[0][1].bEndpointAddress & 0x80)
+		if((pphost->device_prop.Itf_Desc[iface].bInterfaceClass == USB_AUDIO_CLASS) && \
+				(pphost->device_prop.Itf_Desc[iface].bInterfaceSubClass == USB_MIDISTREAMING_SubCLASS))
 
 		{
-			MIDI_Machine.MIDIBulkInEp = (pphost->device_prop.Ep_Desc[0][1].bEndpointAddress);
-			MIDI_Machine.MIDIBulkInEpSize  = pphost->device_prop.Ep_Desc[0][1].wMaxPacketSize;
+			if(pphost->device_prop.Ep_Desc[iface][0].bEndpointAddress & 0x80)
+			{
+				MIDI_Machine.MIDIBulkInEp      = (pphost->device_prop.Ep_Desc[iface][0].bEndpointAddress);
+				MIDI_Machine.MIDIBulkInEpSize  =  pphost->device_prop.Ep_Desc[iface][0].wMaxPacketSize;
+			}
+			else
+			{
+				MIDI_Machine.MIDIBulkOutEp      = (pphost->device_prop.Ep_Desc[iface][0].bEndpointAddress);
+				MIDI_Machine.MIDIBulkOutEpSize  =  pphost->device_prop.Ep_Desc[iface][0].wMaxPacketSize;
+			}
+
+			if(pphost->device_prop.Ep_Desc[iface][1].bEndpointAddress & 0x80)
+			{
+				MIDI_Machine.MIDIBulkInEp      = (pphost->device_prop.Ep_Desc[iface][1].bEndpointAddress);
+				MIDI_Machine.MIDIBulkInEpSize  =  pphost->device_prop.Ep_Desc[iface][1].wMaxPacketSize;
+			}
+			else
+			{
+				MIDI_Machine.MIDIBulkOutEp      = (pphost->device_prop.Ep_Desc[iface][1].bEndpointAddress);
+				MIDI_Machine.MIDIBulkOutEpSize  =  pphost->device_prop.Ep_Desc[iface][1].wMaxPacketSize;
+			}
+
+			MIDI_Machine.hc_num_out = USBH_Alloc_Channel(pdev, MIDI_Machine.MIDIBulkOutEp);
+			MIDI_Machine.hc_num_in  = USBH_Alloc_Channel(pdev, MIDI_Machine.MIDIBulkInEp);
+
+			/* Open the new channels */
+			USBH_Open_Channel  (pdev,
+					MIDI_Machine.hc_num_out,
+					pphost->device_prop.address,
+					pphost->device_prop.speed,
+					EP_TYPE_BULK,
+					MIDI_Machine.MIDIBulkOutEpSize);
+
+			USBH_Open_Channel  (pdev,
+					MIDI_Machine.hc_num_in,
+					pphost->device_prop.address,
+					pphost->device_prop.speed,
+					EP_TYPE_BULK,
+					MIDI_Machine.MIDIBulkInEpSize);
+
+			MIDI_Machine.state  = MIDI_GET_DATA;
+			start_toggle =0;
+			return USBH_OK;
 		}
-		else
-		{
-			MIDI_Machine.MIDIBulkOutEp = (pphost->device_prop.Ep_Desc[0][1].bEndpointAddress);
-			MIDI_Machine.MIDIBulkOutEpSize  = pphost->device_prop.Ep_Desc[0][1].wMaxPacketSize;
-		}
-
-		MIDI_Machine.hc_num_out = USBH_Alloc_Channel(pdev,
-				MIDI_Machine.MIDIBulkOutEp);
-		MIDI_Machine.hc_num_in = USBH_Alloc_Channel(pdev,
-				MIDI_Machine.MIDIBulkInEp);
-
-		/* Open the new channels */
-		USBH_Open_Channel  (pdev,
-				MIDI_Machine.hc_num_out,
-				pphost->device_prop.address,
-				pphost->device_prop.speed,
-				EP_TYPE_BULK,
-				MIDI_Machine.MIDIBulkOutEpSize);
-
-		USBH_Open_Channel  (pdev,
-				MIDI_Machine.hc_num_in,
-				pphost->device_prop.address,
-				pphost->device_prop.speed,
-				EP_TYPE_BULK,
-				MIDI_Machine.MIDIBulkInEpSize);
-
-		MIDI_Machine.state  = MIDI_GET_DATA;
-		start_toggle =0;
-		status = USBH_OK;
-
 	}
 
-	else
-	{
-		pphost->usr_cb->DeviceNotSupported();
-	}
-
-	return status ;
-
+	pphost->usr_cb->DeviceNotSupported();
+	return USBH_FAIL;
 }
-
 
 /*-----------------------------------------------------------------------------------------*/
 /**
@@ -209,15 +184,10 @@ static USBH_Status USBH_MIDI_ClassRequest(USB_OTG_CORE_HANDLE *pdev ,
  * @param  hdev: Selected device property
  * @retval USBH_Status
  */
-static USBH_Status USBH_MIDI_Handle(USB_OTG_CORE_HANDLE *pdev ,
-		void   *phost)
+static USBH_Status USBH_MIDI_Handle(USB_OTG_CORE_HANDLE *pdev ,	void   *phost)
 {
 	USBH_HOST *pphost = phost;
 	USBH_Status status = USBH_OK;
-
-	//uint8_t appliStatus = 0;
-	//USBH_Status status = USBH_BUSY;
-
 
 	if(HCD_IsDeviceConnected(pdev))
 	{
@@ -242,7 +212,6 @@ static USBH_Status USBH_MIDI_Handle(USB_OTG_CORE_HANDLE *pdev ,
 				if(start_toggle == 1) /* handle data once */
 				{
 					start_toggle = 0;
-					//MIDI_Machine.cb->Decode(MIDI_Machine.buff);
 					MIDI_Decode(MIDI_Machine.buff);
 					MIDI_Machine.buff[1] = 0; // the whole buffer should be cleaned...
 
@@ -251,7 +220,6 @@ static USBH_Status USBH_MIDI_Handle(USB_OTG_CORE_HANDLE *pdev ,
 			}
 			else if(HCD_GetURB_State(pdev, MIDI_Machine.hc_num_in) == URB_STALL) /* IN Endpoint Stalled */
 			{
-
 				/* Issue Clear Feature on IN endpoint */
 				if( (USBH_ClrFeature(pdev,
 						pphost,
@@ -260,7 +228,6 @@ static USBH_Status USBH_MIDI_Handle(USB_OTG_CORE_HANDLE *pdev ,
 				{
 					/* Change state to issue next IN token */
 					MIDI_Machine.state = MIDI_GET_DATA;
-
 				}
 
 			}
@@ -269,13 +236,10 @@ static USBH_Status USBH_MIDI_Handle(USB_OTG_CORE_HANDLE *pdev ,
 		default:
 			break;
 		}
-
 	}
-
 	return status;
-
-
 }
+
 /*-----------------------------------------------------------------------------------------*/
 /* look up a MIDI message size from spec */
 /*Return */
@@ -342,9 +306,7 @@ uint8_t MIDI_RcvData(uint8_t *outBuf)
 		return MIDI_lookupMsgSize(MIDI_Machine.buff[1]);
 	}
 	else return 0;
-
 }
-/*-----------------------------------------------------------------------------------------*/
 
 
-/*****************************END OF FILE****/
+/*****************************END OF FILE***************************************************************************************/

@@ -26,8 +26,6 @@
 
 #include "midi_interface.h"
 
-
-
 /*-----------------------------------------------------------------------------*/
 void MagicFX(uint8_t val) /* random effects parameters */
 {
@@ -127,7 +125,6 @@ void MagicPatch(uint8_t val) /* random sound parameters */
  * *****************************************************************************/
 void MIDI_Decode(uint8_t * outBuf)
 {
-
 	uint8_t val = 0;
 
 	if (outBuf[1] != 0x00) start_LED_On(LED_Blue, 8);

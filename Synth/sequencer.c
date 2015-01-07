@@ -183,7 +183,6 @@ void seq_incMaxFreq(void)
 	{
 		noteG.octaveSpread++;
 		noteG.chRequested = true;
-		//pitchGenChangePoints();
 	}
 }
 /*-------------------------------------------------------*/
@@ -193,7 +192,6 @@ void seq_decMaxFreq(void)
 	{
 		noteG.octaveSpread--;
 		noteG.chRequested = true;
-		//pitchGenChangePoints();
 	}
 }
 /*-------------------------------------------------------*/
@@ -207,7 +205,6 @@ void seq_tempo_set(uint8_t val)
 {
 	seq.tempo = (float)(500.f * val / MIDI_MAX + 20); // unit : bpm
 	seq.steptime = lrintf(Fs * 60 / seq.tempo);
-	//seq.smp_count = seq.steptime;
 }
 /*--------------------------------------------------------------------------------------------*/
 void seq_sequence_new(void)

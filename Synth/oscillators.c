@@ -27,7 +27,7 @@
 #include "oscillators.h"
 
 /*-------------------------------------------------------*/
-extern Drifter_t 	d1 _CCM_, d2 _CCM_, d3 _CCM_;
+extern Drifter_t 	d1 , d2 , d3 ;
 
 Oscillator_t 		op1 _CCM_;
 Oscillator_t 		op2 _CCM_;
@@ -39,10 +39,8 @@ extern VCO_bleprect_t		mbRectOsc;
 extern VCO_bleptri_t		mbTriOsc;
 
 Oscillator_t 		vibr_lfo _CCM_;
-
 Oscillator_t 		filt_lfo _CCM_;
 Oscillator_t 		filt2_lfo _CCM_;
-
 Oscillator_t 		amp_lfo _CCM_;
 
 float_t			a[PARTIALS_NUMBER + 1] _CCM_ ;
@@ -90,7 +88,6 @@ float_t Drifters_sampleCompute(void)
 
 	return y;
 }
-
 
 /*---------------------------------------------------------------*/
 void FM_op_freq_set(Oscillator_t *op, uint8_t val)
@@ -339,11 +336,6 @@ float_t AdditiveGen_SampleCompute(Oscillator_t * op) // additive sine generator
 	return op->out;
 }
 
-//float randsound(void)
-//{
-//
-//}
-
 /*-------------------------------------------------------------------------------------------------------------------*/
 
 float waveCompute(uint8_t sound, float frq)
@@ -416,10 +408,7 @@ float waveCompute(uint8_t sound, float frq)
 		y = VCO_blepsaw_SampleCompute(&mbSawOsc);
 	}	break;
 
-	//case RANDSOUND :	y = randsound(); break;
-
-	default :			//y = 0.8f * Osc_WT_SINE_SampleCompute(&op1);		break;
-		y = 0;	break ;
+	default :			y = 0;	break ;
 
 	}
 

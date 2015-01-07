@@ -104,11 +104,11 @@ int main(void)
 		}
 	}
 	else
-	{	// demo mode, no USB, no interaction, automatic
+	{	// demo mode, no USB, no interaction, automatic working
 		demoMode = true;
 		while (1);
 	}
 }
 
 
-/************************  *****END OF FILE****/
+/*****************************END OF FILE****************************************************************/

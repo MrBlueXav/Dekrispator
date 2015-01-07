@@ -39,7 +39,7 @@
 #define HOST_OVRCURR_PIN_SOURCE            GPIO_PinSourceD
 #define HOST_OVRCURR_PORT_RCC              RCC_APB2Periph_GPIOD
 #define HOST_OVRCURR_EXTI_LINE             EXTI_Line5
-#define HOST_OVRCURR_IRQn                  EXTI9_5_IRQn 
+#define HOST_OVRCURR_IRQn                  EXTI9_5_IRQn
 
 
 #define HOST_POWERSW_PORT_RCC              RCC_AHB1Periph_GPIOC
@@ -49,6 +49,7 @@
 /* Private macros ------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
 ErrorStatus HSEStartUpStatus;
+
 #ifdef USE_ACCURATE_TIME
 volatile uint32_t BSP_delay = 0;
 #endif
@@ -275,15 +276,15 @@ void USB_OTG_BSP_EnableInterrupt(USB_OTG_CORE_HANDLE *pdev)
 void USB_OTG_BSP_DriveVBUS(USB_OTG_CORE_HANDLE *pdev, uint8_t state)
 {
 	/*
-  On-chip 5 V VBUS generation is not supported. For this reason, a charge pump 
-  or, if 5 V are available on the application board, a basic power switch, must 
-  be added externally to drive the 5 V VBUS line. The external charge pump can 
-  be driven by any GPIO output. When the application decides to power on VBUS 
-  using the chosen GPIO, it must also set the port power bit in the host port 
+  On-chip 5 V VBUS generation is not supported. For this reason, a charge pump
+  or, if 5 V are available on the application board, a basic power switch, must
+  be added externally to drive the 5 V VBUS line. The external charge pump can
+  be driven by any GPIO output. When the application decides to power on VBUS
+  using the chosen GPIO, it must also set the port power bit in the host port
   control and status register (PPWR bit in OTG_FS_HPRT).
 
   Bit 12 PPWR: Port power
-  The application uses this field to control power to this port, and the core 
+  The application uses this field to control power to this port, and the core
   clears this bit on an overcurrent condition.
 	 */
 	if (0 == state)

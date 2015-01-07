@@ -50,9 +50,6 @@ float filterFreq2;
 
 /****************************************************************************************************************/
 
-
-//------------------------------------------------------------------------------------
-
 void SVF_setReso(ResonantFilter* filter, float feedback)
 {
 	filter->q = 1-feedback;
@@ -107,7 +104,6 @@ void SVF_directSetFilterValue(ResonantFilter* filter, float val) // 0 < val < 1
 	if (val > 0.95) val = 0.95f;
 	filter->f = val*0.5f;
 	filter->g  = fastTan(_PI * filter->f );
-
 }
 //=====================================================================================================
 void SVF_init(void)
