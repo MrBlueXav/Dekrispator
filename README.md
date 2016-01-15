@@ -69,4 +69,6 @@ Go into Release folder and type make (with Cygwin terminal).
 
 Compiles also on Linux (Ubuntu 12.04 LTS) !
 - - - 
-  
+**See also the port to Windows, Linux, Mac and Raspberry Pi  by erwincoumans :**
+
+ https://github.com/erwincoumans/StkDekrispatorSynthesizer
